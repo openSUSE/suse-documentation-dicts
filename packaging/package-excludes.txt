@@ -1,0 +1,13 @@
+build
+build/*
+packaging
+packaging/*
+do-not-package
+do-not-package/*
+.git
+.git/*
+.gitignore
+*.bak
+*.~
+*~
+
