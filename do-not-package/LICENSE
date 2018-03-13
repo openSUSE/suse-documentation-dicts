@@ -1,0 +1,12 @@
+The files in this directory have differing licensing and are not shipped in the
+source TAR ball:
+
++ do-not-package/aspell-en+en_US-wordlist.txt and en_US-w_accents_suse.multi are
+  presumably used under:
+  https://github.com/en-wl/wordlist/blob/master/scowl/Copyright
+
++ do-not-package/oxygen/* is under an unclear license.
+
++ do-not-package/add_context/* can be used under GPL 2 or 3, which is what
+  it was licensed under as part of the https://github.com/openSUSE/suse-xsl
+
