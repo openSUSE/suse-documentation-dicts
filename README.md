@@ -59,15 +59,13 @@ Add the following lines to your Emacs configuration file:
 
 #### oXygen
 
-(This is probably horribly outdated)
-
 oXygen comes with its own spell checker and cannot use the aspell
 directory. However, a tool to build custom dictionaries from wordlists
 is available from (http://www.xmlmind.com/xmleditor/dictbuilder.shtml).
 
 0. Download the ZIP archive from
    (http://www.xmlmind.com/xmleditor/dictbuilder.shtml)
-   and unpack it in this directory.
+   and unpack it.
 
 1. Create the dictionary
 
@@ -89,9 +87,9 @@ is available from (http://www.xmlmind.com/xmleditor/dictbuilder.shtml).
    en-US-SUSE/
    ```
 
-   Restart oXygen and go to Options -> Preferences -> Spell Check.
+3. Restart oXygen and go to Options -> Preferences -> Spell Check.
 
-There now is a new dictionary available: English (US + SUSE)
+4. In 'Default Language' for spell checking, select the newly created dictionary: English (US + SUSE)
 
 ### Adding Words
 
