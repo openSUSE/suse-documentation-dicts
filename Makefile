@@ -50,6 +50,7 @@ $(ASPELL_PATH_BUILD).tmp: $(HUNSPELL_PATH_BUILD)
 	cat $< | \
 	  iconv -f 'UTF-8' -t 'ASCII//TRANSLIT' | \
 	  sed -r 's/([-_.,:;!?#@$%^&*~+0-9]+)([^\W\d_]*)/\n\2/g' | \
+	  sed -r 's/([-_.,:;!?#@$%^&*~+0-9]+)([^\W\d_]*)/\n\2/g' | \
 	  sed -n '/../ p' | \
 	  sort -u \
 	  > $@
