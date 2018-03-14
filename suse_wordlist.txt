@@ -1,50 +1,44 @@
-2G
-3G
-AAC
-AArch64
+2G +'s
+3G +'s
+AAC +'s
+AArch64 +'s
 aaS
-ABAP
-ABI
-ABIs
-AbiWord
-ACDSee
-ACE
-ACER
-ACEs
-ACI
-ACIs
-ACL
-ACLs
-ACPI
+ABAP +'s
+ABI +s +'s
+AbiWord +'s
+ACDSee +'s
+ACE +s +'s
+Acer +'s
+ACI +s +'s
+ACL +s +'s
+ACPI +'s
 acpid
-Acronis
+Acronis +'s
 Adaptec
 adblock
-add-on
-add-ons
+add-on +s +'s
 ADI
 Adleman
-Adminer
-ADSL
+Adminer +'s
+ADSL +'s
 AER
 AES
 AFS
-Agfa
+Agfa +'s
 aggregatable
 AGP
 AHCI
-AIDE
+AIDE +'s
 AIM
 AIO
 AIX
-aKregator
-algorithmical
-algorithmically
-ALSA
+aKregator +'s
+algorithmic +ally
+ALSA +'s
 ALUA
-amaroK
+amaroK +'s
 AMaViS
-AMD
+AMD +'s
 AMD64
 AMI
 AMIs
@@ -55,20 +49,18 @@ antivirus
 anycast
 Apache
 APAR
-APARs
 APC
 APEI
 API
 APIC
 APIs
 APM
-AppArmor
-AppBrowser
-AppNote
-AppSocket
-archiver
-arg
-args
+AppArmor +'s
+AppBrowser +'s
+AppNote +'s
+AppSocket +'s
+archiver +s +'s
+arg +s +'s
 argv
 Ari
 arj
@@ -82,9 +74,8 @@ ASLR
 asound
 ASP
 ASpeed
-aspell
-assignee
-assignees
+aspell +'s
+assignee +s +'s
 assistive
 AST
 ASUS
@@ -96,7 +87,7 @@ Athlon
 ATI
 atime
 atomicity
-Attachmate
+Attachmate +'s
 attr
 ATX
 Aud
@@ -449,17 +440,13 @@ CTC
 CTCP
 ctime
 Ctrl
-cumulate
-cumulated
-cumulates
-cumulating
+cumulate +d +s +e/ing
 CUPS
 cupsctl
 cupsd
 cURL
 CUSE
-customizable
-customizably
+customizable +e/y
 CVE
 CVS
 CVSS
@@ -473,21 +460,14 @@ DAO
 DAPS
 DAPSROOT
 DARPA
-DASD
+DASD +s +'s
 dasdfmt
-DASDs
 Dasgupta
-DATA
-daemonize
-daemonizes
-daemonized
-daemonizing
+daemonize +s +d +e/ing
 datadir
-datagram
-datagrams
-DataPilot
-DataPilots
-Datatrack
+datagram +s +'s
+DataPilot +s +'s
+Datatrack +s +'s
 datetime
 DAWR
 DBaaS
@@ -509,58 +489,32 @@ DDF
 DDN
 de
 de-facto
-deallocate
-deallocated
-deallocates
-deallocating
-deathmatch
-deathmatches
+deallocate +s +d +e/ing
+deathmatch +es +'s
 debugfs
 debuginfo
-decompile
-decompiled
-decompiles
-decompiling
-decrement
-decremented
-decrementing
-decrements
-decrypt
-decryptable
-decryptably
-decrypted
-decrypting
-decrypts
-deduplicate
-deduplicated
-deduplicates
-deduplicating
-deduplication
-DeepSea
-Defcon
+decompile +s +d +e/ing
+decrement +s +ed +ing
+decrypt +s +ed +ing
+decryptable +e/y
+deduplicate +s +d +e/ing +e/ion
+DeepSea +'s
+Defcon +'s
 defragmentation
-deliverables
-deltarpm
-deltarpms
+deliverable +s +'s
+deltarpm +s +'s
 DEP
 depmod
-dequeue
-dequeued
-dequeues
-dequeuing
+dequeue +s +d +e/ing
 DER
 DES
-desaturate
-desaturated
-desaturates
-desaturating
+desaturate +s +d +e/ing
 dest
 dev
 devel
 developerWorks
 devicename
-devmap
-devmaps
+devmap +s +'s
 DEVNAME
 DEVPATH
 df
@@ -576,8 +530,7 @@ DIAG
 dialog
 dialogs
 dialpad
-Diffie
-Diffie-Hellman
+Diffie +-Hellman
 digiKam
 DIN
 dir
@@ -585,9 +538,8 @@ DIRS
 DISCEX
 DISK
 diskful
-diskless
-disklessly
-distro
+diskless +ly
+distro +s +'s
 DIT
 DJs
 DjVu
@@ -610,13 +562,9 @@ DNSSEC
 doBasicAuth
 DocBook
 DOCCONF
-Dockable
-Dockerfile
-Dockerfiles
-dockerize
-dockerized
-dockerizes
-dockerizing
+dockable +e/y
+Dockerfile +s +'s
+dockerize +d +s +e/ing
 DoCookBook
 DOCTYPE
 DocumentRoot
@@ -654,22 +602,15 @@ du
 Ducrot
 dumpinstipc
 DVB
-DVD
-DVD+R
-DVD+Rs
-DVD+RW
-DVD+RWs
-DVD-R
-DVD-ROM
-DVD-ROMs
-DVD-Rs
-DVD-RW
-DVD-RWs
-DVDs
+DVD +s
+DVD+R +s
+DVD+RW +s
+DVD-R +s
+DVD-ROM +s
+DVD-RW +s
 DVI
 DVR
 DX
-dymanic
 DynDNS
 E2E
 e2fsck
@@ -724,11 +665,9 @@ enableHttp
 enableHttps
 enableInterOp
 enablement
-encoding
-encodings
-encryptable
-encryptably
-encryptions
+encoding +s
+encryptable +e/y
+encryption +s
 endian
 Engenio
 ENSONIQ
@@ -749,8 +688,6 @@ epubcheck
 EQ
 EqualLogic
 Ericsson
-ERROR
-ERRORs
 ES
 ESA
 Esc
@@ -769,8 +706,7 @@ ethtool
 ethx
 ETR
 Eurocard
-evaluator
-evaluators
+evaluator +s
 eventd
 EVM
 EVMS
@@ -779,7 +715,7 @@ EVPD
 EWS
 exchangeability
 EXEC
-executables
+executable +s
 eXecution
 EXIF
 exim
@@ -794,13 +730,10 @@ eXtensions
 facto
 FADT
 FAIL
-failcount
-failcounts
-failover
-failovers
-failsafe
-fallback
-fallbacks
+failcount +s +'s
+failover +s +'s
+failsafe +s +'s
+fallback +s +'s
 fallocate
 FAM
 FAQ
@@ -809,7 +742,7 @@ FastCGI
 FAT
 FATAL
 faux
-favicon
+favicon +s +'s
 fbdev
 FC
 FCHBA
@@ -823,16 +756,13 @@ FDD
 FDDI
 fdi
 fdisk
-FEATURES
-FEED
-fetchmail
+fetchmail +'s
 FFS
 FFT
 fg
 FHS
-fi
-Fibre
-FibreChannel
+Fibre +'s
+FibreChannel +'s
 FICON
 FILE
 filename
@@ -842,44 +772,39 @@ FinePoint
 FineReader
 FIPS
 FIR
-Firebird
-Firefox
-FireGL
-firewalled
-firewalling
-FireWire
+Firebird +'s
+Firefox +'s
+FireGL +'s
+firewall +s +ed +ing
+FireWire +'s
 firstboot
-firstname
-firstnames
+firstname +s +'s
 FixCentral
 FIXME
 FLAC
-Flickr
+Flickr +'s
 flyer
 fm
 Fn
 FO
 fontconfig
 Foomatic
-formatter
-formatters
+formatter +s +'s
 Fortran
 forwardable
 FQDN
 FQN
-framebuffer
-framebuffers
-framerate
-framerates
+framebuffer +s +'s
+framerate +s +'s
 freedesktop
-FreeIPA
-FreeMind
-FreeMono
-FreeSans
-FreeSerif
-FreeType
-FRITZ!
-frontpage
+FreeIPA +'s
+FreeMind +'s
+FreeMono +'s
+FreeSans +'s
+FreeSerif +'s
+FreeType +'s
+FRITZ! +'s
+frontpage +s +'s
 fs
 FSC
 fsck
@@ -896,7 +821,7 @@ ftpd
 ftrace
 fullscreen
 func
-functionalities
+functionality +y/ies
 Funprinter
 fuseiso
 FV
@@ -983,12 +908,8 @@ GPRS
 GPS
 GPT
 GQ
-grandmaster
-grandmasters
-grayscale
-grayscaled
-grayscales
-grayscaling
+grandmaster +s +'s
+grayscale +d +s +e/ing
 GRE
 grey
 groff
@@ -1028,10 +949,7 @@ HANA
 handheld
 handhelds
 HAProxy
-hardcode
-hardcoded
-hardcodes
-hardcoding
+hardcode +s +d +e/ing
 hardwriting
 HASI
 Haswell
@@ -1060,8 +978,7 @@ Helvetica
 Heuser
 HIP
 HIPAA
-HiperSocket
-HiperSockets
+HiperSocket +s +'s
 HIT
 HKP
 HLE
@@ -1077,16 +994,11 @@ hostname
 hostnames
 hotkey
 hotkeys
-hotplug
-hotpluggable
-hotplugged
-hotplugging
-hotspot
-hotspots
+hotplug +s +ged +ging +gable +gably
+hotspot +s +'s
 HotSync
 Howes
-howto
-howtos
+howto +s +'s
 HPC
 HPLIP
 hpsa
@@ -1098,18 +1010,16 @@ HSQLDB
 HSV
 HTCP
 htdocs
-HTML
+HTML +s +'s
 HTMLROOT
-HTMLs
-HTTP
+HTTP +'s
 httpd
 httpPort
 httpProcs
-HTTPS
+HTTPS +'s
 httpsPort
 httpsProcs
-hugepage
-hugepages
+hugepage +s +'s
 HugeTLB
 hugetlbfs
 HUSVM
@@ -1118,12 +1028,9 @@ HW
 HWAddr
 hwbios
 hwtype
-hypercall
-hypercalls
-hyperthreaded
-hyperthreading
-hypervisor
-hypervisors
+hypercall +s +'s
+hyperthread +s +ed +ing
+hypervisor +s +'s
 I18N
 i3
 i5
@@ -1164,8 +1071,7 @@ ifconfig
 iFCP
 Ifdhandler
 IFL
-iFolder
-iFolders
+iFolder +s +'s
 IFS
 IFUNC
 ifup
@@ -1178,8 +1084,7 @@ iLO
 ILS
 IM
 IMA
-imageclass
-imageclasses
+imageclass +es +'s
 imagecomment
 imagemodel
 ImageNotify
@@ -1196,16 +1101,12 @@ IMSM
 inarchive
 inattachment
 INBOX
-increment
-incremented
-incrementing
-increments
+increment +s +d +ing
 indices
 inet
 inetd
 inetOrgPerson
-InfiniBand
-InfiniBands
+InfiniBand +s +'s
 infinitum
 Infoblox
 Informix
@@ -2050,21 +1951,11 @@ ot
 OU
 OUTPUT
 overamplification
-overamplified
-overamplifies
-overamplify
-overamplifying
-overcommit
+overamplify +y/ies +y/ied +ing
+overcommit +s +ted +ting
 overcommitment
-overcommits
-overcommitted
-overcommitting
-overconsume
-overconsumed
-overconsumes
-overconsuming
-overconsumption
-overconsumptions
+overconsume +s +d +e/ing
+overconsumption +s +'s
 OVS
 OWA
 P2P
@@ -2083,32 +1974,18 @@ PalmPilot
 PAM
 PAND
 PAPI
-parallelization
-parallelize
-parallelized
-parallelizes
-parallelizing
+parallelize +s +d +e/ing +e/ation
 PARAM
-parameterize
-parameterized
-parameterizes
-parameterizing
+parameterize +s +d +e/ing
 paravirtual
-paravirtualization
-paravirtualize
-paravirtualized
-paravirtualizes
-paravirtualizing
-parmfile
-parmfiles
+paravirtualize +s +d +e/ing +e/ation
+parmfile +s +'s
 parseable
 parserFunction
 PART
-partitioner
-passphrase
-passphrases
-passthrough
-passthroughs
+partitioner +s +'s
+passphrase +s +'s
+passthrough +s +'s
 passwd
 PASV
 PAT
@@ -2177,19 +2054,14 @@ PID
 pidentd
 pidfile
 PIDs
-pilcrow
-pilcrows
+pilcrow +s +'s
 PIM
 pingd
 PINs
-pipeline
-pipelined
-pipelines
-pipelining
+pipeline +d +s +e/ing
 PIs
 PivotTables
-pixmap
-pixmaps
+pixmap +s +'s
 Pixz
 PKCS#12
 PKI
@@ -2200,8 +2072,7 @@ pla
 playlist
 playlists
 PLDP
-pluggable
-pluggably
+pluggable +e/y
 PLUMgrid
 PMC
 PMD
@@ -2213,8 +2084,7 @@ PNGs
 PnP
 PoC
 PocketPC
-podcast
-podcasts
+podcast +s +'s
 PolicyKit
 PolKit
 POP
@@ -2222,13 +2092,10 @@ POP3
 PORT
 portblock
 Portege
-portmap
-portmapper
-portmappers
-portname
-portnames
-portnumber
-portnumbers
+portmap +s +'s
+portmapper +s +'s
+portname +s +'s
+portnumber +s +'s
 Portus
 POS
 posAdmin
@@ -2420,11 +2287,7 @@ Ramen
 RANDR
 RAR
 RAs
-rasterization
-rasterize
-rasterized
-rasterizes
-rasterizing
+rasterize +d +s +e/ing +e/ation +e/ations
 ratelimit
 RAW
 RawIP
@@ -2446,10 +2309,7 @@ rdev
 RDMA
 RDN
 RDP
-re-enable
-re-enabled
-re-enables
-re-enabling
+re-enable +d +s +e/ing
 READ
 readcd
 ReadChannel
@@ -2461,42 +2321,22 @@ RealNetworks
 RealPlayer
 Realtek
 RealVideo
-reauthenticate
-rebalance
-rebalanced
-rebalances
-rebalancing
-rebase
-rebased
-rebases
-rebasing
+reauthenticate +d +s +e/ing +e/ion +e/ions
+rebalance +d +s +e/ing
+rebase +d +s +e/ing
 REC
 Recognita
-recompile
-recompiled
-recompiles
-recompiling
-recompress
-reconfigure
-reconfigured
-reconfigures
-reconfiguring
-recordable
-recordably
+recompile +d +s +e/ing
+recompress +ed +es +ing
+reconfigure +d +s +e/ing
+recordable +e/y
 Rect
-Redbook
-Redbooks
-redirection
-redirections
-redirector
-redirectors
+Redbook +s +'s
+redirection +s +'s
+redirector +s +'s
 RediSafe
-redisplay
-redisplayed
-redisplaying
-redisplays
-redistributor
-redistributors
+redisplay +ed +s +ing
+redistributor +s +'s
 Redmond
 REDP
 Redpapers
@@ -2504,71 +2344,29 @@ refentry
 regcert
 registrationDir
 regurl
-reimplement
-reimplementation
-reimplementations
-reimplemented
-reimplementing
-reimplements
-reindexed
-reindexes
-reinstall
-reinstallation
-reinstalled
-reinstalling
-reinstalls
+reimplement +ed +s +ing +ation +ations
+reindex +ed +es +ing
+reinstall +ed +s +ing +ation +ations
 Reiser
 ReiserFS
 ReiserFSprogs
 Rekall
-relogin
-relogins
+relogin +s +'s
 RenderX
-renice
-reniced
-renices
-renicing
-repartition
-repartitioned
-repartitioning
-repartitions
-repo
-repos
-reposition
-repositioned
-repositioning
-repositions
-repost
-reposted
-reposting
-reposts
+renice +d +s +e/ing
+repartition +ed +s +ing
+repo +s +'s
+reposition +ed +s +ing
+repost +ed +s +ing
 reprofile
-REQUIRED
-resave
-resaving
-rescan
-rescanned
-rescanning
-rescans
-resends
-resize
-resized
-resizes
-resizing
-respawn
-respawned
-respawning
-respawns
+resave +d +s +e/ing
+rescan +ned +s +ning
+resend +d/t +s +ing
+resize +d +s +e/ing
+respawn +ed +s +ing
 REST
-resync
-resynced
-resynchronization
-resynchronize
-resynchronized
-resynchronizes
-resynchronizing
-resyncing
-resyncs
+resync +ed +s +ing
+resynchronize +d +s +e/ing +e/ation
 retitle
 retitled
 retitles
@@ -2582,8 +2380,7 @@ Rhythmbox
 ripd
 RIS
 Rivest
-rlimit
-rlimits
+rlimit +s +'s
 rlmits
 rlogin
 rmdir
@@ -2630,8 +2427,7 @@ RTF
 RTP
 ru
 runing
-runlevel
-runlevels
+runlevel +s +'s
 runtime
 rw
 rwtab
@@ -2650,8 +2446,7 @@ Sametime
 SAMR
 Samsung
 SAN
-sandboxed
-sandboxing
+sandbox +es +ed +ing
 Sandybridge
 SANs
 SAP
@@ -2684,8 +2479,7 @@ scd
 scDistributionContainer
 scHarddisk
 scHardware
-schema
-schemas
+schema +s +'s
 Schneier
 scLocation
 scNetworkcard
@@ -2699,13 +2493,10 @@ screenshot
 screenshots
 scRefObjectContainer
 Scribus
-scriptabilities
-scriptability
-scriptable
-scriptably
+scriptability +y/ies +'s
+scriptable +e/y
 Scrobbler
-scrollbar
-scrollbars
+scrollbar +s +'s
 scServerContainer
 scService
 SCSI
@@ -2730,16 +2521,11 @@ securityfs
 sed
 SEE
 Sel
-selectable
-selectably
+selectable +e/y
 SELinux
 semctl
 semget
-semiautomate
-semiautomated
-semiautomates
-semiautomating
-semiautomation
+semiautomate +d +s +e/ing +e/ion
 semop
 semtimedop
 SendArp
@@ -2773,8 +2559,7 @@ SHA-256
 SHA-384
 SHA-512
 Shamir
-shareable
-shareably
+shareable +e/y
 sharefs
 SHARENAME
 SharePoint
@@ -2800,13 +2585,11 @@ SLED
 SLEPOS
 SLES
 SLEShammer
-Slideshow
 slogin
 SLOX
 SLP
 slpd
-slptool
-slptools
+slptool +'s
 SLRS
 SMAPI
 smaps
@@ -2822,8 +2605,7 @@ SMI
 SMIL
 smis
 smnd
-smoketest
-smoketests
+smoketest +s
 SMP
 smppd
 smpppd
@@ -2834,9 +2616,7 @@ SMTP
 smturl
 SmugMug
 sn
-snapshot
-snapshots
-snapshotting
+snapshot +s +ting
 SNI
 snIPL
 SNMP
@@ -2847,10 +2627,7 @@ socketcall
 SOCKS
 SOL
 Solaris
-solarize
-solarized
-solarizes
-solarizing
+solarize +d +s +e/ing
 SolidDriver
 Solr
 SoundFonts
@@ -2872,8 +2649,7 @@ SPKM
 spm
 SPOF
 spoofalert
-spooler
-spoolers
+spooler +s +'s
 SPs
 SQL
 squidGuard
@@ -2884,10 +2660,9 @@ sratch
 src
 SRIOV
 Srobbler
-SRPMS
+SRPM +s +'s
 srv
-SSD
-SSDs
+SSD +s +'s
 SSF
 SSH
 sshd
@@ -2906,101 +2681,68 @@ SSLv3
 SSO
 SSSD
 STACKSIZE
-StarOffice
+StarOffice +'s
 startdelay
 StartTLS
 startx
-stateful
+stateful +ly
 statusurl
 stayalive
 STDERR
 STDIN
 STDOUT
 STGT
-StickyNotes
+StickyNotes +'s
 STIG
 STK
 STMF
-STONITH
+STONITH +'s
 stonithd
 StorEdge
 STP
 STR
 strace
 Strg
-striper
+striper +s +'s
 StrongSwan
 STRSST
 STT
 stunnel
-STYLEDEVEL
-STYLEROOT
-stylesheet
-stylesheets
+stylesheet +s +'s
 su
-sub-CA
-sub-CAs
-subcommand
-subcommands
-subdialog
-subdialogs
-subdirectories
-subdirectory
-subdocument
-subdocuments
-subdomain
-subdomains
-subelement
-subelements
-subentries
-subentry
-subfolder
-subfolders
-subform
-subforms
-subitem
-subitems
-subkey
-subkeys
-sublicense
-submenu
-submenus
-submode
-submodes
-subnet
-subnetmask
-subnetmasks
-subnets
-subnetwork
-subnetworks
-subobject
-suboption
-subpixel
-subpixels
-subprocess
-subprocesses
-subprofile
-subprofiles
-subproject
-subprojects
-subqueries
-subquery
-subrealm
-subrealms
-substring
-substrings
-subsystem
-subsystems
-subtask
-subtasks
-subtest
-subtests
-subtree
-subtrees
-subuser
-subusers
-subvolume
-subvolumes
+sub-CA +s +'s
+subcommand +s +'s
+subdialog +s +'s
+subdirectory +y/ies +'s
+subdocument +s +'s
+subdomain +s +'s
+subelement +s +'s
+subentry +y/ies +'s
+subfolder +s +'s
+subform +s +'s
+subitem +s +'s
+subkey +s +'s
+sublicense +s +'s +d +e/ing
+submenu +s +'s
+submode +s +'s
+subnet +s +'s
+subnetmask +s +'s
+subnetwork +s +'s
+subobject +s +'s
+suboption +s +'s
+subpixel +s +'s
+subprocess +es +'s
+subprofile +s +'s
+subproject +s +'s
+subquery +ies +'s
+subrealm +s +'s
+substring +s +'s
+subsystem +s +'s
+subtask +s +'s
+subtest +s +'s
+subtree +s +'s
+subuser +s +'s
+subvolume +s +'s
 sudo
 sudoers
 suEXEC
@@ -3008,10 +2750,8 @@ SUID
 SUMF
 SUN
 SunOS
-superblock
-superblocks
-superclass
-superclasses
+superblock +s +'s
+superclass +es +'s
 supportability
 supportconfig
 supporturl
@@ -3084,10 +2824,7 @@ TDP
 TDSL
 Tecra
 telnetd
-template
-templated
-templates
-templating
+template +s +d +e/ing
 TERM
 termcap
 testregex
@@ -3099,39 +2836,28 @@ TG
 TGT
 Thawte
 THE
-theme
+theme +s +d +e/ing
 themeable
-themed
-themes
-theming
 Thinclient
-ThinkPad
-ThinkPads
+ThinkPad +s +'s
 THP
-thumbnailer
-thumbnailers
-Thunderbird
+thumbnailer +s +'s
+Thunderbird +'s
 TiB
-TID
-TIDs
+TID +s +'s
 TidyLib
-tiered
-tiering
-tiers
-TIFFs
+tier +s +ed +ing
+TIFF +s +'s
 TightVNC
 TIMEFORMAT
-timeframe
-timeframes
-timeline
-timelines
+timeframe +s +'s
+timeline +s +'s
 Tk
 tkinfo
 TKIP
 tlb
-TLD
+TLD +s +'s
 TLDP
-TLDs
 TLS
 TLS/SSL
 TLSv1
@@ -3143,42 +2869,29 @@ tmp
 TMPDIR
 TNS
 tnsping
-todo
-todos
-toolbar
-toolbars
-toolchain
-toolchains
-toolkit
-toolkits
+todo +s +'s
+toolbar +s +'s
+toolchain +s +'s
+toolkit +s +'s
 TotalStorage
-touchpad
-touchpads
+touchpad +s +'s
 Toughbook
 Tourrilhes
 TP
 tpc
 TPG
 TPM
-traceabilities
-traceability
+traceability +y/ies
 traceable
 traceably
 traceFile
 traceLevel
 traceMask
-traceroute
-traceroutes
-trackpoint
-trackpoints
-transactional
-transactionally
-transcode
-transcoded
-transcodes
-transcoding
-Trojan
-Trojans
+traceroute +s +'s
+trackpoint +s +'s
+transactional +ly
+transcode +d +s +e/ing
+Trojan +s +'s
 TrueType
 TrustedGRUB2
 TryExec
@@ -3192,8 +2905,7 @@ TTL
 TTLS
 tty
 ttys
-tuneable
-tuneables
+tuneable +s +'s
 tunefs
 Tung
 tur
@@ -3212,130 +2924,65 @@ UDI
 UDP
 UDPU
 UEFI
-uevent
-uevents
+uevent +s
 UFS
 UI
 UID
 UIDs
-ulimit
-ulimits
+ulimit +s
 umask
 Umberto
 UML
 umount
 UMTS
 un
-unaccelerate
-unaccelerated
-unaccelerates
-unaccelerating
+unaccelerate +d +s +e/ing
 unaccessible
-unallocate
-unallocated
-unallocates
-unallocating
+unallocate +d +s +e/ing
 uname
 unary
-unbold
-unbolded
-unbolding
-unbolds
+unbold +ed +s +ing
 unbootable
-uncache
-uncached
-uncaches
-uncaching
-uncheck
-unchecked
-unchecking
-unchecks
-uncomment
-uncommented
-uncommenting
-uncomments
-uncompile
-uncompiled
-uncompiles
-uncompiling
-unconfigure
-unconfigured
-unconfigures
-unconfiguring
-unconfine
-unconfined
-unconfines
-unconfining
-undelete
-undeleted
-undeletes
-undeleting
-underruns
+uncache +d +s +e/ing
+uncheck +ed +s +ing
+uncomment +s +ed +ing
+uncompile +s +d +e/ing
+unconfigure +s +d +e/ing
+unconfine +s +d +e/ing
+undelete +s +d +e/ing
+underrun +s +'s
 UNDI
-undock
-undocked
-undocking
-undocks
-unencrypt
-unencrypted
-unencrypting
-unencrypts
+undock +ed +s +ing
+unencrypt +ed +s +ing
 unformatted
 unfragmented
 ungroup
 ungrouped
 ungrouping
 ungroups
-unicast
-unicasted
-unicasting
-unicasts
+unicast +s +ed +ing
 unimplemented
-uninstall
+uninstall +s +ing +ed
 uninstallation
-uninstalled
-uninstalling
-uninstalls
 uninterruptible
 uniprocessor
 unistroke
 unix
-unlink
-unlinked
-unlinking
-unlinks
+unlink +s +ed +ing
 unmaintained
 unmanaged
-unmap
-unmapped
-unmapping
-unmaps
+unmap +ped +s +ping
 unmark
-unmount
+unmount +s +ed +ing
 unmountable
-unmounted
-unmounting
-unmounts
 unmuted
-unpartition
-unpartitioned
-unpartitiones
-unpartitioning
+unpartition +ed +s +ing
 unprofiled
-unprotect
-unprotected
-unprotecting
-unprotects
-unreference
-unreferenced
-unreferences
-unreferencing
+unprotect +ed +s +ing
+unreference +d +s +e/ing
 unresolvable
-unsets
-unsynchronize
-unsynchronized
-unsynchronizes
-unsynchronizing
+unset +s +ting
+unsynchronize +d +s +ing
 untagged
 untar
 untarred
@@ -3355,10 +3002,9 @@ USC
 useChunking
 USENIX
 userid
-userland
-username
-usernames
-userspace
+userland +'s
+username +s +'s
+userspace +'s
 UseSSH
 UseVNC
 usr
@@ -3375,8 +3021,7 @@ UUIDs
 ux
 V2V
 Valgrind
-validator
-validators
+validator +s +'s
 VBA
 vBridge
 VBscript
@@ -3394,10 +3039,7 @@ Verdana
 Verisign
 Veritas
 versa
-version
-versioned
-versioning
-versions
+version +s +ed +ing
 VEs
 VESA
 veth
@@ -3521,9 +3163,8 @@ whitespaces
 whitespacing
 whois
 Wi
-Wi-Fi
-widescreen
-widescreens
+Wi-fi +s +'s
+widescreen +s +'s
 wiki
 Wikipedia
 WikiWords
@@ -3531,33 +3172,25 @@ Winamp
 Winbind
 winbindd
 wincvs
-WinPopup
-WinPopups
+WinPopup +s +'s
 winrm
 WINS
 WinSCP
 WinZip
-wireless
-wirelessly
-Wireshark
-WLAN
-WLANs
+wireless +ly
+Wireshark +'s
+WLAN +s +'s
 WMPlayer
 WMV
 wodim
 WOL
 WordPad
 WordPerfect
-workflow
-workflows
-workgroup
-workgroups
-workset
-worksets
-workspace
-workspaces
-workstation
-workstations
+workflow +s +'s
+workgroup +s +'s
+workset +s +'s
+workspace +s +'s
+workstation +s +'s
 WPA
 WPA-PSK
 WPA2
