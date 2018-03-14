@@ -23,6 +23,7 @@ HUNSPELL_DICT := en_US-suse-doc-hunspell.txt
 BUILD_DIR     := build
 INSTALL_DIR   := $(DESTDIR)$(PREFIX)/suse-documentation-dicts/en
 
+AFFIX_BUILD           := $(BUILD_DIR)/suse_wordlist_affixed.txt
 ASPELL_PATH_BUILD     := $(BUILD_DIR)/$(ASPELL_DICT)
 HUNSPELL_PATH_BUILD   := $(BUILD_DIR)/$(HUNSPELL_DICT)
 ASPELL_PATH_INSTALL   := $(INSTALL_DIR)/$(ASPELL_DICT)
@@ -31,7 +32,11 @@ HUNSPELL_PATH_INSTALL := $(INSTALL_DIR)/$(HUNSPELL_DICT)
 
 all: $(HUNSPELL_PATH_BUILD) $(ASPELL_PATH_BUILD)
 
-$(HUNSPELL_PATH_BUILD): suse_wordlist.txt | $(BUILD_DIR)
+.INTERMEDIATE: $(AFFIX_BUILD)
+$(AFFIX_BUILD): suse_wordlist.txt | $(BUILD_DIR)
+	bash affix.sh $< > $@
+
+$(HUNSPELL_PATH_BUILD): $(AFFIX_BUILD) | $(BUILD_DIR)
 	cat $< | sort -u > $@
 
 $(ASPELL_PATH_BUILD): $(ASPELL_PATH_BUILD).tmp
@@ -51,6 +56,7 @@ $(ASPELL_PATH_BUILD).tmp: $(HUNSPELL_PATH_BUILD)
 	  iconv -f 'UTF-8' -t 'ASCII//TRANSLIT' | \
 	  sed -r 's/([-_.,:;!?#@$%^&*~+0-9]+)([^\W\d_]*)/\n\2/g' | \
 	  sed -r 's/([-_.,:;!?#@$%^&*~+0-9]+)([^\W\d_]*)/\n\2/g' | \
+	  sed -r "s/^'.*//g" | \
 	  sed -n '/../ p' | \
 	  sort -u \
 	  > $@
