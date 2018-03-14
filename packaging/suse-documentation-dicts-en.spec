@@ -15,69 +15,83 @@
 # Please submit bugfixes or comments via http://bugs.opensuse.org/
 #
 
+%define compatdir  suse-xsl-stylesheets/aspell
+%define compatfile en_US-suse-addendum.rws
 
 Name:           suse-documentation-dicts-en
 Version:        0.1
 Release:        0
 
 ###############################################################
-#
 #  IMPORTANT:
 #  Only edit this file directly in the Git repo:
-#  https://github.com/openSUSE/daps, branch develop,
-#  packaging/suse-xsl-stylesheets.spec
-#
-#  Your changes will be lost on the next update.
-#  If you do not have access to the Git repository, notify
-#  <fsundermeyer@opensuse.org> and <toms@opensuse.org>
-#  or send a patch.
-#
+#  https://github.com/sknorr/suse-documentation-dicts, branch master,
+#  packaging/suse-documentation-dicts-en.spec
 ################################################################
 
-Summary:        Spellcheck Dictionaries for SUSE Documentation Purposes
+Summary:        Spellcheck Dictionaries for SUSE Documentation
 License:        GPL-2.0 or GPL-3.0
 Group:          Productivity/Publishing/XML
-Url:            https://github.com/openSUSE/suse-xsl
+Url:            https://github.com/sknorr/suse-documentation-dicts
 Source0:        %{name}-%{version}.tar.bz2
-Source1:        susexsl-fetch-source-git
-Source2:        %{name}.rpmlintrc
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 BuildArch:      noarch
 
 BuildRequires:  make
-Requires:       aspell
-Requires:       aspell-en
+BuildRequires:  aspell
+BuildRequires:  aspell-en
+Recommends:     aspell
+Recommends:     aspell-en
+Recommends:     hunspell
+Recommends:     myspell-en_US
+Conflicts:      suse-xsl-stylesheets < 2.0.9
+
 
 %description
-English Dictionaries for aspell and hunspell to spellcheck SUSE (and
-openSUSE) documentation with.
+English Dictionaries for aspell and Hunspell to spellcheck SUSE and
+openSUSE documentation.
 
 #--------------------------------------------------------------------------
 
 %prep
-%setup -q -n %{name}
+%setup -q -n %{name}-%{version}
 
 #--------------------------------------------------------------------------
 
 %build
-%__make  %{?_smp_mflags}
+%__make %{?_smp_mflags}
 
 #--------------------------------------------------------------------------
 
 %install
 make install DESTDIR=%{buildroot} LIBDIR=%{_libdir}
 
-# create symlinks:
-%fdupes -s %{buildroot}/%{_datadir}
+# License
+mkdir -p %{buildroot}%{_defaultdocdir}/%{name}
+cp LICENSE %{buildroot}%{_defaultdocdir}/%{name}
+chmod 644 %{buildroot}%{_defaultdocdir}/%{name}/*
+
+# Extra symlinks for backward compatibility
+mkdir -p %{buildroot}%{_datadir}/suse-xsl-stylesheets/aspell
+cd %{buildroot}%{_datadir}/suse-xsl-stylesheets/aspell && \
+  ln -s ../../suse-documentation-dicts/en/en_US-suse-doc-aspell.rws \
+    %{compatfile}
+chmod 644 %{buildroot}%{_datadir}/%{compatdir}/%{compatfile}
+
 
 %files
 %defattr(-,root,root)
 
-# Directories
+%dir %{_datadir}/suse-documentation-dicts
+%dir %{_datadir}/suse-documentation-dicts/en
 %dir %{_datadir}/suse-xsl-stylesheets
 %dir %{_datadir}/suse-xsl-stylesheets/aspell
+%dir %{_defaultdocdir}/%{name}
+
+%{_datadir}/suse-documentation-dicts/en/en_US-suse-doc-aspell.rws
+%{_datadir}/suse-documentation-dicts/en/en_US-suse-doc-hunspell.txt
 %{_datadir}/suse-xsl-stylesheets/aspell/en_US-suse-addendum.rws
 
-#----------------------
+%doc %{_defaultdocdir}/%{name}/*
 
 %changelog
