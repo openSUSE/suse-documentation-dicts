@@ -1,15 +1,17 @@
 #!/bin/bash
 # Expands the word list by affixing affixes.
-# Usage: $0 WORD_LIST > NEW_LIST
+# Usage: $0 WORD_LIST > NEW_LIST   # to generate plain text word list
+# Usage: $0 WORD_LIST validate     # to validate input word list
 
 function error() {
   >&2 echo $1
+  [[ $2 == '0' ]] && exit $2
   exit 1
 }
 
 function validate() {
   # $1 - word list
-  result=$(echo -e "$1" | sed -r 's_^[^ \t]+( \+[^ +/\t]+(/[^ +/\t]+)?)*$__' | sed -n '/./ p')
+  result=$(echo -e "$1" | sed -r 's_^[^ \t]+( \+([-'\''!?.:;@#%=<>]|\w)+(/([-'\''!?.:;@#%=<>]|\w)+)?)*$__' | sed -n '/./ p')
   if [[ "$result" ]]; then
     >&2 echo "Problematic lines:"
     >&2 echo "$result"
@@ -55,7 +57,9 @@ function addaffixes() {
 wordlist=$(cat $1)
 
 validate "$wordlist"
-[[ $? = 1 ]] && error "File $1 does not validate."
+[[ $? == 1 ]] && error "File $1 does not validate."
+
+[[ $2 == 'validate' ]] && error "File $1 validates." 0
 
 while [[ "$wordlist" ]]; do
   thisline=$(echo -e "$wordlist" | head -1)
