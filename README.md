@@ -100,3 +100,24 @@ hygiene, though:
   the list.
 
 * Make sure the file is sorted, to help others working on it later.
+
+* Before committing your changes to the word list, always validate the word
+  list: `./affix.sh suse_wordlist.txt validate`
+
+The word list format supports suffixes dictionary words to avoid word
+repetitions. Suffixes are appended to the regular entry this way:
+
+```
+entry +suffix +y/iesuffix
+```
+
+This produces the follwing three words in the output word list: `entry`,
+`entrysuffix`, and `entriesuffix`.
+
+* There must be exactly one space before each suffix definition.
+* Suffix definition start with a `+` character.
+* There are two forms of suffixes:
+  * Without replacement, like `+suffix`: the characters `suffix` are appended
+    to the entry.
+  * With replacement, like `y/iesuffix`: the character `y` is removed from the
+    end of the entry and `iesuffix` is appended.
