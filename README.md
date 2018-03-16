@@ -6,14 +6,15 @@ to the regular en_US dictionary.
 
 ### Building the Dictionaries
 
-This repository allows for building an aspell RWS file and a Hunspell-compatible
-plain-text word list.
+This repository allows for building an aspell RWS file, a Hunspell-compatible
+plain-text word list, and a Vim SPL file.
 
 Make sure you have the following dependencies installed:
 
 * GNU Make
 * sed, iconv, and other standard Unix tools
 * aspell
+* vim
 
 To build the dictionaries for aspell and Hunspell, run:
 
@@ -55,6 +56,14 @@ Add the following lines to your Emacs configuration file:
   (ispell-change-dictionary "american")
   (setq ispell-extra-args
     '("--extra-dicts=/usr/share/suse-documentation-dicts/en/en_US-suse-doc-aspell.rws"))))
+```
+
+#### Vim Word List & Vim
+
+After the dictionaries are installed, you can load the Vim version with:
+
+```
+:set spelllang=en,en-suse-doc
 ```
 
 #### oXygen

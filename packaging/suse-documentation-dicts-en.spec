@@ -19,7 +19,7 @@
 %define compatfile en_US-suse-addendum.rws
 
 Name:           suse-documentation-dicts-en
-Version:        1
+Version:        2
 Release:        0
 
 ###############################################################
@@ -37,9 +37,11 @@ Source0:        %{name}-%{version}.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 BuildArch:      noarch
 
+BuildRequires:  vim
 BuildRequires:  make
 BuildRequires:  aspell
 BuildRequires:  aspell-en
+Recommends:     vim
 Recommends:     aspell
 Recommends:     aspell-en
 Recommends:     hunspell
@@ -48,7 +50,7 @@ Conflicts:      suse-xsl-stylesheets < 2.0.9
 
 
 %description
-English Dictionaries for aspell and Hunspell to spellcheck SUSE and
+English Dictionaries for aspell, Hunspell, and Vim to spellcheck SUSE and
 openSUSE documentation.
 
 #--------------------------------------------------------------------------
@@ -86,10 +88,14 @@ chmod 644 %{buildroot}%{_datadir}/%{compatdir}/%{compatfile}
 %dir %{_datadir}/suse-documentation-dicts/en
 %dir %{_datadir}/suse-xsl-stylesheets
 %dir %{_datadir}/suse-xsl-stylesheets/aspell
+%dir %{_datadir}/vim
+%dir %{_datadir}/vim/current
+%dir %{_datadir}/vim/current/spell
 %dir %{_defaultdocdir}/%{name}
 
 %{_datadir}/suse-documentation-dicts/en/en_US-suse-doc-aspell.rws
 %{_datadir}/suse-documentation-dicts/en/en_US-suse-doc-hunspell.txt
+%{_datadir}/vim/current/spell/en-suse-doc.utf-8.spl
 %{_datadir}/suse-xsl-stylesheets/aspell/en_US-suse-addendum.rws
 
 %doc %{_defaultdocdir}/%{name}/*
