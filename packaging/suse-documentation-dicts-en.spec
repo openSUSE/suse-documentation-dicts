@@ -19,7 +19,7 @@
 %define compatfile en_US-suse-addendum.rws
 
 Name:           suse-documentation-dicts-en
-Version:        2
+Version:        3
 Release:        0
 
 ###############################################################
@@ -30,7 +30,7 @@ Release:        0
 ################################################################
 
 Summary:        Spellcheck Dictionaries for SUSE Documentation
-License:        GPL-2.0 or GPL-3.0
+License:        CC0-1.0
 Group:          Productivity/Publishing/XML
 Url:            https://github.com/sknorr/suse-documentation-dicts
 Source0:        %{name}-%{version}.tar.bz2
@@ -41,7 +41,7 @@ BuildRequires:  vim
 BuildRequires:  make
 BuildRequires:  aspell
 BuildRequires:  aspell-en
-Recommends:     vim
+Requires:       vim
 Recommends:     aspell
 Recommends:     aspell-en
 Recommends:     hunspell
@@ -88,9 +88,6 @@ chmod 644 %{buildroot}%{_datadir}/%{compatdir}/%{compatfile}
 %dir %{_datadir}/suse-documentation-dicts/en
 %dir %{_datadir}/suse-xsl-stylesheets
 %dir %{_datadir}/suse-xsl-stylesheets/aspell
-%dir %{_datadir}/vim
-%dir %{_datadir}/vim/current
-%dir %{_datadir}/vim/current/spell
 %dir %{_defaultdocdir}/%{name}
 
 %{_datadir}/suse-documentation-dicts/en/en_US-suse-doc-aspell.rws

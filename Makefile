@@ -13,7 +13,7 @@ endif
 
 SHELL         := /bin/bash
 PACKAGE       := suse-documentation-dicts-en
-VERSION       := 2
+VERSION       := 3
 CDIR          := $(shell pwd)
 DIST_EXCLUDES := packaging/package-excludes.txt
 
