@@ -73,6 +73,7 @@ asound
 ASP
 ASpeed
 aspell +'s
+ASR
 assignee +s +'s
 assistive
 AST
@@ -151,6 +152,7 @@ Bash
 bashrc
 basicAuthLib
 Bažant +'s
+BBU
 BC12
 BCI
 BDC
@@ -165,6 +167,7 @@ biarch
 bigalloc
 BIND
 Bindmount
+bindnetaddr
 binutils
 biometric +s +'s
 BIOS
@@ -250,10 +253,9 @@ cciss
 CCM
 CCMP
 CCW
-CD +s +'s
 CDATA
-CDB +s +'s
 CDBoot
+CDB +s +'s
 CDDA
 CDDB
 CDMA
@@ -261,13 +263,14 @@ CDP
 cdparanoia
 cdpath
 CDPs
-CD-R +s +'s
 cdrecord
 cdrkit
 cdrom
 CD-ROM +s +'s
+CD-R +s +'s
 cdrtools
 CD-RW +s +'s
+CD +s +'s
 CEE
 Ceilometer
 Celeron
@@ -303,6 +306,7 @@ chkstat
 chmod
 chown
 Christoph +'s
+Chrony
 chroot +s +ed +ing
 chunk +s +ed +ing
 ci
@@ -349,6 +353,7 @@ CNAME
 codec +s +'s
 coldplug
 collocational +ly
+colocate +d +s +e/ing
 COMBOOT
 CompactFlash
 compat
@@ -359,6 +364,7 @@ concordant +ly
 conf
 config
 conntrack
+conntrackd
 contactgroup
 Cooledit
 coredump
@@ -406,6 +412,7 @@ CSS
 csv
 CTC
 CTCP
+CTDB
 ctime
 Ctrl
 cumulate +d +s +e/ing
@@ -435,6 +442,7 @@ Dasgupta
 datadir
 datagram +s +'s
 DataPilot +s +'s
+DataProtector
 Datatrack +s +'s
 datetime
 DAWR
@@ -452,6 +460,7 @@ DCHP
 DCN
 dcObject
 dconf
+DC +s +'s
 DDC
 DDF
 DDN
@@ -701,6 +710,7 @@ eXtensions
 facto
 FADT
 FAIL
+failback +s +'s
 failcount +s +'s
 failover +s +'s
 failsafe +s +'s
@@ -831,6 +841,7 @@ gethostname
 getimages
 Getopts
 GFDL
+GFS2
 gFTP
 gfx
 gfxmenu
@@ -841,8 +852,8 @@ GiB
 GID +s +'s
 GIF
 gigabit
-GIMP +'s
 GIMPNet +'s
+GIMP +'s
 GitHub +'s
 GitLab +'s
 glibc
@@ -857,14 +868,14 @@ GLX
 GmbH
 GMC +'s
 Gnokii
-GNOME +'s
 GNOMEMeeting +'s
+GNOME +'s
 Gnomovision +'s
-GNU +'s
 GnuCash +'s
 Gnumeric +'s
 GnuPG +'s
 Gnuplot +'s
+GNU +'s
 gnutls
 GOCR
 GOK
@@ -1313,6 +1324,7 @@ ksu
 KSysguard
 ksysguardd
 ktadd
+KTCPVS
 KTTS
 Kubernetes
 Kukuk
@@ -1412,6 +1424,7 @@ localization +s +'s
 localize +d +s +e/ing
 localtime
 locatedb
+locational +ly
 Locator
 locdrop
 lockdown
@@ -1449,10 +1462,11 @@ LTTng
 LUKS
 LUM
 LUN +s +'s
-LV
 LVM
 lvmetad
+lvmlockd
 LVS
+LV +s +'s
 LXC
 Lycos
 LZMA
@@ -1494,6 +1508,7 @@ Mbit
 mbox
 Mbps
 MBR
+mcastaddr
 mcastport
 MCE
 MCL +s +'s
@@ -1679,6 +1694,7 @@ ne
 nessus
 NET
 NetApp
+NetBackup
 NetBEUI
 NetBIOS
 netboot
@@ -1694,6 +1710,7 @@ netqueue
 netstat
 NetWare
 NetWeaver
+NetWorker
 NetworkManager
 NeXTSTEP
 NFS
@@ -1776,6 +1793,7 @@ NWS
 NWSD +s +'s
 NX
 Nynorsk
+o2cb
 OAB
 OAFIID
 OASIS
@@ -1924,6 +1942,7 @@ PCI-SIG
 PCL
 PCM
 PCMCIA
+pcmk
 PCS
 PDA +s +'s
 PDC
@@ -2095,6 +2114,7 @@ PROFOS
 proftpd
 PROFVENDOR
 ProLiant
+promotable
 proven
 Proven +'s
 provisioner +s +'s
@@ -2145,6 +2165,7 @@ QLogic
 Qmail
 QML
 QMP
+Qnetix
 QoS
 QQ
 QSAM
@@ -2294,6 +2315,7 @@ rpmsave
 rr
 RRA
 RRDtool
+RRP
 RSA
 RSC
 RSH
@@ -2588,6 +2610,7 @@ subfolder +s +'s
 subform +s +'s
 subitem +s +'s
 subkey +s +'s
+sublevel +s +'s
 sublicense +s +'s +d +e/ing
 submenu +s +'s
 submode +s +'s
@@ -2637,7 +2660,9 @@ SVN
 sw
 swappable
 SWF +s +'s
+switchover +s +'s
 SXP
+Symantec
 symlink +s +'s
 Symmetrix
 syncfile
@@ -2685,6 +2710,7 @@ TCO
 TCP
 tcpd
 TCP/IP
+TDB
 TDG +'s
 TDP
 TDSL
@@ -2719,6 +2745,7 @@ TightVNC
 TIMEFORMAT
 timeframe +s +'s
 timeline +s +'s
+Tivoli
 Tk
 tkinfo
 TKIP
@@ -2741,6 +2768,7 @@ Tomáš +'s
 toolbar +s +'s
 toolchain +s +'s
 toolkit +s +'s
+topology +y/ies +'s
 TotalStorage
 touchpad +s +'s
 Toughbook
@@ -2812,6 +2840,7 @@ unbold +ed +s +ing
 unbootable
 uncache +d +s +e/ing
 uncheck +ed +s +ing
+unclustered
 uncomment +s +ed +ing
 uncompile +s +d +e/ing
 unconfigure +s +d +e/ing
@@ -2911,8 +2940,8 @@ vfb
 vFiler
 VFIO
 VFS
-VG
 vga
+VG +s +'s
 Viega
 vif
 VIM
@@ -2936,7 +2965,6 @@ VistaTec +'s
 VisualStudio
 VLAN +s +'s
 VLANX
-VM
 VMAX
 VMBUS
 vmcore
@@ -2948,7 +2976,7 @@ VM/ESA
 VMM
 vMotion
 VMREAD
-VMs
+VM +s +'s
 VMware
 VMWRITE
 VMX
