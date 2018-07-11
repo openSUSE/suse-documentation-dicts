@@ -23,6 +23,7 @@ Adminer +'s
 ADSL +'s
 AER
 AES
+affine
 AFS
 Agfa +'s
 aggregatable
@@ -34,6 +35,7 @@ AIO
 AIX
 aKregator +'s
 algorithmic +ally
+allocator +s +'s
 ALSA +'s
 ALUA
 amaroK +'s
@@ -44,6 +46,8 @@ AMI +s +'s
 AMQP
 analytic +s
 Anjuta
+anonymize +s +d +e/ing
+antialias +es +ed +ing
 antivirus
 anycast
 Apache
@@ -56,6 +60,7 @@ APIs
 APM
 AppArmor +'s
 AppBrowser +'s
+AppImage +s +'s
 AppNote +'s
 AppSocket +'s
 archiver +s +'s
@@ -68,6 +73,7 @@ ARMv8-M
 ARMv8-R
 ARP +s +'s
 aRts
+ASE
 ASLR
 asound
 ASP
@@ -198,6 +204,7 @@ BoM
 Bonjour
 bookmarklet +s +'s
 BOOKNAME
+boo
 bool
 boolean +s +'s
 bools
@@ -216,6 +223,7 @@ BRK
 Broadcom
 Broadwell
 BrowseLocalProtocols
+bsc
 BSI
 bsize
 BSSID
@@ -232,7 +240,7 @@ C0
 C1
 C2
 C3
-CA
+CA +s +'s
 CaaS
 cachemgr
 Calc
@@ -244,7 +252,6 @@ CAPP
 CapsLock
 CardBus
 cardinality +y/ies +'s
-CAs
 CASA
 catalina
 CC
@@ -253,6 +260,7 @@ cciss
 CCM
 CCMP
 CCW
+CCX +s
 CDATA
 CDBoot
 CDB +s +'s
@@ -278,6 +286,7 @@ CellWriter
 CentOS
 centric
 CentricStor
+CEO
 Ceph
 CephFS
 CephX
@@ -287,6 +296,7 @@ Cesati
 CET
 CEX
 CFF
+CFO
 CFQ
 CFS
 CGI
@@ -326,6 +336,8 @@ CIS
 Cisco
 Citrix
 CJK
+ClamAV
+ClamSAP
 CLARiiON
 cleanipc
 Clearcase
@@ -336,6 +348,7 @@ cloneno
 CloudFoundry
 CloudStack
 ClusterMon
+ClusterTools
 clusterwide
 cLVM
 cLVM2
@@ -363,6 +376,7 @@ composite +s +d +e/ing
 concordant +ly
 conf
 config
+ConMan
 conntrack
 conntrackd
 contactgroup
@@ -379,10 +393,10 @@ Cowan
 cp
 CPACF
 cpio
-cpu
+CPU +s
 CPUfreq
 CPUID
-CPUs
+CPUset +s
 cramfs
 crashkernel
 CRC +s +'s
@@ -399,6 +413,7 @@ cronjob +s +'s
 crontab
 crontable
 crosshair
+cryptctl
 Crypto
 CryptoExpress
 cryptofs
@@ -409,11 +424,12 @@ cshrc
 CSM
 CSR
 CSS
-csv
+CSV
 CTC
 CTCP
 CTDB
 ctime
+CTO
 Ctrl
 cumulate +d +s +e/ing
 CUPS
@@ -649,6 +665,7 @@ encryptable +e/y
 encryption +s
 endian
 Engenio
+enqueue +s +d +e/ing
 ENSONIQ
 enum
 EnumerateClasses
@@ -674,6 +691,7 @@ Escon
 ESC/P
 ESD
 eServer
+ESPOS
 ESS
 ESSID
 ESX
@@ -894,6 +912,7 @@ GPLv3
 GPRS
 GPS
 GPT
+GPU +s +'s
 GQ
 grandmaster +s +'s
 grayscale +d +s +e/ing
@@ -936,6 +955,7 @@ HAProxy
 hardcode +s +d +e/ing
 hardwriting
 HASI
+Haskell
 Haswell
 HB
 HBA +s +'s
@@ -1151,6 +1171,7 @@ IPsec
 IPsrcaddr
 iptables
 IPTC
+iputils
 IPv4
 IPv6
 IPVS
@@ -1462,11 +1483,12 @@ LTTng
 LUKS
 LUM
 LUN +s +'s
+LV +s +'s
+LVG
 LVM
 lvmetad
 lvmlockd
 LVS
-LV +s +'s
 LXC
 Lycos
 LZMA
@@ -1502,6 +1524,7 @@ Mastercard
 Matic
 Matrox
 MAX
+MaxDB
 Maxfeldstr.
 Maxfeldstraße
 Mbit
@@ -1542,6 +1565,7 @@ MFC
 MH
 MHTML
 MiB
+microarchitecture +s +'s
 MicroCode
 microcontroller +s +'s
 Microsoft
@@ -1559,19 +1583,10 @@ Minix
 mirrorabilities
 mirrorability
 misconfiguration +s +'s
-misconfigure
-misconfigured
-misconfigures
-misconfiguring
-misorder
-misordered
-misordering
-misorders
+misconfigure +d +s +e/ing
+misorder +s +ed +ing
 MISS
-mistype
-mistyped
-mistypes
-mistyping
+mistype +d +s +e/ing
 mitigation +s +'s
 MITM
 MI/X
@@ -1600,10 +1615,7 @@ MOKs
 MON
 MongoDB
 MonoDevelop
-monospace
-monospaced
-monospaces
-monospacing
+monospace +d +s +e/ing
 Monotype
 MONs
 Morlan +'s
@@ -1612,9 +1624,8 @@ mountd
 MOV
 Mozilla
 mpath
-MPI
+MPI +s
 MPIO
-MPIs
 MPlayer
 MPM +s +'s
 MQ
@@ -1635,9 +1646,8 @@ MTU
 multi
 multiboot
 multibus
-multicast
-multicasting
-multicasts
+multibuild
+multicast +s +ed +ing
 MultiDirector
 multidisk
 multihead
@@ -1647,16 +1657,14 @@ multiline
 multilink
 multinode
 multipart
-multipath
+multipath +ing
 multipathd
-multipathing
 multiplatform
 multiprotocol
 multiscan
 multisession
 multisync
 multitalented
-multithread
 multithreaded
 multitrack
 multiuser
@@ -1743,22 +1751,16 @@ noarch
 NoDerivs
 nohz
 Nokia
-non-authenticated +ly
-non-commercial +ly
-non-compliant +ly
-non-executable +e/y
+noncommercial +ly
+noncompliant +ly
 non-expert +ly +s +'s
-non-intrusive +ly
-non-local +ly
+nonlocal +ly
 non-maskable +e/y
-non-multiplexed +ly
-non-passive +ly
-non-posted +ly
-non-threaded +ly
+nonmultiplexed +ly
+nonposted +ly
 noop
 NOP +s +'s
-nospoof
-Noteedit
+NoteEdit
 NotePad
 Novdoc
 Novell +'s
@@ -1808,7 +1810,7 @@ ODBC
 ODF
 ODMA
 ODT
-OEM
+OEM +s +'s
 OES
 OF
 OFED
@@ -1837,6 +1839,7 @@ OpenGL
 OpenJDK
 OpenLDAP
 OpenLook
+OpenMP
 OpenOffice
 OpenPGP
 OpenPower
@@ -1861,6 +1864,7 @@ OpenZaurus
 operability
 Opie
 OProfile
+optimization +s +'s
 optipng
 OPTNAME
 OQO
@@ -1881,6 +1885,7 @@ OSFS
 OSI
 OSS
 ot
+OTP
 OU
 OUTPUT
 overamplification
@@ -1936,8 +1941,7 @@ PCHID
 PCI
 PCI-DSS
 PCIe
-PCI-IRQ
-PCI-IRQs
+PCI-IRQ +s
 PCI-SIG
 PCL
 PCM
@@ -1950,13 +1954,13 @@ PDF
 pdflush
 PDFs
 PDU
+PE +s
 PEAP
 PEM
 PennAve
 PentiumPro
 perf
 Perl
-PEs
 PFA
 Pfitzner
 PFs
@@ -2003,6 +2007,7 @@ pla
 playlist +s +'s
 PLDP
 pluggable +e/y
+Plug'n'Play
 PLUMgrid
 PMC
 PMD
@@ -2044,7 +2049,8 @@ possyncimages
 postfix
 PostgreSQL
 postinstall
-postprocess
+postprocess +ed +es +ing
+postprocessor +s +'s
 POSTROUTING
 PostScript
 poststart
@@ -2058,6 +2064,7 @@ POWER9
 PowerISA
 PowerKVM
 PowerLinux
+PowerMan
 PowerNow
 poweroff
 PowerPath
@@ -2083,7 +2090,7 @@ pre
 preallocate +d +s +e/ing
 preallocation +s +'s
 preboot
-preconfiguration
+preconfiguration +s +'s
 preconfigure +d +s +e/ing
 predesign +ed +s +ing
 prefork +s +ed +ing
@@ -2093,6 +2100,7 @@ preinstall +ed +s +ing
 preload +s +ed +ing
 PReP
 prepend +s +ed +ing
+preprocess +ed +es +ing
 preprocessor +s +'s
 preprogram +s +med +ming
 prerouting
@@ -2132,6 +2140,7 @@ pseudoterminal
 PSK
 PSM
 psql
+PSS
 PSTN
 PTE +s +'s
 PTF +s +'s
@@ -2178,6 +2187,7 @@ QXL
 ra
 RabbitMQ
 RAC
+Radeon
 RADOS
 RadosGW
 radvd
@@ -2261,6 +2271,7 @@ ReiserFS
 ReiserFSprogs
 Rekall
 relogin +s +'s
+Remmina
 RenderX
 renice +d +s +e/ing
 repartition +ed +s +ing
@@ -2305,12 +2316,11 @@ rootkit +s +'s
 Rosegarden
 Roxio
 rpasswd
-RPC
-RPM
+RPC +s
+RPM +s
 rpmbuild
 rpmnew
 rpmorig
-RPMs
 rpmsave
 rr
 RRA
@@ -2353,6 +2363,7 @@ sandbox +es +ed +ing
 Sandybridge
 SANs
 SAP
+sapconf
 sapcontrol
 SAPDatabase
 SAPInstance
@@ -2619,6 +2630,7 @@ subnet +s +'s
 subnetwork +s +'s
 subobject +s +'s
 suboption +s +'s
+subpage +s +'s
 subpixel +s +'s
 subprocess +es +'s
 subprofile +s +'s
@@ -2631,6 +2643,7 @@ subtask +s +'s
 subtest +s +'s
 subtree +s +'s
 subuser +s +'s
+subunit +s +'s
 subvolume +s +'s
 sudo
 sudoers
@@ -2662,9 +2675,11 @@ swappable
 SWF +s +'s
 switchover +s +'s
 SXP
+Sybase
 Symantec
 symlink +s +'s
 Symmetrix
+Synaptics
 syncfile
 syncfilename
 synched
@@ -2789,6 +2804,7 @@ Trac +'s
 transactional +ly
 transcode +d +s +e/ing
 Trello
+TREX
 Trojan +s +'s
 TrueType
 TrustedGRUB2
@@ -2822,7 +2838,7 @@ UDPU
 UEFI
 uevent +s
 UFS
-UI
+UI +s +'s
 UID +s +'s
 ulimit +s
 umask
@@ -2888,6 +2904,7 @@ unzoned
 updatedb
 upgradeability
 uplink
+upsell +s +ell/old +ing
 uptime
 URI +s +'s
 URL +s +'s
@@ -3035,6 +3052,7 @@ Weblate +'s
 websafe
 WebSocket +s +'s
 WebSphere
+WebYaST
 WEP
 wget
 whitelist +'s +s +ed +ing
