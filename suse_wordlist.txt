@@ -131,6 +131,7 @@ automounter +s +'s
 automount +s +ed +ing
 AutoPlay
 autorepeat +ed +s +ing
+autorepetition +s +'s
 autostart +ed +s +ing
 autoupdate +d +s +e/ing
 AutoYaST
@@ -222,7 +223,6 @@ Brasero
 BRK
 Broadcom
 Broadwell
-BrowseLocalProtocols
 bsc
 BSI
 bsize
@@ -1415,11 +1415,13 @@ libzypp
 licensor +s +'s
 Lifebook
 LifeMeeting
+LightDM
 LILO
 LilyPond
 Linbit
 linkable
 linkably
+LinkedIn
 Linphone
 lintian
 LINUX
@@ -1669,6 +1671,7 @@ multithreaded
 multitrack
 multiuser
 multivalue
+munge
 MusE
 MusicXML
 mv
@@ -2095,8 +2098,7 @@ preconfigure +d +s +e/ing
 predesign +ed +s +ing
 prefork +s +ed +ing
 preformat +s +ted +ting
-preinstallation +s +'s
-preinstall +ed +s +ing
+preinstall +ed +s +ing +ation +ations
 preload +s +ed +ing
 PReP
 prepend +s +ed +ing
@@ -2275,6 +2277,7 @@ Remmina
 RenderX
 renice +d +s +e/ing
 repartition +ed +s +ing
+replicable +e/y
 reposition +ed +s +ing
 repo +s +'s
 repost +ed +s +ing
@@ -2492,6 +2495,7 @@ SLP
 slpd
 slptool +'s
 SLRS
+Slurm
 SMAPI
 smaps
 SmartMedia
@@ -2776,6 +2780,7 @@ TLSv1.2
 TLSv1.3
 tmp
 TMPDIR
+tmpfs
 TNS
 tnsping
 todo +s +'s
@@ -3211,7 +3216,7 @@ YP
 ypbind
 ype
 ypserv
-YUM
+Yum
 YYYY
 YYYYMMDDNN
 Zaurus
