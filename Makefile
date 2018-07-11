@@ -19,11 +19,12 @@ DIST_EXCLUDES := packaging/package-excludes.txt
 
 VIM_DICT      := en-suse-doc
 ASPELL_DICT   := en_US-suse-doc-aspell.rws
-HUNSPELL_DICT := en_US-suse-doc-hunspell.txt
+HUNSPELL_DICT := en_susedoc.dic
 
-BUILD_DIR     := build
-INSTALL_DIR   := $(DESTDIR)$(PREFIX)/suse-documentation-dicts/en
-INSTALL_DIR_VIM       := $(DESTDIR)$(PREFIX)/vim/current/spell
+BUILD_DIR            := build
+INSTALL_DIR          := $(DESTDIR)$(PREFIX)/suse-documentation-dicts/en
+INSTALL_DIR_VIM      := $(DESTDIR)$(PREFIX)/vim/current/spell
+INSTALL_DIR_HUNSPELL := $(DESTDIR)$(PREFIX)/hunspell
 
 AFFIX_BUILD           := $(BUILD_DIR)/suse_wordlist_affixed.txt
 VIM_PATH_BUILD        := $(BUILD_DIR)/$(VIM_DICT)
@@ -31,22 +32,19 @@ ASPELL_PATH_BUILD     := $(BUILD_DIR)/$(ASPELL_DICT)
 HUNSPELL_PATH_BUILD   := $(BUILD_DIR)/$(HUNSPELL_DICT)
 VIM_PATH_INSTALL      := $(INSTALL_DIR_VIM)/$(VIM_DICT)
 ASPELL_PATH_INSTALL   := $(INSTALL_DIR)/$(ASPELL_DICT)
-HUNSPELL_PATH_INSTALL := $(INSTALL_DIR)/$(HUNSPELL_DICT)
-
+HUNSPELL_PATH_INSTALL := $(INSTALL_DIR_HUNSPELL)/$(HUNSPELL_DICT)
 
 all: $(VIM_PATH_BUILD).utf-8.spl $(ASPELL_PATH_BUILD) $(HUNSPELL_PATH_BUILD)
 
 .INTERMEDIATE: $(AFFIX_BUILD)
 $(AFFIX_BUILD): suse_wordlist.txt | $(BUILD_DIR)
-	bash affix.sh $< > $@
+	bash affix.sh $< | sort -u > $@
 
 $(HUNSPELL_PATH_BUILD): $(AFFIX_BUILD) | $(BUILD_DIR)
-	cat $< | sort -u > $@
+	wc -l $< > $@
+	cat $< >> $@
 
-$(ASPELL_PATH_BUILD): $(ASPELL_PATH_BUILD).tmp
-	aspell --lang=en create master ./$@ < $<
-
-$(VIM_PATH_BUILD).utf-8.spl: $(HUNSPELL_PATH_BUILD) | $(BUILD_DIR)
+$(VIM_PATH_BUILD).utf-8.spl: $(AFFIX_BUILD) | $(BUILD_DIR)
 	LANG=en_US.UTF-8 vim -N -u NONE -n -c "set nomore" -c "mkspell! $(VIM_PATH_BUILD) $<" -c "q"
 
 
@@ -56,28 +54,21 @@ $(VIM_PATH_BUILD).utf-8.spl: $(HUNSPELL_PATH_BUILD) | $(BUILD_DIR)
 # * "Wi-fi" -> "Wi" + "fi".
 # Apparently, it also can't handle UTF-8. Wonderful language software.
 
-# FIXME: I should not have to apply the same regex twice to resolve e.g.
-# "Cortex-A53" -> "Cortex" + nothing else
-.INTERMEDIATE: $(ASPELL_PATH_BUILD).tmp
-$(ASPELL_PATH_BUILD).tmp: $(HUNSPELL_PATH_BUILD)
-	cat $< | \
-	  iconv -f 'UTF-8' -t 'ASCII//TRANSLIT' | \
-	  sed -r 's/([-_.,:;!?#@$%^&*~+0-9]+)([^\W\d_]*)/\n\2/g' | \
-	  sed -r 's/([-_.,:;!?#@$%^&*~+0-9]+)([^\W\d_]*)/\n\2/g' | \
-	  sed -r "s/^'.*//g" | \
-	  sed -n '/../ p' | \
-	  sort -u \
-	  > $@
-
+$(ASPELL_PATH_BUILD): $(AFFIX_BUILD) | $(BUILD_DIR)
+	cat $<                                | \
+	sed 's/\W/\n/g;s/_/\n/g;s/[0-9]//g;'  | \
+	sed -n '/../ p'                       | \
+	iconv -f 'UTF-8' -t 'ASCII//TRANSLIT' | \
+	sort -u | aspell --lang=en create master ./$@
 
 # directly install (don't)
 .PHONY: install
-install: $(INSTALL_DIR) $(INSTALL_DIR_VIM)
+install: $(INSTALL_DIR) $(INSTALL_DIR_VIM) $(INSTALL_DIR_HUNSPELL)
 	install -m644 $(VIM_PATH_BUILD).utf-8.spl $(INSTALL_DIR_VIM)
 	install -m644 $(ASPELL_PATH_BUILD) $(ASPELL_PATH_INSTALL)
 	install -m644 $(HUNSPELL_PATH_BUILD) $(HUNSPELL_PATH_INSTALL)
 
-$(BUILD_DIR) $(INSTALL_DIR) $(INSTALL_DIR_VIM):
+$(BUILD_DIR) $(INSTALL_DIR) $(INSTALL_DIR_VIM) $(INSTALL_DIR_HUNSPELL):
 	@mkdir -p $@
 
 # Create TAR ball
@@ -87,7 +78,6 @@ dist: | $(BUILD_DIR)
 	  -C $(CDIR) --exclude-from=$(DIST_EXCLUDES) \
 	  --transform 's:^$(CDIR):$(PACKAGE)-$(VERSION):' $(CDIR)
 	@echo "Successfully created $(BUILD_DIR)/$(PACKAGE)-$(VERSION).tar.bz2"
-
 
 .PHONY: clean
 clean:
