@@ -92,7 +92,7 @@ chmod 644 %{buildroot}%{_datadir}/%{compatdir}/%{compatfile}
 %dir %{_datadir}/suse-xsl-stylesheets/aspell
 %dir %{_defaultdocdir}/%{name}
 
-%{_datadir}/hunspell/en_susedoc.dic
+%{_datadir}/hunspell/en_US-suse-doc.dic
 %{_datadir}/suse-documentation-dicts/en/en_US-suse-doc-aspell.rws
 %{_datadir}/vim/current/spell/en-suse-doc.utf-8.spl
 %{_datadir}/suse-xsl-stylesheets/aspell/en_US-suse-addendum.rws
