@@ -41,7 +41,9 @@ BuildRequires:  vim
 BuildRequires:  make
 BuildRequires:  aspell
 BuildRequires:  aspell-en
+BuildRequires:  myspell-dictionaries
 Requires:       vim
+Requires:       myspell-dictionaries
 Recommends:     aspell
 Recommends:     aspell-en
 Recommends:     hunspell
@@ -90,8 +92,8 @@ chmod 644 %{buildroot}%{_datadir}/%{compatdir}/%{compatfile}
 %dir %{_datadir}/suse-xsl-stylesheets/aspell
 %dir %{_defaultdocdir}/%{name}
 
+%{_datadir}/hunspell/en_susedoc.dic
 %{_datadir}/suse-documentation-dicts/en/en_US-suse-doc-aspell.rws
-%{_datadir}/suse-documentation-dicts/en/en_US-suse-doc-hunspell.txt
 %{_datadir}/vim/current/spell/en-suse-doc.utf-8.spl
 %{_datadir}/suse-xsl-stylesheets/aspell/en_US-suse-addendum.rws
 

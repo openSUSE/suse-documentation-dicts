@@ -25,7 +25,7 @@ make
 To create a source TAR ball, run:
 
 ```
-make
+make dist
 ```
 
 To install locally, run:
@@ -56,6 +56,12 @@ Add the following lines to your Emacs configuration file:
   (ispell-change-dictionary "american")
   (setq ispell-extra-args
     '("--extra-dicts=/usr/share/suse-documentation-dicts/en/en_US-suse-doc-aspell.rws"))))
+```
+
+#### Hunspell
+
+```
+hunspell -H -i utf-8 -d en_US,en_susedoc FILE
 ```
 
 #### Vim Word List & Vim
