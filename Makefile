@@ -19,7 +19,7 @@ DIST_EXCLUDES := packaging/package-excludes.txt
 
 VIM_DICT      := en-suse-doc
 ASPELL_DICT   := en_US-suse-doc-aspell.rws
-HUNSPELL_DICT := en_susedoc.dic
+HUNSPELL_DICT := en_US-suse-doc.dic
 
 BUILD_DIR            := build
 INSTALL_DIR          := $(DESTDIR)$(PREFIX)/suse-documentation-dicts/en
@@ -56,7 +56,7 @@ $(VIM_PATH_BUILD).utf-8.spl: $(AFFIX_BUILD) | $(BUILD_DIR)
 
 $(ASPELL_PATH_BUILD): $(AFFIX_BUILD) | $(BUILD_DIR)
 	cat $<                                | \
-	sed 's/\W/\n/g;s/_/\n/g;s/[0-9]//g;'  | \
+	sed -r 's/(\W|_|[0-9])+/\n/g'         | \
 	sed -n '/../ p'                       | \
 	iconv -f 'UTF-8' -t 'ASCII//TRANSLIT' | \
 	sort -u | aspell --lang=en create master ./$@
