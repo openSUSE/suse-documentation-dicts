@@ -61,8 +61,9 @@ validate "$wordlist"
 
 [[ $2 == 'validate' ]] && error "File $1 validates." 0
 
-while [[ "$wordlist" ]]; do
-  thisline=$(echo -e "$wordlist" | head -1)
+len=$(echo -e "$wordlist" | wc -l)
+
+for line in $(seq 1 $len); do
+  thisline=$(echo -e "$wordlist" | sed -n "$line p")
   addaffixes "$thisline"
-  wordlist=$(echo -e "$wordlist" | tail -n +2)
 done
