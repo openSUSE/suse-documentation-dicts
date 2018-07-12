@@ -11,10 +11,36 @@ function error() {
 
 function validate() {
   # $1 - word list
+
+  # $'...' creates C-style strings.
+  [[ $(echo -e "$1" | grep $'\r') ]] && known+="File contains CR characters for line ends. Use LF only.\n"
+  [[ $(echo -e "$1" | grep ' $') ]] && known+="File contains trailing whitespace. Remove it.\n"
+  [[ $(echo -e "$1" | grep '^ ') ]] && known+="File contains leading whitespace. Remove it.\n"
+  [[ $(echo -e "$1" | grep $'\t') ]] && known+="File contains tabs. Remove/replace them.\n"
+  if [[ "$known" ]]; then
+    >&2 echo -e "$known"
+    return 1
+  fi
   result=$(echo -e "$1" | sed -r 's_^[^ \t]+( \+([-'\''!?.:;@#%=<>]|\w)+(/([-'\''!?.:;@#%=<>]|\w)+)?)*$__' | sed -n '/./ p')
   if [[ "$result" ]]; then
+    resultanalysis=
+    errorlen=$(echo -e "$result" | wc -l)
+    for line in $(seq 1 $errorlen); do
+      thisline=$(echo -e "$result" | sed -n "$line p")
+      if [[ $(echo -e "$thisline" | grep -P "  ") ]]; then
+        resultanalysis+="$thisline\n^ Line contains multiple consecutive spaces.\n"
+      elif [[ $(echo -e "$thisline" | grep -P " [^+]") ]]; then
+        resultanalysis+="$thisline\n^ Affix value without prefixed + character.\n"
+      elif [[ $(echo -e "$thisline" | grep -P " \+[^/]*(/[^/]*){2,}") ]]; then
+        resultanalysis+="$thisline\n^ Affix value must only contain one / character.\n"
+      elif [[ $(echo -e "$thisline" | grep -P " \+[^ ]*[^- '!?.:;@#%=<>a-zA-Z0-9_][^ ]*") ]]; then
+        resultanalysis+="$thisline\n^ Affix value contains invalid characters. (Allowed: A-Z, a-z, 0-9, and _-'!?.:;@#%=<>)\n"
+      else
+        resultanalysis+="$thisline\n^ Undiagnosed validation issue found.\n"
+      fi
+    done
     >&2 echo "Problematic lines:"
-    >&2 echo "$result"
+    >&2 echo -e "$resultanalysis"
     return 1
   fi
 }
@@ -54,7 +80,7 @@ function addaffixes() {
 
 [[ ! -f "$1" ]] && error "File $1 does not exist."
 
-wordlist=$(cat $1)
+wordlist=$(cat "$1")
 
 validate "$wordlist"
 [[ $? == 1 ]] && error "File $1 does not validate."
