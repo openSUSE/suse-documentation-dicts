@@ -6,8 +6,8 @@ to the regular en_US dictionary.
 
 ### Building the Dictionaries
 
-This repository allows for building an aspell RWS file, a Hunspell-compatible
-plain-text word list, and a Vim SPL file.
+This repository allows for building an aspell RWS file, a Hunspell DIC file,
+and a Vim SPL file.
 
 Make sure you have the following dependencies installed:
 
@@ -61,7 +61,7 @@ Add the following lines to your Emacs configuration file:
 #### Hunspell
 
 ```
-hunspell -H -i utf-8 -d en_US,en_susedoc FILE
+hunspell -H -i utf-8 -d en_US,en_US-suse-doc FILE
 ```
 
 #### Vim Word List & Vim
@@ -82,17 +82,24 @@ is available from (http://www.xmlmind.com/xmleditor/dictbuilder.shtml).
    (http://www.xmlmind.com/xmleditor/dictbuilder.shtml)
    and unpack it.
 
-1. Create the dictionary
+1. Build the dictionary as a plain-text file:
+
+   ```
+   ./<PATH TO THIS REPO>/affix.sh <PATH TO THIS REPO>/suse_wordlist.txt > \
+   <PATH TO THIS REPO>/wordlist_affixed.txt
+   ```
+
+2. Create the dictionary
 
    Run the following command:
 
    ```
    <PATH TO DICTBUILDER-DIRECTORY>/dictbuilder -cs utf8 \
-   <PATH TO THIS REPO>/suse_wordlist.txt \
+   <PATH TO THIS REPO>/wordlist_affixed.txt \
    -o <PATH TO THIS REPO>/do-not-package/oxygen/en-US-SUSE/spec.cdi
    ```
 
-2. Add the SUSE dictionary to the oXygen dictionaries.
+3. Add the SUSE dictionary to the oXygen dictionaries.
    Run the following two commands:
 
    ```
@@ -102,9 +109,9 @@ is available from (http://www.xmlmind.com/xmleditor/dictbuilder.shtml).
    en-US-SUSE/
    ```
 
-3. Restart oXygen and go to Options -> Preferences -> Spell Check.
+4. Restart oXygen and go to Options -> Preferences -> Spell Check.
 
-4. In 'Default Language' for spell checking, select the newly created dictionary: English (US + SUSE)
+5. In 'Default Language' for spell checking, select the newly created dictionary: English (US + SUSE)
 
 ### Adding Words
 
@@ -126,8 +133,13 @@ repetitions. Suffixes are appended to the regular entry this way:
 entry +suffix +y/iesuffix
 ```
 
-This produces the follwing three words in the output word list: `entry`,
-`entrysuffix`, and `entriesuffix`.
+This produces the following three words in the output word list:
+
+```
+entry
+entrysuffix
+entriesuffix
+```
 
 * There must be exactly one space before each suffix definition.
 * Suffix definition start with a `+` character.
