@@ -2249,6 +2249,7 @@ recompile +d +s +e/ing
 recompress +ed +es +ing
 reconfigure +d +s +e/ing
 recordable +e/y
+re-create +d +s +e/ing
 Rect
 Redbook +s +'s
 redirection +s +'s
