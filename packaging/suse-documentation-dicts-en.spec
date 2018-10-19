@@ -19,7 +19,7 @@
 %define compatfile en_US-suse-addendum.rws
 
 Name:           suse-documentation-dicts-en
-Version:        5
+Version:        6
 Release:        0
 
 ###############################################################
