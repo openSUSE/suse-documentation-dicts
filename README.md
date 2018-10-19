@@ -121,10 +121,8 @@ hygiene, though:
 * Avoid duplicating regular dictionary words and words that are already in
   the list.
 
-* Make sure the file is sorted, to help others working on it later.
-
-* Before committing your changes to the word list, always validate the word
-  list: `./affix.sh suse_wordlist.txt validate`
+* Sort and validate the file: Edit the list, then run `make sortvalid` before
+  committing.
 
 The word list format supports suffixes dictionary words to avoid word
 repetitions. Suffixes are appended to the regular entry this way:

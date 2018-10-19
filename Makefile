@@ -34,11 +34,13 @@ VIM_PATH_INSTALL      := $(INSTALL_DIR_VIM)/$(VIM_DICT)
 ASPELL_PATH_INSTALL   := $(INSTALL_DIR)/$(ASPELL_DICT)
 HUNSPELL_PATH_INSTALL := $(INSTALL_DIR_HUNSPELL)/$(HUNSPELL_DICT)
 
+SORT := sort -u
+
 all: $(VIM_PATH_BUILD).utf-8.spl $(ASPELL_PATH_BUILD) $(HUNSPELL_PATH_BUILD)
 
 .INTERMEDIATE: $(AFFIX_BUILD)
 $(AFFIX_BUILD): suse_wordlist.txt | $(BUILD_DIR)
-	bash affix.sh $< | sort -u > $@
+	bash affix.sh $< | $(SORT) > $@
 
 $(HUNSPELL_PATH_BUILD): $(AFFIX_BUILD) | $(BUILD_DIR)
 	wc -l $< > $@
@@ -59,7 +61,7 @@ $(ASPELL_PATH_BUILD): $(AFFIX_BUILD) | $(BUILD_DIR)
 	sed -r 's/(\W|_|[0-9])+/\n/g'         | \
 	sed -n '/../ p'                       | \
 	iconv -f 'UTF-8' -t 'ASCII//TRANSLIT' | \
-	sort -u | aspell --lang=en create master ./$@
+	$(SORT) | aspell --lang=en create master ./$@
 
 # directly install (don't)
 .PHONY: install
@@ -78,6 +80,12 @@ dist: | $(BUILD_DIR)
 	  -C $(CDIR) --exclude-from=$(DIST_EXCLUDES) \
 	  --transform 's:^$(CDIR):$(PACKAGE)-$(VERSION):' $(CDIR)
 	@echo "Successfully created $(BUILD_DIR)/$(PACKAGE)-$(VERSION).tar.bz2"
+
+.PHONY: sortvalid
+sortvalid: suse_wordlist.txt
+	./affix.sh $< validate
+	$(SORT) $< > $<.0
+	mv $<.0 $<
 
 .PHONY: clean
 clean:
