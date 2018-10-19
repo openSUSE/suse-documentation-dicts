@@ -1,3 +1,4 @@
+
 2G +'s
 3G +'s
 AAC +'s
@@ -193,6 +194,8 @@ Bloglines
 blogs
 Blowfish
 BlueFritz
+BlueFS
+BlueStore
 Bluetooth
 BlueZ
 BMC
@@ -203,9 +206,9 @@ Bokmål
 bold +s +ed +ing
 BoM
 Bonjour
+boo
 bookmarklet +s +'s
 BOOKNAME
-boo
 bool
 boolean +s +'s
 bools
@@ -240,7 +243,6 @@ C0
 C1
 C2
 C3
-CA +s +'s
 CaaS
 cachemgr
 Calc
@@ -253,6 +255,7 @@ CapsLock
 CardBus
 cardinality +y/ies +'s
 CASA
+CA +s +'s
 catalina
 CC
 CCID
@@ -393,9 +396,9 @@ Cowan
 cp
 CPACF
 cpio
-CPU +s
 CPUfreq
 CPUID
+CPU +s
 CPUset +s
 cramfs
 crashkernel
@@ -645,6 +648,7 @@ Eichwalder +'s
 EIDE
 Ekiga
 el
+Elasticsearch
 ELF
 ELF32
 ELF64
@@ -766,6 +770,7 @@ Fibre +'s
 FICON
 FILE
 filename +s +'s
+FileStore
 filetype
 FinePoint
 FineReader
@@ -914,6 +919,7 @@ GPS
 GPT
 GPU +s +'s
 GQ
+Grafana
 grandmaster +s +'s
 grayscale +d +s +e/ing
 GRE
@@ -1485,12 +1491,12 @@ LTTng
 LUKS
 LUM
 LUN +s +'s
-LV +s +'s
 LVG
 LVM
 lvmetad
 lvmlockd
 LVS
+LV +s +'s
 LXC
 Lycos
 LZMA
@@ -1626,8 +1632,8 @@ mountd
 MOV
 Mozilla
 mpath
-MPI +s
 MPIO
+MPI +s
 MPlayer
 MPM +s +'s
 MQ
@@ -1647,8 +1653,8 @@ mtime
 MTU
 multi
 multiboot
-multibus
 multibuild
+multibus
 multicast +s +ed +ing
 MultiDirector
 multidisk
@@ -1659,8 +1665,8 @@ multiline
 multilink
 multinode
 multipart
-multipath +ing
 multipathd
+multipath +ing
 multiplatform
 multiprotocol
 multiscan
@@ -1957,13 +1963,13 @@ PDF
 pdflush
 PDFs
 PDU
-PE +s
 PEAP
 PEM
 PennAve
 PentiumPro
 perf
 Perl
+PE +s
 PFA
 Pfitzner
 PFs
@@ -2286,6 +2292,8 @@ reprofile
 resave +d +s +e/ing
 rescan +ned +s +ning
 resend +d/t +s +ing
+reshard +s +ed +ing
+resizable +e/y
 resize +d +s +e/ing
 respawn +ed +s +ing
 REST
@@ -2311,6 +2319,7 @@ ro
 roadmap +s +'s
 rockhopper
 RockRidge
+RocksDB
 Rodeh
 rollout +s +'s
 ROMs
@@ -2321,10 +2330,10 @@ Rosegarden
 Roxio
 rpasswd
 RPC +s
-RPM +s
 rpmbuild
 rpmnew
 rpmorig
+RPM +s
 rpmsave
 rr
 RRA
@@ -2463,6 +2472,7 @@ SHA-256
 SHA-384
 SHA-512
 Shamir
+shard +s +ed +ing
 shareable +e/y
 sharefs
 SHARENAME
@@ -2647,8 +2657,8 @@ subsystem +s +'s
 subtask +s +'s
 subtest +s +'s
 subtree +s +'s
-subuser +s +'s
 subunit +s +'s
+subuser +s +'s
 subvolume +s +'s
 sudo
 sudoers
@@ -2844,8 +2854,8 @@ UDPU
 UEFI
 uevent +s
 UFS
-UI +s +'s
 UID +s +'s
+UI +s +'s
 ulimit +s
 umask
 Umberto
@@ -3038,6 +3048,7 @@ Wacom
 Wagle
 WAIS
 wakeup +s +'s
+WAL
 wallclock +s +'s
 Waltham
 WANs
