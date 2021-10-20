@@ -4,6 +4,13 @@ This dictionary improves the spellchecking experience for SUSE and openSUSE
 documentation by providing an extra word list that can be used in addition
 to the regular en_US dictionary.
 
+### Installing the package version of the dictionaries
+
+For openSUSE Leap and Tumbleweed users, the easiest option is installing the
+packaged version of the dictionaries from
+https://build.opensuse.org/package/show/Documentation:Tools/suse-documentation-dicts-en.
+
+
 ### Building the Dictionaries
 
 This repository allows for building an aspell RWS file, a Hunspell DIC file,
@@ -37,6 +44,24 @@ make install
 
 ### Using the Dictionaries
 
+The following section assumes the dictionary files are located at the
+path that the openSUSE RPM package installs to.
+
+
+#### DAPS & aspell
+
+```
+daps -d DC-DOCUMENT spellcheck \
+  --extra-dict="/usr/share/suse-documentation-dicts/en/en_US-suse-doc-aspell.rws"
+
+```
+
+
+#### DAPS & Hunspell
+
+[MISSING]
+
+
 #### aspell Command line
 
 ```
@@ -57,6 +82,7 @@ Add the following lines to your Emacs configuration file:
   (setq ispell-extra-args
     '("--extra-dicts=/usr/share/suse-documentation-dicts/en/en_US-suse-doc-aspell.rws"))))
 ```
+
 
 #### Hunspell
 
