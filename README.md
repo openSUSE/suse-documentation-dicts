@@ -11,6 +11,47 @@ packaged version of the dictionaries from
 https://build.opensuse.org/package/show/Documentation:Tools/suse-documentation-dicts-en.
 
 
+### Building a wordlist
+
+To update our custom dictionaries, it may be useful to output a list of words
+that hunspell would find.
+
+Before you can get a list, you need to apply the `cleanup.xsl` stylesheet on
+your XML file. This will eliminate all elements that are 
+
+1. Install some packages:
+
+     ```
+     sudo zypper install hunspell aspell
+     ```
+
+1. Rebuild the dictionaries:
+
+     ```
+     make
+     ```
+
+   After the command was successful, a new directory `build/` appears with the
+   file `en_US-suse-doc.dic`.
+
+
+1. Cleanup your DocBook file (replace `FILE` with the real file name):
+
+     ```
+     export DICPATH="$PWD/build/"
+     xsltproc --xinclude cleanup.xsl FILE | hunspell -H -i utf-8 -d en_US,en_US-suse-doc -l | sort | uniq
+     ```
+
+    The options mean:
+    
+    `-H`: The input file is in SGML/HTML format.
+    `-i`: Set input encoding
+    `-d`: Set dictionaries by their base names with or without paths.
+    `-l`: The "list" option is used to produce a list of misspelled words from the standard input.
+
+1. Investigate the output and add new words to the file list, if needed.
+
+
 ### Building the Dictionaries
 
 This repository allows for building an aspell RWS file, a Hunspell DIC file,
