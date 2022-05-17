@@ -18,8 +18,10 @@
 
 -->
 <xsl:stylesheet version="1.0"
+  xmlns:dm="urn:x-suse:ns:docmanager"
   xmlns:d="http://docbook.org/ns/docbook"
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  exclude-result-prefixes="dm">
 
   <xsl:output method="xml"/>
   <!--<xsl:strip-space elements="*"/>
@@ -43,6 +45,7 @@
                        |d:production|d:programlisting|d:programlistingco
                        |d:refsynopsisdiv
                        |d:screen|d:screenco
+                       |dm:*
                        "/>
 
   <!-- Inline Elements -->
