@@ -46,11 +46,11 @@
                        "/>
 
   <!-- Inline Elements -->
-  <xsl:template match="d:abbrev|d:accel|d:acronym|d:address|d:affiliation|d:alt|d:anchor
+  <xsl:template match="d:abbrev|d:accel|d:acronym|d:address|d:affiliation|d:alt|d:anchor|d:author|d:authorgroup
                        |d:arc|d:area|d:areaset|d:areaspec|d:arg|d:artpagenums|d:audiodata|d:authorinitials
                        |d:classname|d:code|d:command|d:computeroutput
                        |d:database
-                       |d:errorcode|d:errorname|d:errortext|d:errortype|d:exceptionname|d:extendedlink
+                       |d:editor|d:errorcode|d:errorname|d:errortext|d:errortype|d:exceptionname|d:extendedlink
                        |d:fax|d:funcdef|d:funcparams|d:funcprototype|d:filename
                        |d:initializer|d:inlineequation|d:interfacename|d:keycode|d:keycombo|d:keysym
                        |d:literal
