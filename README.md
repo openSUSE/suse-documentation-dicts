@@ -17,7 +17,7 @@ To update our custom dictionaries, it may be useful to output a list of words
 that hunspell would find.
 
 Before you can get a list, you need to apply the `cleanup.xsl` stylesheet on
-your XML file. This will eliminate all elements that are 
+your XML file. This will eliminate all elements that are not relevant for spell-checking (like etc.).
 
 1. Install some packages:
 
