@@ -1,3292 +1,436 @@
-2G +'s
-3G +'s
-AAC +'s
-AArch64 +'s
-aaS
-ABAP +'s
-ABI +s +'s
-AbiWord +'s
-ACDSee +'s
-Acer +'s
-ACE +s +'s
-ACI +s +'s
+32bit
+3D
+AArch64
+ABAP
+ABI
+AccessX
+acknowledgement +s
 ACL +s +'s
-acpid
-ACPI +'s
-Acronis +'s
-Adaptec
-adblock
-add-on +s +'s
-ADI
+ACPI
+ADB
+addressability
 Adleman
-Adminer +'s
-ADSL +'s
+ADMA
+Adminer
 AER
 AES
-affine
-AFS
-Agfa +'s
-aggregatable
 AGP
 AHCI
-AIDE +'s
-AIM
-AIO
 AIX
-aKregator +'s
+alertmanager
 algorithmic +ally
-allocator +s +'s
-ALSA +'s
+ALSA
 ALUA
-amaroK +'s
-AMaViS
+Amanda
 AMD64
-AMD +'s
-AMI +s +'s
-AMQP
-analytic +s
-Anjuta
-anonymize +s +d +e/ing
-antialias +es +ed +ing
-antivirus
-anycast
-Apache
-APAR
-APC
-APEI
-API
+among +st
+AOS
+APAC
+Apache +2
+APAR +s
 APIC
-APIs
-APM
-AppArmor +'s
-AppBrowser +'s
-AppImage +s +'s
-AppNote +'s
-AppSocket +'s
-archiver +s +'s
-arg +s +'s
-argv
-Ari
-arj
-ARMv8-A
-ARMv8-M
-ARMv8-R
-ARP +s +'s
-aRts
+API +s
+AppArmor
+AppStream
+Archiver
+Argobot +s
+Argon2
+Armv8
+ARP
 ASE
-ASLR
-asound
-ASP
-ASpeed
-aspell +'s
-ASR
-assignee +s +'s
-assistive
-AST
-ASUS
 ATA
-ATAPI
-aTFTP
-Atheros
-Athlon
-ATI
-atime
-atomicity
-Attachmate +'s
-attr
-ATX
-Aud
-AudibleAlarm
-Audigy
-audispd
-auditable
-auditctl
-auditd
-AUID
-aureport
-ausearch
-auth
-authenticator +s +'s
-AUTHID
-authz
-AutoCalculate
-autocheck +ed +s +ing
-autocomplete +d +s +e/ing +e/ion +e/ions +e/ion's
-autoconfiguration
-autodelete +s +d +e/ing +e/ion +e/ion's
-autodep
-autodetect +s +ed +ing +ion +ions +e/ion's
-autofocus
-autofs
-autogenerate +s +d +e/ing +e/ion
-autohinter
-autoindex +s +ed +ing
-autoinstallation +'s
-autoinstall +s +ed +ing
-autoload
-autologin +s +'s
-autologout +s +'s
-automagic +ally
-automounter +s +'s
-automount +s +ed +ing
-AutoPlay
-autorepeat +ed +s +ing
-autorepetition +s +'s
-autostart +ed +s +ing
-autoupdate +d +s +e/ing
-AutoYaST
-autrace
-auvirt
+audit +able +ed +ing
+authenticator +s
+auto-completion +s
+auto-configuration
+automount +ed +er +ers +ing +s
+autoscale +d +e/ing +rs
+autostart +ed +s
+autotuning
+AutoYaST +'s
 Avahi
-availably
-AVerTV
-AVI
-AVM
+AVC
 awk
-AWS
-B+
-backlink +ed +s +ing
-backplane +s +'s
-backport +ed +s +ing
-backtrace +s +'s
-Baise
-balancer +s +'s
-bandwidth
-Barbican
-barclamp +s +'s
-basename
-Bash
-bashrc
-basicAuthLib
-Bažant +'s
-BBU
-BC12
+backfill +s +ing
+backoff
+backplane +s
+backport +ed +ing +s
+backtick +s
+backtrace +s
+balancer +s
 BCI
-BDC
-BDF
-beamer +s +'s
-Beattie
-Beekhof
-benchmark +ed +s +ing
-Berners
-bg
-biarch
-bigalloc
-BIND
-Bindmount
-bindnetaddr
-binutils
-biometric +s +'s
-BIOS
-BIOSes
-bitmask
-bitrate
-BJC
-BladeCenter
+benchmark +ed +ing
+BFQ
+bitmask +s
 BLAS
-blk
-blkfront
-blkio
-blktap
-blog
-blogd
-Bloglines
-blogs
-Blowfish
-BlueFritz
-BlueFS
 BlueStore
-Bluetooth
-BlueZ
 BMC
 BMP
-bnc
-BogoMips
-Bokmål
-bold +s +ed +ing
-BoM
-Bonjour
-boo
-bookmarklet +s +'s
-BOOKNAME
-bool
-boolean +s +'s
-bools
-boostrap
 bootable
-bootp
-bootup
-Borland
+bottlenecked
 Bourne
-Bovet
-bps
-br
-Brabec +'s
-Brasero
-BRK
-Broadcom
-Broadwell
-bsc
-BSI
-bsize
-BSSID
+breakpoint +s
+browseable
 Btrfs
-Bugzilla
-BuildRoot
-BuildService
-bullet +s +ed +ing
-bzImage
-bzip
-C#
-C++
-C0
-C1
-C2
-C3
+bugfix +es
+bugtracking
+bursty
+BusyBox
 CaaS
-cachemgr
-Calc
-Calibre
-callout
-Calton
-CAPI
 CAPP
-CapsLock
-CardBus
-cardinality +y/ies +'s
-CASA
-CA +s +'s
-catalina
-CC
-CCID
-cciss
 CCM
-CCMP
-CCW
-CCX +s
-CDATA
-CDBoot
-CDB +s +'s
-CDDA
-CDDB
-CDMA
-CDP
-cdparanoia
-cdpath
-CDPs
-cdrecord
-cdrkit
-cdrom
-CD-ROM +s +'s
-CD-R +s +'s
-cdrtools
-CD-RW +s +'s
-CD +s +'s
-CEE
-Ceilometer
-Celeron
-CellWriter
-CentOS
-centric
-CentricStor
-CEO
 Ceph
-CephFS
-CephX
-CERN
-cervisia
-Cesati
-CET
-CEX
-CFF
-CFO
-CFQ
-CFS
-CGI
-cgroup +s +'s
-Chabowski +'s
 ChangeHat
-changelog +s +'s
-ChargeHUP
-charityware
-charset +s +'s
-Chatzimichos +'s
-checksum +s +med +ming
-chgrp
-chipset +s +'s
-chkconfig
-chkstat
-chmod
-chown
-Christoph +'s
-Chrony
-chroot +s +ed +ing
-chunk +s +ed +ing
-ci
-CIB
-cibadmin
-CIBs
-cid
-CIDR
+changelog +s
+checksum +med +s
+chipset +s
+CIB +s
 CIFS
-Ciliendo
 CIM
-CIMOM
-CinderSupportMatrix
-CinePlayer
-cinternet
-CIS
-Cisco
+CISO
 Citrix
-CJK
-ClamAV
-ClamSAP
-CLARiiON
-cleanipc
-Clearcase
-Clevo
 CLI
-clockskew
-cloneno
-CloudFoundry
-CloudStack
-ClusterMon
-ClusterTools
-clusterwide
-cLVM
-cLVM2
-clvmd
-cmdline
-CMMA
-CMOS
-CMPI
-CMS
-CMY
-CMYK
-cn
-CNA
-CNAME
-codec +s +'s
-coldplug
-collocational +ly
-colocate +d +s +e/ing
-COMBOOT
-CompactFlash
-compat
-Compiz
-CompizConfig
-composite +s +d +e/ing
-concordant +ly
-conf
-config
-ConMan
-conntrack
-conntrackd
-contactgroup
-Cooledit
-coredump
-Corel
-CorelDraw
-Coreutils
-Corosync
-Cortex-A53
-Cortex-A57
-CoW
-Cowan
-cp
-CPACF
-cpio
-CPUfreq
-CPUID
+codec +s
+codestream +s
+coldplug +gable +ging
+colocate +d
+colocation +al
+concretize +d
 CPU +s
-CPUset +s
-cramfs
-crashkernel
-CRC +s +'s
-Crispin
-CRIT
-CRL +s +'s
+CRD +s
+CRL +s
 crm
-crmadmin
-crmd
-crmsh
-CRM +s +'s
-cron
-cronjob +s +'s
-crontab
-crontable
-crosshair
-cryptctl
-Crypto
-CryptoExpress
-cryptofs
 cryptographic
-cryptoloop
-csh
-cshrc
-CSM
-CSR
-CSS
-CSV
-CTC
-CTCP
-CTDB
-ctime
-CTO
-Ctrl
-cumulate +d +s +e/ing
-CUPS
-cupsctl
-cupsd
-cURL
-CUSE
-customizable +e/y
-CVE
-CVS
-CVSS
-cvt
-cx
-Cyrix
-cyrus
-DAC
-DAE
-daemonize +s +d +e/ing
-DAIG
-DAO
-DAPS
-DAPSROOT
-DARPA
-dasdfmt
-DASD +s +'s
-Dasgupta
-datadir
-datagram +s +'s
-DataPilot +s +'s
-DataProtector
-Datatrack +s +'s
-datetime
-DAWR
-DBaaS
-DBI
-dbname
-dbs
-DBSTYLES
-DBus
-DCB
-DCBX
-DCC
-DCF
-DCHP
-DCN
-dcObject
-dconf
-DC +s +'s
-DDC
-DDF
-DDN
-de
-deallocate +s +d +e/ing
-deathmatch +es +'s
-debugfs
-debuginfo
-decompile +s +d +e/ing
-decrement +s +ed +ing
-decryptable +e/y
-decrypt +s +ed +ing
-deduplicate +s +d +e/ing +e/ion
-DeepSea +'s
-de-facto
-Defcon +'s
-defragmentation
-deliverable +s +'s
-deltarpm +s +'s
-DEP
-depmod
-dequeue +s +d +e/ing
+cryptoprocessor
+CUDA
+customizable
+decompile +d
+decrypt +ed +ing +s
+deduplicate +ing +s
 DER
-deregister +ed +s +ing
-deregistration +s +'s
+deregister +ed +ing
 DES
-desaturate +s +d +e/ing
-dest
-dev
-devel
-developerWorks
-devicename
-devmap +s +'s
-DEVNAME
-DEVPATH
-df
-DFT
-dhclient
 DHCP
-dhcpc
-dhcpcd
-dhcpd
-DHCPv4
-DHCPv6
-Dia
-DIAG
-dialog +s +'s
-dialpad
-Diffie +-Hellman
-digiKam
-Dillon +'s
-DIMM +s +'s
-DIN
-dir +s +'s
-DISCEX
-DISK
-diskful
-diskless +ly
-distro +s +'s
-DIT
-DJs
-DjVu
-DLL
-DLM
-DLMFS
-DLPAR
-DM
+dialog +s
+dialout
+directionally
+diskless
 DMA
-DMA32
-dmesg
-DMI
-dmidecode
-Dmitri +'s
-DMSVSMA
-DMTF
-DMZ
-DN
 DNS
-DNSSEC
-doBasicAuth
-DocBook
-DOCCONF
-dockable +e/y
-Dockerfile +s +'s
-dockerize +d +s +e/ing
-DocManager +'s
-DoCookBook
-Docserv
-DocServ +'s
-DOCTYPE
-DocumentRoot
-DoD
-DOM
-Dom0
-domainComponent
-domainname
-DOMIRROR
-DomU +s +'s
-DoS
-DPDK
-DPMS
-DRAC
+Dockerfile +s
 dracut
-DRBD
-DRDB
-DRI
-drop-down +s +'s
-DROPPED
-dropwatch
-DRS
-DS
-DSA
-DSDT
-DSE
-dsh
 DSL
-DSOs
-DSP
-DTD +s +'s
-DTMF
-du
-Ducrot
-DVB
-DVD-ROM +s
-DVD-R +s
-DVD+R +s
-DVD-RW +s
-DVD+RW +s
-DVD +s
-DVI
-DVR
-DX
-DynDNS
-E2E
-e2fsck
+DSS
 EAL
-EAL1
-EAL1+
-EAL2
-EAL2+
-EAL3
-EAL3+
-EAL4
-EAL4+
-EAL5
-EAL5+
-EAL6
-EAL6+
-EAL7
-EAL7+
-EAP
-EAZ
-EB
-eBook
-Ebps
-EBS
-ec
-ECC
-ECE
-ECKD
-ECOM
-Edelkind
-EDEV
-eDir
-eDirectory
-EDSS
 EFI
-egrep
-EiB
-Eichwalder +'s
-EIDE
 Ekiga
-el
-Elasticsearch
-ELF
-ELF32
-ELF64
-ElGamal
-eLILO
-Elverfeldt +'s
-EM64T
-emacs
-EMC
 EMEA
-Emulex
-enableHttp
-enableHttps
-enableInterOp
-enablement +'s
-encoding +s
-encryptable +e/y
-encryption +s
+enablement
+encrypt +able
 endian
-Engenio
-enqueue +s +d +e/ing
-ENSONIQ
-enum
-EnumerateClasses
-env
-envar
-envvars
-EOF
-eog
-EPG
-EPOW
-EPS
-Epson
 EPT
-EPUB
-epubcheck
-EQ
-EqualLogic
-Ericsson
-ES
-ESA
-Esc
-Escon
-ESC/P
-ESD
-eServer
-ESPOS
-ESS
-ESSID
-ESX
-ESXi
-ETERNUS
-eth
-Etherboot
-ethtool
-ethx
-ETR
-EUR
-Eurocard
-evaluator +s
-eventd
-EVM
-EVMS
-EVMSGUI
-EVPD
-EWS
-exbibyte +s +'s
-exchangeability
-EXEC
+ERB
+ESCON
+exchange +ability
 executable +s
-eXecution
-EXIF
-exim
-EXIT
-expander
-expr
 ext2
 ext3
 ext4
-eXtensible
-eXtensions
-facto
-FADT
-FAIL
-failback +s +'s
-failcount +s +'s
-failover +s +'s
-failsafe +s +'s
-fallback +s +'s
-fallocate
-FAM
-FAQ +s +'s
-FastCGI
-FAT
-FATAL
-FATE +s +'s
-faux
-favicon +s +'s
-fbdev
-FC
-FCHBA
-FCIP
+failback
+failover +s
 FCoE
 FCP
-FCS
-fd
-FDASD
-FDD
-FDDI
-fdi
-fdisk
-Feilner +'s
-fetchmail +'s
-FFS
-FFT
-FFTW
-fg
 FHS
-FibreChannel +'s
-Fibre +'s
-FICON
-FILE
-filename +s +'s
-FileStore
-filetype
-FinePoint
-FineReader
+Fibre
 FIPS
-FIR
-Firebird +'s
-Firefox +'s
-FireGL +'s
-firewall +s +ed +ing
-FireWire +'s
+firewall +ing
 firstboot
-firstname +s +'s
-FixCentral
-FIXME
-FLAC
 Flatpak
-Flickr +'s
-flyer
-fm
-Fn
-FO
-fontconfig
-Foomatic
-formatter +s +'s
+formatter +s
 Fortran
-forwardable
 FQDN
-FQN
-framebuffer +s +'s
-framerate +s +'s
-freedesktop
-FreeIPA +'s
-FreeIPMI +'s
-FreeMind +'s
-FreeMono +'s
-FreeSans +'s
-FreeSerif +'s
-FreeType +'s
-FRITZ! +'s
-frontpage +s +'s
-fs
-FSC
-fsck
-FSFS
-FSIM
-FSM
-FSP
-FSRVP
-fstab
-fstype
-fsuid
-FTP
-ftpd
-ftrace
-fullscreen
-func
-functionality +y/ies
-Funprinter
-fuseiso
-FV
-FWaaS
-FXP
-Gadu
-Gaim
-Galician
-Gantt
-gb
+FreeRADIUS
 GbE
 Gbit
 Gbps
-GByte
-GCC
-GCM
-GConf
-gconftool
-GD
-GDB
-GDBC
-GDI
-GDK
-GDL
-GDM
-Geany +'s
-GECOS
-GEdit
-gedit +'s
-Geeko
-GeForce
-genisoimage
-genprof
-getfacl
-gethostname
-getimages
-Getopts
-GFDL
-GFS2
-gFTP
-gfx
-gfxmenu
-Ghostscript
-GH +'s
-GHz
+GDPR
 GiB
-gibibyte +s +'s
-GID +s +'s
-GIF
-gigabit
-GIMPNet +'s
-GIMP +'s
-GitHub +'s
-GitLab +'s
-glibc
-GLIDE
-Gligor
-global +s +'s
-globbed
-globbing
-GL +'s
-GlusterFS
-GLX
-GmbH
-GMC +'s
-Gnokii
-GNOMEMeeting +'s
-GNOME +'s
-Gnomovision +'s
-GnuCash +'s
-Gnumeric +'s
-GnuPG +'s
-Gnuplot +'s
-GNU +'s
-gnutls
-GOCR
-GOK
-Google
-GotoBLAS2
+gibibyte +s
+GID +s
 GPG
-gpgcheck
-gpgkey
-gPhoto
-gpicview
-gpilotd
-GPL
-GPLv1
-GPLv2
-GPLv2.1
-GPLv3
-GPRS
-GPS
 GPT
-GPU +s +'s
-GQ
+GPU +s
 Grafana
-grandmaster +s +'s
-grayscale +d +s +e/ing
-GRE
-grey
-groff
-GroupWise
-GRUB
 GRUB2
-GSS
-GSSAPI
-GSSAPIKeyExchange
-gssd
-GStreamer
-gswitchit
-gte
-gThumb
-GTK
-GTK+
-gtkacpiw
-gui
-GUID +s +'s
-GUIs
-gunzip
-Gutenprint
-Gutmann
-GVFS
-Gwenview
-gz
-gzip +s +ped +ping
-HA
-Habanero
-Hadoop
-HAE
-Hagen
-HAL
-HANA +'s
-handheld +s +'s
+GUID
+GUI +s
+HANA
 HAProxy
-hardcode +s +d +e/ing
-hardwriting
-HASI
-Haskell
-Haswell
-HB
-HBA +s +'s
-HBCI
-HCAs
-hciconfig
-hcid
-hcitool
-hd
-hda
-hdb
-HDD +s +'s
-HDF5
-hdparm
-HDS
-hdX
-HeartBeat
-heartbeating
-Heffner
-Hellman
-helpdesk
-Helvetica
-Heuser
-HIP
-HIPAA
-HiperSocket +s +'s
-HIT
-HKP
-HLE
-HMAC
+hardening +s
+heartbeat +ing
 HMC
-HNAS
-hoc
-HOMEDIRS
-homehost
-HOSTALIASES
-hostap
-hostname +s +'s
-hotkey +s +'s
-hotplug +s +ged +ging +gable +gably
-hotspot +s +'s
-HotSync
-Howes
-howto +s +'s
+hotplug +ed +gable +ing
+hotspot +s
 HPC
-HPLIP
-hpsa
-HPT
-hsa
-HSG
-HSI
-HSQLDB
-HSV
-HTCP
-htdocs
-HTMLROOT
-HTML +s +'s
-httpd
-httpPort
-httpProcs
-HTTP +'s
-httpsPort
-httpsProcs
-HTTPS +'s
-hugepage +s +'s
-HugeTLB
-hugetlbfs
-HUSVM
-HVM
-HW
-HWAddr
-hwbios
-hwtype
-hypercall +s +'s
-hyperthread +s +ed +ing
-hypervisor +s +'s
-I18N
-i3
-i5
-i7
-i9
-ia64
-IaaS
-iAMT
-IANA
-iasl
-iBFT
-IBPI
-IBS
-ICA
-iCalendar
-ICE
-icedax
-IceWM
-Icinga
-ICMP
+HTTP +S
 ICP
 ICQ
-IDE
-ident
-identd
-identstring
-IDEs
-IDM
-idmapd
-iDRAC
-IDREFs
-ie
-IEEE
-ietadm
-IETF
-ifcfg
-ifconfig
-iFCP
-Ifdhandler
-IFL
-iFolder +s +'s
-IFS
-IFUNC
-ifup
-IGMP
-IHV
-II
-III
-IIS
-iLO
-ILS
-IM
-IMA
-imageclass +es +'s
-imagecomment
-imagemodel
-ImageNotify
-imagetag
-IMAGETYPE
-iManager
 IMAP
-IMAP+
-imapd
-IMDB
-IMG
-Immunix
-IMSM
-inarchive
-inattachment
-INBOX
-increment +s +d +ing
-indices
-inet
-inetd
-inetOrgPerson
-InfiniBand +s +'s
-infinitum
-Infoblox
-Informix
-INFORMIXDIR
-INFORMIXSERVER
-infrared
-init
-initramfs
-initrd
-inittab
-Inkscape
-inline
-InnoDB
-inode +s +'s
-Inpainting
-InputDevice
-inputrc
-insserv
-installable
-instlux
-instserver
-instsource
-INT3 +s +'s
-intel
-Intellisense
-inter-domain
-Internet
-interop
-interoperability +'s
-interoperable +e/y
-interoperate +d +s +e/ing
-interprocess
-intra
-intranet
-IO
-IOCDS
-ioctls
-IOMMU
-IOR
-iOS
-IOV
-IP
-IPaddr
-IPAM
-IPC
-ipcrm
-IPF
-IPL
-IPLable
-IPLed
-IPLing
-IPLs
-IPMI
-iPod +s +'s
-IPoIB
-IPP
-ipppd
-iPrint
-iproute
-IPs
+infographic +s
 IPsec
-IPsrcaddr
-iptables
-IPTC
-iputils
 IPv4
 IPv6
-IPVS
-ipvsadm
-IPX
-IQN
-IRC
-IrCOMM
-IrDA
-irdadump
-IRIX
-IrLAN
-irmc
-IROBEX
-irobexreceive
-IRQ
-ISA
-ISC
 iSCSI
-iscsiadm
-iscsid
-iscsitarget
-ISDN
-iSeries
-iSNS
-ISO
-ISOBoot
-ISOs
-ISP
-ISpell
-ISPs
-ISV
-Itanium
-ITC
-iTCO
-itis
-iTunes
-IUCV
-IVM
-iwconfig
-jaj
-Jakub
-Jarnal
-JavaScript
-JBOD
-JDBC
-jedit +'s
-jemalloc
 JeOS
-JetDirect
-JFS
-jing
-JMP +s +'s
-JOBSPEC
-Joliet
-journalctl
-journald
-journal +ed +s +ing
-journaler +s +'s
-JPEG +s +'s
-JPG +s +'s
-JS
-JSON
-JSP
-JSxx
-JuK
-JVM
-kABI
-Kaby
-KAddressBook
-kadmin
-kadmind
-Kaffeine
-Kate
-KAudioCreator
-kB
-KBear
-Kbit
-kbluetooth
-kbps
-KByte +s +'s
-KDar
-KDC
+journaling
+JPG
+K8s
 KDE
-kdepim
-kdetv
-KDevelop
-kdewallet
-KDissert
-KDM
 Kdump
-keepaliveMaxRequest
-keepaliveTimeout
-KEK +s +'s
-kerberize +d +s +e/ing
 Kerberos
-kerberosclient
-Kexec
-Kexi
-keycombination +s +'s
-keycombo
-keygen
-keymap +s +'s
-keyring +s +'s
-keyserver +s +'s
-keysize +s +'s
-keytab
-KFind
-KGet
-KGpg
-kGraft
+keyring +s
 KiB
-kibibyte +s +'s
-Kickstart
-killall
-Kimchi
-kinit
-Kino
-KInternet
-KIOSK
-kiosktool
-Kirch
-KitchenSync
-Kivio
-KJobViewer
-KJots
-klaptopdaemon
-Klipper
-KMag
-KMail
-KMix
-kmod
-KMP +s +'s
-KMS
-KMyMoney
-KNetworkManager
-KNode
-Knorr +'s
-KNotes
-knowledgebase +s +'s
-KNX
-KOffice
-KolourPaint
-Konqueror
-Konsole
-Kontact
-Konversation
-Kopete
-KOrganizer
-kpackage
-kpartx
-KPDF
-kpf
-KPilot
-KPovmodeler
-KPowersave
-KPresenter
-KPrinter
+kibibyte +s
 Kprobes
-KRandRTray
-Krita
-Kroah
-KRunner
-kSar
-KsCD
-KSM
-KSnapshot
-KSpell
-KSpread
-Kst
-ksu
-KSysguard
-ksysguardd
-ktadd
-KTCPVS
-KTTS
 Kubernetes
-Kukuk
-Kunimasa
-kupdateapplet
 KVM
-KWallet
-KWalletManager
-kwd
-KWin
-KWord
-L1
-L10N
-L2
-L3
-LabPlot
+LACP
 laggy
-LAMP
-landline
-lang
-LANs
-LAPACK
+latency +y/ies
 LaTeX
-lba
-LBaaS
-LCDs
-LCP
-LCS
 LDAP
-LDAPS
-ldapsearch
-LDAPv1
-LDAPv2
-LDIF
-ldirectord
-LEDs
-leechftp
-lefthand
-Lennart
-Lenovo
-Letna
-Level
-LFE
-LFS
-LGPL
-LGPLv1
-LGPLv2
-LGPLv2.1
-LGPLv3
-LGR
-lha
-Liam +'s
-libaio
-libata
-libc
-Libgda
-libguestFS
-libica
-libipathverbs
-libopensync
-libpfm
-libsysfs
-libudev
-libvirt
-libvirtd
-libxl
-libzypp
-licensor +s +'s
-Lifebook
-LifeMeeting
-LightDM
-LILO
-LilyPond
-Linbit
-linkable
-linkably
-LinkedIn
-Linphone
-lintian
-LINUX
-linuxbridge
-LinuxONE
-linuxptp
-linuxrc
-LinuxSCSI
-lio
-liveCD +s +'s
-liveDVD +s +'s
+LED +s
+lifecycle +s
+liveness
 LLC
-LLDP
-LLVM
-llvmpipe
-LMB
-Lmod
-LMS
-ln
-LOADDEV
-LOCALDOMAIN
-localhost
-localization +s +'s
-localize +d +s +e/ing
-localtime
-locatedb
-locational +ly
-Locator
-locdrop
-lockdown
-LOCPATH
-login +s +'s
-logoff +s +'s
-logout +s +'s
-logprof
-logrotate
-lookup +s +'s
-loopback
-lossless +ly
-lossy +y/ily
-lp
-LPAR +s +'s
-LPD
-lpfc
-LPR
-LPRng
-lpstat
-LPT
-lrdb
-LRM
-lrmadmin
-lrmd
-LRU
+lookaside
+lookup +s
+loopback +s
+LPAR
+LPAR +s
 LSB
-LSI
-LSPP
-lst
-lt
-lte
-LTSS
-LTTng
-Lua
-LUKS
-LUM
-LUN +s +'s
-LVG
+LUN
+LUN +s
+LV
 LVM
-lvmetad
-lvmlockd
-LVS
-LV +s +'s
-LXC
-Lycos
-LZMA
-LZO
-MAC
-macOS
-macvlan
-macvtap
-maddress
-MagicPoint
-Magnatune
+LVs
 maildir
-mailfrom
-mailfromaddr
-mailinglist
-mailto
-mailtoaddr
-MainActor
-mainboard
-makedumpfile
-Makefile
-malloc
-malware +'s
-ManageRAID
-ManageVE
-Mandriva
-mapname
-marc
-MariaDB
-Markus +'s
-maskable
-Mastercard
-Matic
-Matrox
-MAX
-MaxDB
-Maxfeldstr.
-Maxfeldstraße
-Mbit
+mainboard +s
+mbit
 mbox
-Mbps
 MBR
-mcastaddr
-mcastport
-MCE
-MCL +s +'s
-MD5
-mdadm
-MDC
-MDISK
-mDNS
-mDNSResponder
-MDS +s +'s
-mdstat
-mediumx
-MeeGo
-MegaRAID
-MEI
-Meike +'s
-Mellanox
-mem
-memcmp
-memcpy
-memkind
-MemoryStick
-memset
-menubar
-merchantability
-Mergeant
-mergegroup
-Metacity
-metadata
-Metadriver
-MFC
-MH
-MHTML
+mergeable
 MiB
-mibibyte +s +'s
-microarchitecture +s +'s
-MicroCode
-microcontroller +s +'s
-Microsoft
-Microsystems
-middleware
-midlet +s +'s
-Midokura
-MIMD
-MIME
-MindManager
-mindmap +'s +s +ped +ping
-minicard +s +'s
-minicom
-minidisk +s +'s
-MiniDisk +s +'s
-Minix
-mirrorabilities
-mirrorability
-misconfiguration +s +'s
-misconfigure +d +s +e/ing
-misorder +s +ed +ing
-MISS
-mistype +d +s +e/ing
-mitigation +s +'s
-MITM
-MI/X
-mkdir
-mkfs
-mkinitrd
-mkisofs
-mkswap
-mlocked
-mlx
-mmap
-MMC
-MMU
-mnt
-mobi
-Mobipocket
-MochaSoft
-MODALIAS
-modeline +s +'s
-modprobe
-Modul
-MOF
-MOK
-MokManager
-MOKs
-MON
-MongoDB
-MonoDevelop
-monospace +d +s +e/ing
-Monotype
-MONs
-Morlan +'s
-MoTV
-mountd
-MOV
-Mozilla
-mpath
-MPIO
-MPI +s
-MPlayer
-MPM +s +'s
-MQ
-mroute
-mrsh
-ms
-MSA
-MSDOS
-msg
-msgctl
-msgget
-MSI-VQ
-MSI-X
-MSN +s +'s
-msynctool
-MTA
-mtime
-MTU
-multi
-multiboot
-multibuild
-multibus
-multicast +s +ed +ing
-MultiDirector
-multidisk
-multihead
-multihoming
-multikey
-multiline
-multilink
-multinode
-multipart
-multipathd
-multipath +ing
-multiplatform
-multiprotocol
-multiscan
-multisession
-multisync
-multitalented
-multithreaded
-multitrack
+migratable +le/ility
+minikube
+minimalistic
+misconfigure +d +e/ation +e/ations
+mitigation +s
+multi-boot
+multicast +ing
+multifunction
+multilayer
+multipath +ed +ing
+multisite
 multiuser
-multivalue
-munge
-MusE
-MusicXML
-mv
-MVAPICH2
-MX
-myCompany
-mycorp
-myfile
-myhost
-myIP
-MyPilot
-Myri
-Myricom
-MySpaceIM
-MySQL
-mysqld
-naa
-Nagios
-NALAAP
-namcd
-nameservice +s +'s
-namespace +s +'s
-Namesys
-NAT
+multiversion
+namespace +s
 natively
-NBD
-NCC
-ncurses
-NDISC
-Ndiswrapper
-ne
-nessus
-NET
-NetApp
-NetBackup
-NetBEUI
-NetBIOS
-netboot
-NetCDF
-netconfig
-netfilter
-netfront
-netgroups
-NetIQ
-netlink
-netmask +s +'s
-NetMeeting
-netqueue
-netstat
-NetWare
+netmask +s
 NetWeaver
-NetWorker
 NetworkManager
-NeXTSTEP
 NFS
-NFSD
-NFSroot
-NFSserver
-NFSv1
-NFSv2
-NFSv3
-NFSv4
-NG
-Nginx
-NGPT
-NI
-NIC +s +'s
+NIC
 NIS
-NISPOM
-NIST
-nl
-NLPOS
-NLSPATH
-nmap
-nmb
-nmbd
-NN
-NNN
-NNTP
-NO
-noacpi
-noarch
-NoDerivs
-nohz
-Nokia
-noncommercial +ly
-noncompliant +ly
-non-expert +ly +s +'s
-nonlocal +ly
-non-maskable +e/y
-nonmultiplexed +ly
-nonposted +ly
-noop
-NOP +s +'s
-NoteEdit
-NotePad
-Novdoc
-Novell +'s
-NovellVPN
-noVNC
-NPIV
-nproc
-NPTL
-ns
-nscd
-NSL
-NSM
-NSS
-nsswitch
-nsupdate
-NSX
-ntbackup
 NTFS
-NTLM
 NTP
-ntpd
-ntpdate
-NTSC
-Nuage
-Num
 NUMA
-NumPy
-Nussel +'s
-NVIDIA
-NVMe
-NVRAM
-NWS
-NWSD +s +'s
-NX
-Nynorsk
-o2cb
-OAB
-OAFIID
-OASIS
-OBEX
-OC
-OCF
-OCFS
-OCFS2
-OCS
-OCSP
-ODBC
-ODF
-ODMA
-ODT
-OEM +s +'s
-OES
-OF
-OFED
-offline +s +d +e/ing
-OGG
-oggenc
-Ohad
+Nvidia
 OID
-OK
-Okular
-OLE
-OLVWM
-onboard
-onboard +s +ed +ing
-ONCONFIG
-online
-ons
-ONTAP
-OOo
-opd
-OpenAIS
-OpenBLAS
-OpenCT
-OpenDocument
-OpenFlow
-OpenGL
-OpenJDK
-OpenLDAP
-OpenLook
-OpenMP
-OpenOffice
-OpenPGP
-OpenPower
-OpenPrinting
-openQA +'s
-openrc
-OpenSC
-OpenSLP
-opensource
-OpenSSH
-OpenSSL
+onwards
 OpenStack
-OPENstorage
-OpenStreetMap
 openSUSE
-OpenSync
-OpenType
 OpenVPN
-OpenVZ
-OpenWBEM
-OpenZaurus
-operability
-Opie
-OProfile
-optimization +s +'s
-optipng
-OPTNAME
-OQO
-ora
-oradebug
-oralsnr
-oratab
-orauser
-Orca
-O'Reilly
-organizationalUnit
-os
-OSA
-OsaMedium
-osc
-OSD +s +'s
-OSFS
+orchestrator +s
+OSD +s
 OSI
-OSS
-ot
-OTP
-OU
-OUTPUT
-overamplification
-overamplify +y/ies +y/ied +ing
-overcommitment
-overcommit +s +ted +ting
-overconsume +s +d +e/ing
-overconsumption +s +'s
-OVS
-OWA
-oXygen +'s
-P2P
-P2V
-PaaS
-PackageKit
-Padraig +'s
+overcommit +ing +ted
 PAE
-pagetable +s +'s
-pagewalk +s +'s
-PAL
-Palatino
-PalmOS
-PalmPilot
-PAM
-PAND
-PAPI
-parallelize +s +d +e/ing +e/ation
-PARAM
-parameterize +s +d +e/ing
-paravirtual
-paravirtualize +s +d +e/ing +e/ation
-parmfile +s +'s
-parseable
-parserFunction
-PART
-partitioner +s +'s
-passphrase +s +'s
-passthrough +s +'s
-passwd
-PASV
-PAT
-PATA
-patchrpm
-PATH
-pathname +s +'s
-PAV
-Pavlík
-Pawar
-PAX
-pccardctl
-PCF
-PCHID
+parallelizing
+paravirtual +ed +ization
+partitioner
+passwordless
+patchable
 PCI
-PCI-DSS
-PCIe
-PCI-IRQ +s
-PCI-SIG
-PCL
-PCM
-PCMCIA
-pcmk
-PCS
-PDA +s +'s
-PDC
-PDF
-pdflush
-PDFs
-pdsh
-PDU
-PEAP
-pebibyte +s +'s
 PEM
-PennAve
-PentiumPro
-perf
-Perl
-PE +s
-PETSc
-PFA
-Pfitzner
-PFs
-pgctl
-pgdata
-pgdb
-pgdba
-PgDn
-PgDown
-pghost
-PGP
-pgport
-pgsql
-PgUp
-PHC
-phishing
-PhotoPaint
-Photoshop
-PHP
-phpsysinfo
-phy
-PiB
-Picasa
-Picasaweb
-PictBridge
+personalization
+PG +s
 PID
-pidentd
-pidfile
 PIDs
-pilcrow +s +'s
-PIM
-pingd
-PINs
-pipeline +d +s +e/ing
-PIs
-PivotTables
-pixmap +s +'s
-Pixz
-PKCS#12
-PKI +s +'s
-PKIX
-PL
-pla
-playlist +s +'s
-PLDP
-pluggable +e/y
-Plug'n'Play
-PLUMgrid
-PMC
-PMD
-PMTU
-PMU
-pNFS
-PNG +s +'s
-PnP
-PoC
-PocketPC
-podcast +s +'s
-PolicyKit
-PolKit
-POP
-POP3
-Popov +'s
-PORT
-portblock
-Portege
-portmapper +s +'s
-portmap +s +'s
-portname +s +'s
-portnumber +s +'s
-Portus
-POS
-posAdmin
-posASWatch
-POSBranch
-POSCDTool
-poscheckip
-POSCopyTool
-posGetIP
-posInitBranchserver
-posInitLdap
+pluggable
+PNG
+Podman
 POSIX
-POSIX.1e
-posReadPassword
-possyncimages
-postfix
-PostgreSQL
-postinstall
-postprocess +ed +es +ing
-postprocessor +s +'s
-POSTROUTING
+Postfix
 PostScript
-poststart
-poststop
-Pöttering
-POV
-POWER
-POWER7
-POWER8
-POWER9
-PowerISA
-PowerKVM
-PowerLinux
-PowerMan
-PowerNow
-poweroff
-PowerPath
-PowerPC
-PowerPoint
-PowerQuest
-powersave
-powersaved
-PowerShell
-Powertweak
-PowerVCR
-PPC
-PPD +s +'s
-PPM
-PPP
-pppd
-PPPoATM
-PPPoE
-ppt
-PPTP
-PRD +'s
-pre
-preallocate +d +s +e/ing
-preallocation +s +'s
-preboot
-preconfiguration +s +'s
-preconfigure +d +s +e/ing
-predesign +ed +s +ing
-prefork +s +ed +ing
-preformat +s +ted +ting
-preinstall +ed +s +ing +ation +ations
-preload +s +ed +ing
-PReP
-prepend +s +ed +ing
-preprocess +ed +es +ing
-preprocessor +s +'s
-preprogram +s +med +ming
-prerouting
-preselect +s +ed +ing +ion
-preshare +s +d +e/ing
-prestart +s +ed +ing
-prestop +s +ped +ping
-printf
-printk
-prio
-prioritizer
-proc
-productversion
-PROFARCH
-PROFCONDITION
-ProFibre
-profiler +s +'s
-PROFOS
-proftpd
-PROFVENDOR
-ProLiant
-promotable
-proven
-Proven +'s
-provisioner +s +'s
-provProcs
-proxiable +e/y
-PRRN
-ps
-PSCP
-PSD
-PSE-36
-pSeries
-pserver
-pseudodomain
-pseudoterminal
-PSK
-PSM
-psql
-PSS
-PSTN
-PTE +s +'s
-PTF +s +'s
-PTP
-PTR
-PUK
-PulseAudio
-PuTTY
-PV
-PVHVM
-pvpanic
-PVs
-PVUSB
-PWD
-Pwr
-px
+Preboot
+preconfigure +d +e/ation +e/ations
+preinstall +ation +ations
+prepended
+preselect +ed
+provisioner +s
 PXE
-pxeboot
-PXELINUX
-Pygrub
-Pykdump
-pywbem
-Qbg
-qcow
-QDIO
 QEMU
-qeth
-qgroups
-Qix
-QLogic
-Qmail
-QML
-QMP
-Qnetix
-QoS
-QQ
-QSAM
-QtDesigner
-quagga
-queuename
-quickfind
-QuickTime
-QXL
-ra
-RabbitMQ
-RAC
-Radeon
 RADOS
-RadosGW
-radvd
-RAID
-RAID0
-RAID1
-RAID10
-RAID2
-RAID4
-RAID5
-RAID6
-RAIDn
 RAIDs
-raidtab
-Ramen
-RANDR
-RAR
-RAs
-rasterize +d +s +e/ing +e/ation +e/ations
-ratelimit
-RAW
-RawIP
-Raytracer
-RBAC
-RBD
-rc
-RC4
-rcd
-RCE
-rcp
-RCS
-rcsmb
-rcsmt
-RDAC
-RDBMS
-rdesktop
-rdev
-RDMA
-RDN
-RDP
-READ
-readcd
-ReadChannel
-Readline
-README +s +'s
-RealAudio
-RealNetworks
-RealPlayer
+readahead
+README +s
 Realtek
-RealVideo
-reauthenticate +d +s +e/ing +e/ion +e/ions
-rebalance +d +s +e/ing
-rebase +d +s +e/ing
-REC
-Recognita
-recompile +d +s +e/ing
-recompress +ed +es +ing
-reconfigure +d +s +e/ing
-recordable +e/y
-re-create +d +s +e/ing
-Rect
-Redbook +s +'s
-redirection +s +'s
-redirector +s +'s
-RediSafe
-redisplay +ed +s +ing
-redistributor +s +'s
-Redmine +'s
-Redmond
-REDP
-Redpapers
-re-enable +d +s +e/ing
-refentry
-regcert
-registrationDir
-regurl
-reimplement +ed +s +ing +ation +ations
-reindex +ed +es +ing
-reinstall +ed +s +ing +ation +ations
-Reiser
-ReiserFS
-ReiserFSprogs
-Rekall
-relogin +s +'s
-Remmina
-RenderX
-renice +d +s +e/ing
-repartition +ed +s +ing
-replicable +e/y
-reposition +ed +s +ing
-repo +s +'s
-repost +ed +s +ing
-reprofile
-resave +d +s +e/ing
-rescan +ned +s +ning
-resend +d/t +s +ing
-reshard +s +ed +ing
-resizable +e/y
-resize +d +s +e/ing
-respawn +ed +s +ing
-REST
-resync +ed +s +ing
-resynchronize +d +s +e/ing +e/ation
-retitle +d +s +e/ing
-REXX
-rfb
-RFC
+rebalance +d +e/ing
+reconfigure +d +e/ing
+recordable
+recurse
+redirector +s
+reinitialize +d +e/ing
+reinstall +s
+render +er
+repartition +ing
+repo +s
+requestable
+rescan
+resend +s
+reshard +ed +ing
+resizable
+respawn
+restage
+restorable
+resync +hronization +hronize +hronizing
+retitle
+reweight +ed
 RGB
-RHEL
-Rhythmbox
-ripd
-RIS
-Rivest
-rlimit +s +'s
-rlmits
-rlogin
-rmdir
-RME
-RNG +s +'s
-ro
-roadmap +s +'s
-rockhopper
-RockRidge
-RocksDB
-Rodeh
-rollout +s +'s
-ROMs
-ROOTELEMENTS
-ROOTID
-rootkit +s +'s
-Rosegarden
-Roxio
-rpasswd
-RPC +s
-rpmbuild
-rpmnew
-rpmorig
+RMT
+RPC
 RPM +s
-rpmsave
-rr
-RRA
-RRDtool
-RRP
 RSA
-RSC
-RSH
-rshd
-RSS
-RSU
-rsync
-rsyncd
-RTAS
-RTC
-RTF
-RTP
-ru
-runing
-runlevel +s +'s
-runtime
-rw
-rwtab
-µs
-s390
-s390x
-sa
-SaaS
-Sabayon
-SAF-TE
-SaltStack
-Salut
-SAMBA
-SamePage
-Sametime
-SAMR
-Samsung
-SAN
-sandbox +es +ed +ing
-Sandybridge
-SANs
-SAP
-sapconf
-sapcontrol
-SAPDatabase
-SAPInstance
-sapstartsrv
-SARG
-SAS
-SASL
-SATA
-SAVE
-SaX
-saxon
-SB
-SBD
-sbin
-SBLIM
-SCA
-scalability
-scalable +e/y
-ScaLAPACK
-scandisk
-scBranchServer
-SCC
-scd
-schema +s +'s
-Schneier
-Schraitle +'s
-Schroder +'s
-SCO
-scp
-SCPM
-screenshot +s +'s
-Scribus
-scriptability +y/ies +'s
-scriptable +e/y
-Scrobbler
-scrollbar +s +'s
-SCSI
-scsires
-sda
-SDIO
+ruleset
+runnable
+runtime +s
+sandbox +ed +ing
+scalable
 SDK
-SDL
-SDN
-sdpd
-sdptool
-sdX
-se
-SeaBIOS
-searchable
-searchd
-searchlist
-seccheck
-seccomp
-securityfs
-sed
-SEE
-Seeberg
-Sel
-selectable +e/y
-SELinux
-semctl
-semget
-semiautomate +d +s +e/ing +e/ion
-semop
-semtimedop
-SendArp
-sendmail
-sendtargets
-ServeRAID
-ServerFlags
-servlet
 SES
-sesman
-setfacl
-setgid
-setindex
-setuid
-setuser
-severity +y/ies
-SF2
-SFCB
-sfcbd
-sfcc
-sfex
-SFR
-SFTP
-SGI
-SGID
-SGPIO
-SHA
-SHA-1
-SHA-2
-SHA-256
-SHA-384
-SHA-512
-Shamir
-shard +s +ed +ing
-shareable +e/y
-sharefs
-SHARENAME
-SharePoint
-Sheilagh +'s
-shmctl
-shmget
-Shotwell
-sid
-SIGCONT
-SIGHUP
-SIGSPEC
-SIGTERM
-SILC
-Silverlight
-SIMD
-SIP
-SIR
-sisusb
-Skype
-SL
-slapcat
-slapd
+ShareAlike
+SLA +s
 SLE
-SLED
-SLEPOS
 SLES
-SLEShammer
-slogin
-SLOX
-SLP
-slpd
-slptool +'s
-SLRS
-Slurm +'s
-SMAPI
-smaps
-SmartMedia
-SmartScore
-SMASH
-SMB
-smbd
-SMBIOS
-smbpasswd
-SMEP
-SMI
-SMIL
-smis
-smnd
-smoketest +s
+Slurm
 SMP
-smppd
-smpppd
-SMS
-SMT
-smtcert
-SMTP
-smturl
-SmugMug
-sn
-snapshot +s +ting
-SNI
-snIPL
-SNMP
-SNS
-Snyc
-SOA
-socketcall
-SOCKS
-SOL
-Solaris
-solarize +d +s +e/ing
-SolidDriver
-Solr
-SoundFonts
-SoundForge
-SourceForge
-SourceSafe
-SOX
-SP
-SP1
-SP2
-SP3
-SP4
-SP5
-SPARC
-S/PDIF
-SpeedStep
-SphinxSearchDaemon
-SPident
-SPKM
-spm
-SPOF
-spoofalert
-spooler +s +'s
-SPs
-SQL
-squidGuard
-sr
-SRAM
-SRAT
-sratch
-src
-SRIOV
-Srobbler
-SRPM +s +'s
-srv
-SSD +s +'s
-SSF
-SSH
-sshd
-SSHFS
-SSI
+SoC
+SSD
+SSD +s
 SSID
 SSL
-SSL/TLS
-SSLv1
-SSLv2
-SSLv3
-SSO
-SSSD
-STACKSIZE
-Stanislav +'s
-StarOffice +'s
-startdelay
-StartTLS
-startx
-stateful +ly
-statusurl
-stayalive
-stderr
-STDERR
-stdin
-STDIN
-stdout
-STDOUT
-STGT
-StickyNotes +'s
-STIG
-STK
-STMF
-stonithd
-STONITH +'s
-StorEdge
-STP
-STR
-strace
-Strg
-striper +s +'s
-StrongSwan
-STRSST
-STT
-stunnel
-stylesheet +s +'s
-su
-sub-CA +s +'s
-subcommand +s +'s
-subdialog +s +'s
-subdirectory +y/ies +'s
-subdocument +s +'s
-subdomain +s +'s
-subelement +s +'s
-subentry +y/ies +'s
-subfolder +s +'s
-subform +s +'s
-subitem +s +'s
-subkey +s +'s
-sublevel +s +'s
-sublicense +s +'s +d +e/ing
-submenu +s +'s
-submode +s +'s
-subnetmask +s +'s
-subnet +s +'s
-subnetwork +s +'s
-subobject +s +'s
-suboption +s +'s
-subpage +s +'s
-subpixel +s +'s
-subprocess +es +'s
-subprofile +s +'s
-subproject +s +'s
-subquery +ies +'s
-subrealm +s +'s
-substring +s +'s
-subsystem +s +'s
-subtask +s +'s
-subtest +s +'s
-subtree +s +'s
-subunit +s +'s
-subuser +s +'s
-subvolume +s +'s
+stateful
+statusbar
+StorageClass
+storages
+subcommand +s
+subdirectory +y/ies
+subelement +s
+subkey +s
+sublevel +s
+sublicense +s
+submode +s
+subnet +s
+suboptimal
+subpackage +s
+subpath +s
+subprocess +es
+subprofile +s
+substring +s
+subtree +s
+subunit +s
+subvolume +s
 sudo
-sudoers
-suEXEC
-SUID
-SUMF
-SUN
-Sundermeyer +'s
-SunOS
-superblock +s +'s
-superclass +es +'s
-supportability
-supportconfig
-supporturl
-SUSE
-SuSEconfig
-SUSEConnect
-susedoc
-SuSEFirewall2
-SUSEgreeter
-suseRegister
-sv
-SVC
-svcgssd
-SVG
-SVN
-sw
+superblock +s
+SVG +s
 swappable
-SWF +s +'s
-switchover +s +'s
-SXP
-Sybase
-Symantec
-symlink +s +'s
-Symmetrix
-Synaptics
-syncfile
-syncfilename
-synched
-SyncML
-SyncPPP
-SyncRelp
-syncronize
-SYNOPSIS
-synthax
-SYS
-syscall
-sysconfig
-sysfs
-SysInfo
-SYSLINUX
-syslog
-syslogd
-syslogged
-syslogging
-syslogs
-sysmaster
-SysRq
-sysstat
-systables
-systemctl
 systemd
-SystemTap
 systemwide
-SYSV
-tablatures
-TAI
-Takechika
-Tanja +'s
-TAO
-tapeipl
-TAR
-tarball
-taskbar +s +'s
-Taskjuggler
-Tbps
-Tcl
-TCO
 TCP
-tcpd
-TCP/IP
-TDB
-TDG +'s
-TDP
-TDSL
-tebibyte +s +'s
-Tecra
-telnetd
-template +s +d +e/ing
-TERM
-termcap
-testregex
-Texinfo
+tebibyte +s
 TFTP
-tftpboot
-tftpd
-TG
-TGT
-Thawte
-THE
-themeable
-theme +s +d +e/ing
-Theo +'s
-Thinclient
-ThinkPad +s +'s
-THP
-thumbnailer +s +'s
-Thunderbird +'s
 TiB
-TID +s +'s
-TidyLib
-tier +s +ed +ing
-TIFF +s +'s
-TightVNC
-TIMEFORMAT
-timeframe +s +'s
-timeline +s +'s
-timestamp +ed +s +ing
-Tivoli
-Tk
-tkinfo
-TKIP
-tlb
-TLDP
-TLD +s +'s
+tiering
+timestamp +ing +s
+titlebar +s
+TLB
 TLS
-TLS/SSL
-TLSv1
-TLSv1.0
-TLSv1.1
-TLSv1.2
-TLSv1.3
-tmp
-TMPDIR
-tmpfs
-TNS
-tnsping
-todo +s +'s
-Tomáš +'s
-toolbar +s +'s
-toolchain +s +'s
-toolkit +s +'s
-topology +y/ies +'s
-TotalStorage
-touchpad +s +'s
-Toughbook
-Tourrilhes
-TP
-tpc
-TPG
-TPM
-traceability +y/ies
-traceable
-traceably
-traceFile
-traceLevel
-traceMask
-traceroute +s +'s
-trackpoint +s +'s
-Trac +'s
-transactional +ly
-transcode +d +s +e/ing
-Trello
-TREX
-Trojan +s +'s
-TrueType
-TrustedGRUB2
-TryExec
-TSC
-tsclient
-TSIG +s +'s
-TSL
-TTCC
-TTL
-TTLS
-tty +s +'s
-tuneable +s +'s
-tunefs
-Tung
-tur
-TUX
-tvtime
-Tweedie
-tx
-TXT
-TZDIR
-UCS
-udev
-udevadm
-udevd
-UDF
-UDI
+toolchain +s
+topology +y/ies
+touchpad +s
+traceback +s
+training +s
+transpile +d +e/ation +e/ations
+Trento
+tuneable
+tuning +s
 UDP
-UDPU
 UEFI
-uevent +s
-UFS
-UID +s +'s
-UI +s +'s
-ulimit +s
-umask
-Umberto
-UML
-umount
-UMTS
-un
-unaccelerate +d +s +e/ing
-unaccessible
-unallocate +d +s +e/ing
-uname
-unary
-unbold +ed +s +ing
+UI
+UID +s
+ULP
 unbootable
-uncache +d +s +e/ing
-uncheck +ed +s +ing
 unclustered
-uncomment +s +ed +ing
-uncompile +s +d +e/ing
-unconfigure +s +d +e/ing
-unconfine +s +d +e/ing
-undelete +s +d +e/ing
-underrun +s +'s
-UNDI
-undock +ed +s +ing
-unencrypt +ed +s +ing
+uncomment +ed +ing
+uncompiled
+undefine +d
+unencrypted
 unformatted
-unfragmented
-ungroup
-ungrouped
-ungrouping
-ungroups
-unicast +s +ed +ing
-unimplemented
+unicast
 uninstallation
-uninstall +s +ing +ed
-uninterruptible
-uniprocessor
-unistroke
-unix
-unlink +s +ed +ing
-unmaintained
+unlink +ed +ing
 unmanaged
-unmap +ped +s +ping
-unmark
-unmountable
-unmount +s +ed +ing
-unmuted
-unpackage +s +d +e/ing
-unpartition +ed +s +ing
-unprofiled
-unprotect +ed +s +ing
-unreference +d +s +e/ing
-unresolvable
-unset +s +ting
-unsynchronize +d +s +ing
-untagged
-untar
-untarred
+unmap +ped +ping +s
+unmigrating
+unmount +ed +ing +s
+unparsable
+unpartitioned
+unpatched
+unpause +d
+unported
+unreclaimable
+unregister +s
+unsecure
+unsetting
+unshield +ed +ing
+unsynchronize +d
+untag +ged +ging
 untrusted
-unzoned
-updatedb
-upgradeability
 uplink
-upsell +s +ell/old +ing
 uptime
-URI +s +'s
-URL +s +'s
-USB
-usbboot
-USC
-USD
-useChunking
-USENIX
-userid
-userland +'s
-username +s +'s
-userspace +'s
-UseSSH
-UseVNC
-usr
-UTC
+URI +s
 UTF
-UTF-16
-UTF-32
-UTF-8
-util +s +'s
-UTP
-UUID +s +'s
-ux
-V2V
-Valgrind
-validator +s +'s
-VBA
-vBridge
-VBscript
-vCard
-VCD +s +'s
-vCenter
-VCPU +s +'s
+UUID +s
+vCPU +s
 VDI
-VDSO
-VE
-VEBOX
-Verdana
-Verisign
-Veritas
-versa
-version +s +ed +ing
-VEs
-VESA
-veth
-VFAT
-vfb
-vFiler
-VFIO
-VFS
-vga
-VG +s +'s
-Viega
-vif
-VIM
-vimtutor
-Vinagre
-VIPArip
-virsh
-virtfs
-VirtFS
-VirtIO
+virtIO
 VirtualBox
-VirtualDomain
-VirtualHost
-virtualization
-virtualize
-virtualized
-virtualizes
-virtualizing
-Visio
-VistaTec +'s
-VisualStudio
-VLAN +s +'s
-VLANX
-VMAX
-VMBUS
-vmcore
-VMCS
-vmdk
-VMDP
-VMDq
-VM/ESA
-VMM
-vMotion
-VMREAD
-VM +s +'s
+virtualize +d +ing
+VLAN +s
+VM +s
 VMware
-VMWRITE
-VMX
 VNC
-vncviewer
-VNI
-vNIC +s +'s
-vNUMA
-VoIP
-Vojtěch
-Vorbis
-VPD
-VPID
 VPN
-VPNaaS
-vpnc
-VPNs
-vPro
-vServer
-vsftpd
-vslt
-vSphere
-VSS
-vSwitch
-vt
-VTerm
-VueScan
-VV
-VXLAN
-VYM
-vzctl
-vzlist
-W3C
-w3m
-Wacom
-Wagle
-WAIS
-wakeup +s +'s
-WAL
-wallclock +s +'s
-Waltham
-WANs
-WAN +s +'s
-watchpoint +s +'s
-WAV
-WAVE
-WaveTable
-Wayland
-WBEM
-wbemcli
-WebAS
-webcam +s +'s
-WebDAV
-WebDraw
-webhelp
-Weblate +'s
-websafe
-WebSocket +s +'s
-WebSphere
-WebYaST
-WEP
-wget
-whitelist +'s +s +ed +ing
-whitepaper +s +'s
-whitespace +d +s +e/ing
-whois
-Wi
-Wickert +'s
-widescreen +s +'s
-Wi-fi +s +'s
-wiki
-Wikipedia
-WikiWords
-Wims
-Winamp
-Winbind
-winbindd
-wincvs
-WinPopup +s +'s
-winrm
-WINS
-WinSCP
-WinZip
-wireless +ly
-Wireshark +'s
-WLAN +s +'s
-WMPlayer
-WMV
-wodim
-WOL
-WordPad
-WordPerfect
-workflow +s +'s
-workgroup +s +'s
-workset +s +'s
-workspace +s +'s
-workstation +s +'s
-WPA
-WPA2
-WPA2-PSK
-WPA-PSK
-wpg
-WRITE
+VRAM
 writeback
-WriteChannel
-WRKCFGSTS
-WRKNWSSTG
-wsftp
-wuftpd
-wvdial
-WWID +s +'s
-WWN
-WWPN +s +'s
-www
-wwwrun
-Wyman
-X11
-X.509
-X.509v1
-X.509v2
-X.509v3
+writethrough
 x86
-x86_64
-x86-64
-xauth
-xawtv
-Xbase
-xbel
-XBSQL
-xCAT
 XCF
-XChat
-XDM
-XDMCP
 Xen
-xenbus
 Xend
-Xenix
-XenServer
-Xensource
-XenStore
-Xeon
-XEP
-Xephyr
-XFCE
-Xfig
-XFree
 XFS
-Xft
-Xgl
-xhost
-XHTML
-Xilinx
-XInclude +s +'s
-xine
-Xinerama
-xinetd
-xinfo
-xinitrc
-XInput
-Xkb
-xl
-xlock
-xls
-xm
-xmfile
-Xmgr
-xml
-xmlcatalog
-xmllint
-XMMS
-XMPP
-Xnest
-XOP
-XOR
-xorg
-X.org
-Xournal
-XP
-XPath
-XPCOM
-Xpdf
-xpp
-XPS
-XRC
-xrdp
-XSane
-xsession
-xset
-XSL
-XSLT
-XSLTPARAM
-xsltproc
-XSTORE
-Xstroke
-XTerm
-Xtreme
-XUL
-XULRunner
-xvda
-xvdb
-xvdc
-XVideo
-xvkbd
-XYZ
-XZ
-yaboot
 YAML
-yast
 YaST
-yast2
-yml
-YOU
-Yoyodyne
-YP
-ypbind
-ype
-ypserv
-Yum
-YYYY
-YYYYMMDDNN
-Zaurus
-zEC
-zEnterprise
-ZENworks
-Zeroconf
-zFCP
-zImage
-ZIP
-zipl
-zKVM
-zlib
-zmd
-zoomer
-zPXE
-z/S
-zSeries
-zsh
-zswap
-z/VM
-ZYpp
 zypper
-zypperdriver
+Zypper
