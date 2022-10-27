@@ -12,6 +12,7 @@ addressability
 Adleman
 ADMA
 Adminer
+administer +s +ed
 AER
 AES
 AGP
@@ -90,6 +91,7 @@ CIM
 CISO
 Citrix
 CLI
+cmirrord
 codec +s
 codestream +s
 coldplug +gable +ging
@@ -99,7 +101,7 @@ concretize +d
 CPU +s
 CRD +s
 CRL +s
-crm
+crm +sh
 cryptographic
 cryptoprocessor
 CUDA
@@ -154,6 +156,7 @@ GbE
 Gbit
 Gbps
 GDPR
+GFS
 GiB
 gibibyte +s
 GID +s
@@ -177,6 +180,7 @@ ICP
 ICQ
 IMAP
 infographic +s
+interoperate +s +d +e/ion +e/ions
 IPsec
 IPv4
 IPv6
@@ -191,6 +195,7 @@ Kerberos
 keyring +s
 KiB
 kibibyte +s
+kISO
 Kprobes
 Kubernetes
 KVM
@@ -203,6 +208,7 @@ LED +s
 lifecycle +s
 liveness
 LLC
+locational
 lookaside
 lookup +s
 loopback +s
@@ -214,6 +220,7 @@ LUN +s
 LV
 LVM
 LVs
+LXC
 maildir
 mainboard +s
 mbit
@@ -233,9 +240,10 @@ multilayer
 multipath +ed +ing
 multisite
 multiuser
-multiversion
+multi-version
 namespace +s
 natively
+NetInstall
 netmask +s
 NetWeaver
 NetworkManager
@@ -275,8 +283,8 @@ Postfix
 PostScript
 Preboot
 preconfigure +d +e/ation +e/ations
-preinstall +ation +ations
-prepended
+preinstall +ed +ation +ations
+prepend +ed
 preselect +ed
 provisioner +s
 PXE
@@ -292,7 +300,8 @@ recordable
 recurse
 redirector +s
 reinitialize +d +e/ing
-reinstall +s
+reinstall +s +ing +ed
+reinvoke +d
 render +er
 repartition +ing
 repo +s
@@ -307,16 +316,18 @@ restorable
 resync +hronization +hronize +hronizing
 retitle
 reweight +ed
+rewritable
 RGB
 RMT
 RPC
 RPM +s
+RRP
 RSA
 ruleset
 runnable
 runtime +s
 sandbox +ed +ing
-scalable
+scalable +le/ility
 SDK
 SES
 ShareAlike
@@ -332,22 +343,26 @@ SSID
 SSL
 stateful
 statusbar
+step-by-step
 StorageClass
 storages
 subcommand +s
 subdirectory +y/ies
 subelement +s
+subentry +y/ies
 subkey +s
 sublevel +s
 sublicense +s
 submode +s
-subnet +s
+subnet +s +mask
 suboptimal
 subpackage +s
 subpath +s
 subprocess +es
 subprofile +s
+subset +s
 substring +s
+subsystem +s
 subtree +s
 subunit +s
 subvolume +s
@@ -355,6 +370,7 @@ sudo
 superblock +s
 SVG +s
 swappable
+switchover
 systemd
 systemwide
 TCP
@@ -373,9 +389,9 @@ traceback +s
 training +s
 transpile +d +e/ation +e/ations
 Trento
-tuneable
+tunable
 tuning +s
-UDP
+UDP +U
 UEFI
 UI
 UID +s
@@ -389,11 +405,13 @@ unencrypted
 unformatted
 unicast
 uninstallation
+uninterruptible
 unlink +ed +ing
 unmanaged
 unmap +ped +ping +s
 unmigrating
 unmount +ed +ing +s
+unordered
 unparsable
 unpartitioned
 unpatched
