@@ -1,7 +1,7 @@
 #
 # spec file for package suse-xsl-stylesheets
 #
-# Copyright (c) 2017 SUSE LINUX GmbH, Nuernberg, Germany.
+# Copyright (c) 2022 SUSE LINUX GmbH, Nuernberg, Germany.
 #
 # All modifications and additions to the file contributed by third parties
 # remain the property of their copyright owners, unless otherwise agreed
@@ -19,7 +19,7 @@
 %define compatfile en_US-suse-addendum.rws
 
 Name:           suse-documentation-dicts-en
-Version:        6
+Version:        9
 Release:        0
 
 ###############################################################
