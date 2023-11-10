@@ -1,315 +1,1031 @@
-32bit
-3D
+aarch64
 AArch64
 ABAP
+abend recovery
 ABI
+ABM
+abnormal
+abnormal termination
+ABR
+abstract
+abstraction level
+abstractions
+Abstract Syntax Notation One
+accelerator
+accelerator key
+access control
+access control list attribute
+access control right
+accessibility features
+access mode
+access permission
+access point
+access privilege
+access rate
+access rights
+access token
 AccessX
+account-based marketing
+account management
+acknowledge
 acknowledgement +s
+ACL attribute
 ACL +s +'s
 ACPI
+ACPI button
+actionable data
+action execution
+actuator
+ACV
+Adaptable Linux Platform
+adb
 ADB
+add-on
 addressability
 Adleman
 ADMA
 Adminer
 administer +s +ed
+administrator
+ADSL
+Advanced Configuration and Power Interface
+Advanced Configuration and Power Interface button
+Advanced Programmable Interrupt Controller
+Advanced RISC Machine
+Advanced Solutions Group
 AER
 AES
+Agama
+Agama installer
+Agile infrastructure
+Agile IT infrastructure
 AGP
 AHCI
 AIX
+AKS
 alertmanager
 algorithmic +ally
+alias
+allowlist
+ALP
+ALP Basalt
+ALP Dolomite
+ALP Granite
+alpha channel
+ALP Micro
+ALP Slate
 ALSA
+alternate name
 ALUA
+always-on
 Amanda
+Amazon Machine Image
+AMD I/O Virtualization Technology
+AMD-V
+AMD-Vi
+AMD Virtualization
 AMD64
+AMD64/Intel 64
+Americas
+AMI
 among +st
+AMS
+Android Debug Bridge
+anchor
+Annual Contract Value
 AOS
+AP
 APAC
 Apache +2
 APAR +s
 APIC
 API +s
+APJ
+app
 AppArmor
+application
+application binary interface
+application layer
+application program
+application software
+approved list
 AppStream
-Archiver
+AR
+arbitrator
+arbitrator IP
+arbitrator IP address
+area border router
 Argobot +s
 Argon2
+Archiver
+Arm
+ARM
+armv7
+armv7l
+armv8
 Armv8
+Arm32
+arm64
 ARP
 ASE
+ASG
+Asia/Pacific
+Asia/Pacific/Japan
+ASN.1
+Asymmetric Digital Subscriber Line
 ATA
 audit +able +ed +ing
+authentication token
 authenticator +s
+authorization dialog
+auth token
 auto-completion +s
 auto-configuration
+auto login
+automount
 automount +ed +er +ers +ing +s
+automounting
 autoscale +d +e/ing +rs
 autostart +ed +s
 autotuning
+AutoYaST control file
+AutoYaST installation
 AutoYaST +'s
+AutoYaST XML file
 Avahi
 AVC
 awk
+Azure Kubernetes Service
+back-cover
+back-cover text
+backdoor
+back-end
 backfill +s +ing
+background process
 backoff
 backplane +s
+backport
 backport +ed +ing +s
+backporting
 backtick +s
 backtrace +s
+backup
 balancer +s
+bare metal
+base image
+Bash
+Bash shell
+Basic Input/Output System
 BCI
+BCL
 benchmark +ed +ing
 BFQ
+BIOS
 bitmask +s
 BLAS
+blocklist
+block storage
 BlueStore
 BMC
 BMP
+bonded device
+bonding
+bond interface
 bootable
+boot disk
+booth
+boot loader
+boot option
 bottlenecked
+bottom edge panel
+bottom panel
 Bourne
+Bourne-again shell
 breakpoint +s
 browseable
+BSC
 Btrfs
+bug-buddy
+bugfix
 bugfix +es
+bug tracking
 bugtracking
+build server
+built-in
+built-in analytics
 bursty
+business continuity
+Business Critical Linux
+Business-Critical Linux
 BusyBox
 CaaS
+CAB
+cancel
+capability entry
 CAPP
+carrier class
+carrier grade
+CCB
+CCC
 CCM
+CD
+centralized identity management
 Ceph
-ChangeHat
-changelog +s
-checksum +med +s
-chipset +s
+Ceph storage
+certificate revocation list
+CI
+CIA
 CIB +s
 CIFS
 CIM
 CISO
 Citrix
+CLA
+clear box
+cleartext authentication
 CLI
+client/server
+clone image
+close
+closed-source software
+cloud automation
+Cloud computing
+Cloud Kubernetes Cluster
+Cloud Native Computing Foundation
+cloud orchestration
+Cloud services
+cloud storage
+CLT
+Cluster Logical Volume Manager
+Cluster LVM
+CLVM
 cmirrord
+CMP
+CNCF
+CNI
+Cockpit
 codec +s
 codestream +s
+coherence check
+coldfix
+coldplug
 coldplug +gable +ging
+coldplugging
+collaboration request
 colocate +d
 colocation +al
+Combustion
+command
+command line interface
+command-line interface
+command-line tool
+commercially reasonable support
+common code base
+Common Criteria Certification
+Common Unix Printing System
+Common Unix Printing System error policy
+Common Vulnerabilities and Exposures
+complain mode
+computer cluster
 concretize +d
+confidence check
+configuration
+configuration file
+container
+Container
+containerized
+container management platform
+container management task
+Container Network Interface
+container runtime
+Containers as a Service
+continuous delivery
+continuous deployment
+continuous integration
+Contributor License Agreement
+copyleft
+copyright notice
+core
+core build
+core dump
+corporate cloud
 CPU +s
+CR
+crash dump
 CRD +s
+credit scheduler
+CRL
 CRL +s
 crm +sh
+cron
+CrossOver Office
 cryptographic
+cryptography-enabled application
 cryptoprocessor
 CUDA
+CUPS
+CUPS error policy
+custom boot media
+Customer Impact Analysis
 customizable
+customized boot medium
+CVE
+daemon
+data striping
+debug
 decompile +d
 decrypt +ed +ing +s
 deduplicate +ing +s
+delta ISO
+deltarpm
+delta RPM
+denylist
+dependency resolver
+deploy
+deployment
+deprecate
 DER
 deregister +ed +ing
 DES
+desktop panel
+device
+device file
+device node
+DevOps
 DHCP
+dialog
+dialog box
 dialog +s
 dialout
+digital subscriber line
 directionally
+direct memory access
+directory
+directory root
+Disk And Execution MONitor
 diskless
+distro
 DMA
 DNS
+Docker
 Dockerfile +s
+document element
+document type definition
+domestic NICI
+downstream
+downtime
 dracut
+driver update disk
+drop-down list
 DSL
 DSS
+DTD
+DUD
+Dynamic Host Configuration Protocol
+dynamic name server
 EAL
+ECM
+ECO
+ECR
+edge computing
 EFI
+E&I
 Ekiga
+EKS
+Elastic Kubernetes Service
 EMEA
+Emergency Maintenance Update
+EMU
 enablement
 encrypt +able
+end
 endian
+endorsement
+enforcement mode
+enforce mode
+engineer hours
+Engineering and Innovation
+Engineering Change Order
+Enterprise Container Management
+environment
 EPT
 ERB
 ESCON
-exchange +ability
+ESPOS
+ethical hacker
+Europe, the Middle East and Africa
 executable +s
+exchange +ability
+exit
+expand
+expected votes
+Export Compliant Review
+Extended service pack overlap support
+extension
 ext2
 ext3
 ext4
 failback
+failover
 failover +s
+failure
+Far edge
+FATE
+fault tolerance
 FCoE
 FCP
+FCS
 FHS
 Fibre
+file name
+file server
+file storage
+Files transferred over Shell
+file system
+Filesystem Hierarchy Standard
+Filesystem in Userspace
+File Transfer Protocol
 FIPS
 firewall +ing
+firewall-mark
 firstboot
+First Customer Shipment
+fish
+flash disk
+flash drive
 Flatpak
+flush
+fog computing
+force quit
+form
+format
 formatter +s
 Fortran
+FOSS
 FQDN
+framebuffer
+free documentation license
+Free Open Source Software
 FreeRADIUS
+front-cover
+front-cover text
+front-end
+FTP
+FTP-LVT
+Fully Qualified Domain Name
+FUSE
+gateway
 GbE
 Gbit
 Gbps
 GDPR
+Geckito
+geo cluster
+geographically dispersed cluster
+geographic cluster
 GFS
 GiB
 gibibyte +s
 GID +s
+GIMP
+GKE
+Global File System
+globally unique identifier
+GlusterFS
+GM
+GMC
+GNOME
+GNU
+GNU free documentation license
+GNU Image Manipulation Program
+GnuPG key
+GNU Privacy Guard key
+GNU Zip
+golden image
+Gold Master
+Gold Master Candidate
+Go/No-Go meeting
+Google Kubernetes Engine
 GPG
 GPT
+GPU
 GPU +s
 Grafana
+graphical user interface
+graphics processing unit
 GRUB2
+GUI
 GUID
 GUI +s
+gzip
 HANA
 HAProxy
+hard disk
+hardening
 hardening +s
+hard link
+Hardware Compatibility List
+hat
+HCL
+heartbeat
 heartbeat +ing
+high availability
+high performance computing
 HMC
+host name
+hotfix
+hotplug
 hotplug +ed +gable +ing
+hotplugging
+hotspot
 hotspot +s
+hotswap
+hotswapping
 HPC
+HTML
+HTTP
 HTTP +S
+hybrid cloud
+HyperText Markup Language
+Hypertext Transfer Protocol
+hypervisor
+Change Advisory Board
+ChangeHat
+Change Impact Analysis
+changelog
+changelog +s
+channel
+checksum
+checksum +med +s
+chipset
+chipset +s
+chroot script
+IaaS
+IA-32
+ia64
+IA-64
+IBM Power
+IBM Z
+IBS
 ICP
 ICQ
+IDE
+identity management
+ID mapping
+Ignition
+ignorelist
+IIoT
 IMAP
+IMB Z and LinuxOne
+index node
+industrial Internet of Things
+industry regulations
 infographic +s
+info page
+infrared
+Infrastructure-as-a-Service
+initialization
+initial RAM drive
+initrd
+init script
+inode
+input
+input/output
+install
+installation
+installation medium
+installation source
+Integrated Drive Electronics
+Intel Itanium architecture
+Interlock
+Internal Build Service
+internal cloud
+Internet of Things
+Internet Printing Protocol
+Internet Protocol
+Internet protocol version four
+interoperability
 interoperate +s +d +e/ion +e/ions
+I/O
+IoT
+IP
+IP masquerading
+IPP
 IPsec
+iptables
 IPv4
 IPv6
 iSCSI
+ITSDB
+IT Service Design Board
+i386
+i586
+Java Virtual Machine
 JeOS
+JFS
+Journaled File System
 journaling
 JPG
-K8s
+Just Enough Operating System
+JVM
+KDC
 KDE
+KDE Plasma Desktop
 Kdump
 Kerberos
+Kerberos ticket cache
+kernel parameter
+kernel space
+Kernel Virtual Machine
+key
+keyboard layout
+Key Distribution Center
+Keylime
+keymap
 keyring +s
 KiB
 kibibyte +s
 kISO
+KIWI
+KIWI Next Generation
+KIWI-NG
 Kprobes
 Kubernetes
 KVM
+KVM Server
+K3s
+K8s
 LACP
 laggy
+LATAM
 latency +y/ies
 LaTeX
+Latin America
+layer
 LDAP
+LDAPsync provider
+leader/follower
+leader/peer
+learning mode
 LED +s
+legacy status
+level
+license notice
+lifecycle
 lifecycle +s
+lights-out device
+Lightweight Directory Access Protocol
+Lightweight Kubernetes
+LILO
+Line Printer Daemon Protocol
+Linux Client Environment
+Linux cluster
+Linux Container
+Linux desktop stack
+Linux distribution
+Linux distributor
+Linux distro
+Linux Dockerfile
+Linux for Mainframes
+Linux Integration Components
+Linux kernel
+Linux loader
+Linux Package Management
+Linux Virtual Server
+list
+list box
+listen
 liveness
+live patchable
+live patching
 LLC
+load balancing
+local cluster
+locale
+localhost
+localization drop
 locational
+loc drop
+log file
+Logical Volume Manager
+login shell
+Long Term Service Pack Support
 lookaside
 lookup +s
+loopback
 loopback +s
+lower latency
 LPAR
 LPAR +s
+LPD
 LSB
+LTSS
 LUN
 LUN +s
 LV
 LVM
+LVM1
+lvm2
 LVs
+LVS
+LVT License Verification Team
 LXC
+machine-readable copy
 maildir
+Maildir
 mainboard +s
+main branch
+mainframe
+Maintenance Test Update Installer
+maintenance update
+management hours
+man page
+manual page
+map file
+markup language
+masquerade
+master image
 mbit
 mbox
+Mbox
 MBR
+memory dump
+menu
+MEP
 mergeable
+metro area cluster
+metro cluster
 MiB
+MicroOS
+MicroOS Desktop
+MicroOS Desktop GNOME
+MicroOS Desktop Plasma
 migratable +le/ility
 minikube
 minimalistic
+minimal system
+Minimal SYStem 2
 misconfigure +d +e/ation +e/ations
+mission-critical computing
+mitigation
 mitigation +s
+mixed cloud
+Mobile Entry Point
+motor
+mounting automatically
+mount point
+move up
+MSYS2
+MTUI
+MU
 multi-boot
+multicast
 multicast +ing
+multicloud
 multifunction
 multilayer
+multipath
 multipath +ed +ing
 multisite
+multitasking
 multiuser
 multi-version
+name server
+namespace
 namespace +s
+NAS
 natively
+navigate to
+Near edge
 NetInstall
 netmask +s
 NetWeaver
+network
+network-attached storage
+network bonding
+Network File System
+network functions virtualization
+Network information system
+network interface
+network interface controller
 NetworkManager
+network teaming
+Network Time Protocol
+NeuVector
+New Technology File System
 NFS
+NFV
 NIC
+niceness
+nice value
 NIS
+Non-uniform memory access
+notice
 NTFS
 NTP
 NUMA
 Nvidia
+object-based storage device
+object storage
+OBS
+OCI
 OID
+on-premises
+on-screen display
 onwards
+opaque
+opaque copy
+open box
+Open Build Service
+Open Container Initiative
+open formats
+openQA
+Open Source
+open source community
+open source software movement
 OpenStack
+open standards
 openSUSE
+openSUSE Aeon
+openSUSE Evergreen
+openSUSE Factory
+openSUSE Heroes
+openSUSE Jump
+openSUSE Kalpa
+openSUSE Leap
+openSUSE Linarite
+openSUSE Slowroll
+openSUSE Step
+openSUSE Tumbleweed
 OpenVPN
+order
 orchestrator +s
+origin/clone
+OSD
 OSD +s
 OSI
+OS-level virtualization
 overcommit +ing +ted
+PaaS
+Pacemaker
+package
 PAE
+panel
+panic
 parallelizing
 paravirtual +ed +ization
+para-virtualization
+paravirtualization
+paravirtualized Linux operating systems
+paravirtualized Linux OS
+parent/child
+parent/port
 partitioner
+partitioning scheme
+partition scheme
+pass
+pass-through
+passthrough
+password
 passwordless
+path
+path entry
+patch
 patchable
+patchrpm
+pattern
+Pay-as-you-go
+PAYG
+Payment Card Industry Data Security Standard
 PCI
+PCI DSS
+peer review
 PEM
+permission denied
+permission rejected
 personalization
 PG +s
 PID
 PIDs
+placeholder value
+plain migration
+plaintext authentication
+Platform-as-a-Service
 pluggable
+plug-in
 PNG
+pod
 Podman
+Pod Manager Tool
+policy
+pool repository
 POSIX
 Postfix
+post-script
 PostScript
+POWER
+power management
+ppc64
+ppc64le
+practicum
+PRD
 Preboot
+Preboot eXecution Environment
 preconfigure +d +e/ation +e/ations
 preinstall +ed +ation +ations
+prepend
 prepend +ed
+Pre-Script
 preselect +ed
+PRG
+primary/secondary
+printcap
+printer capability
+print spooler
+private cloud
+privilege
+Problem Temporary Fix
+process
+process ID
+process identifier
+production update repository
+Product Requirements Document
+profile
+profile-based deployment
+program
+program chunks
+Program Temporary Fix
 provisioner +s
+proxy
+PRV
+PTF
+public cloud
 PXE
+PXE boot
 QEMU
+QFE update
+QU
+Quarterly Update
+Quick EMUlator
+quick-fix engineering update
+quick check
+RADIUS
 RADOS
+RAID
 RAIDs
+Rancher by SUSE
+Rancher Desktop
+Rancher Kubernetes Engine
+Rancher Node
+Rancher Prime Node
+rank
+Raspberry Pi
+RC
 readahead
 README +s
+realm
 Realtek
+real time
 rebalance +d +e/ing
+reboot
 reconfigure +d +e/ing
 recordable
+recovery mode
 recurse
+Redhat Package Manager
 redirector +s
+redundant array of independent disks
+redundant array of inexpensive disks
+refresh interval
+regional configuration
+registration code
 reinitialize +d +e/ing
 reinstall +s +ing +ed
 reinvoke +d
+Release Candidate
+Reliable Autonomic Distributed Object Store
+Remote Authentication Dial-In User Service
+remote procedure call
+remove
 render +er
 repartition +ing
+replication consumer
+replication interval
+replication provider
 repo +s
+repository
+repository alias
+repository manager
+Repository Mirroring Tool
 requestable
+Requirements Assessment
 rescan
+rescue mode
+rescue system
 resend +s
 reshard +ed +ing
 resizable
+resolvable
 respawn
 restage
 restorable
@@ -318,32 +1034,142 @@ retitle
 reweight +ed
 rewritable
 RGB
+RISC-V
+riscv64
+RKE
 RMT
+root
+[Root]
+root directory
+root element
+root file system
+[Root] object
+root partition
+root user
 RPC
+RPM
+RPM Package Manager
 RPM +s
 RRP
 RSA
 ruleset
+rules file
+runlevel
 runnable
+runtime
 runtime +s
+SaaS
+safe list
+sample value
+SAN
+sandbox
 sandbox +ed +ing
+SAP HANA
+SAP NetWeaver
+SAR
+SBP
+scalability
 scalable +le/ility
+SCC
+screen
+script
+script-based deployment
+scroll back
+scrub
+SCSI
+SD
+SDI
 SDK
+SDN
+SDS
+secondary section
+section
+Secure Shell Protocol
+Secure Sockets Layer
+Security Assurance Requirement
+Security-Enhanced Linux
+security fix
+Security Functional Requirement
+security issue
+security update
+SELinux
+service
+Service Desk
+service-level agreement
+service pack
+service pack migration
 SES
+setup
+setup program
+SFR
 ShareAlike
+shared code base
+shell
+shell profile
+sidebar
+side pane
+side panel
+signal handling
+SLA
 SLA +s
 SLE
+SLE BCI
+SLED
+SLE HA
+SLE HPC
+SLE LP
+SLE maintenance model
+SLE Marble
+SLE Micro
+SLE POS
+SLE RT
 SLES
+SLES for SAP
+SLES for SAP Applications
+SLES for SAP HANA
+SLES for Z and LinuxONE
+SLES on AMD/Intel
+SLES on Arm
+SLES on POWER
+slice
 Slurm
+Small Computer System Interface
+Smart Docs
 SMP
+SMT
+snapshot
 SoC
+SOC
+soft link
+software add-on
+software appliance
+software application
+Software-as-a-Service
+software-defined infrastructure
+software-defined networking
+software-defined storage
+software development kit
+software repository
+solid-state drive
+solution
+SOM
+SOPP
+SP
+special file
+split brain
+split-brain
 SSD
 SSD +s
+SSH
+SSH key
 SSID
 SSL
+standalone server
 stateful
 statusbar
 step-by-step
+stop
+storage area network
 StorageClass
 storages
 subcommand +s
@@ -359,7 +1185,11 @@ suboptimal
 subpackage +s
 subpath +s
 subprocess +es
+subprofile
 subprofile +s
+subscription
+Subscription Management Tool
+Subscription verification
 subset +s
 substring +s
 subsystem +s
@@ -367,30 +1197,129 @@ subtree +s
 subunit +s
 subvolume +s
 sudo
+SUMA
+SUMA for Retail
+SUMA 4 Retail
 superblock +s
+supercomputer
+superuser
+supply chain
+SUSE Adaptive Telco Infrastructure Platform
+SUSE ATIP
+SUSE Best Practices
+SUSE Bugzilla
+SUSE CaaS Platform
+SUSE Cloud Application Platform
+SUSECON
+SUSE Customer Center
+SUSE Enterprise Storage
+SUSE Hack Week
+SUSE Liberty Linux
+SUSE Linux Enterprise
+SUSE Linux Enterprise Base Container Images
+SUSE Linux Enterprise Desktop
+SUSE Linux Enterprise High Availability
+SUSE Linux Enterprise High Performance Computing
+SUSE Linux Enterprise Just Enough Operating System
+SUSE Linux Enterprise Live Patching
+SUSE Linux Enterprise maintenance model
+SUSE Linux Enterprise Micro
+SUSE Linux Enterprise Point of Service
+SUSE Linux Enterprise Real Time
+SUSE Linux Enterprise Server
+SUSE Linux Enterprise Server for IBM Z and LinuxONE
+SUSE Linux Enterprise Server for SAP Applications
+SUSE Linux Enterprise Server JeOS
+SUSE Linux Enterprise Server on AMD/Intel
+SUSE Linux Enterprise Server on Arm
+SUSE Linux Enterprise Server on IBM POWER
+SUSE Linux Enterprise Server on POWER
+SUSE Linux Enterprise Server Subscription with Expanded Support
+SUSE Linux Enterprise Server with Expanded Support
+SUSE Linux Enterprise Virtual Machine Driver Pack
+SUSE Linux Enterprise Workstation Extension
+SUSE Manager
+SUSE Manager for Retail
+SUSE One
+SUSE One partner portal
+SUSE One Partner Program
+SUSE OpenStack Cloud
+SUSE product documentation
+SUSE Product Support Lifecycle
+SUSE Rancher
+SUSE Rancher Hosted
+SUSE Technical Support FAQ
+SUSE Technical Support Handbook
+SV
 SVG +s
 swappable
+swipe
 switchover
+symbolic link
+sync
+synchronization
+Syslog daemon
 systemd
+system dump
+system log daemon
+system on a chip
+system on a module
 systemwide
+System z
+System z & LinuxONE
+s390x
+TAB
+Tape ARchive
+.tar
+TAR
+TAR archive
+Tarball
+taskbar
 TCP
+TDA
+teaming
 tebibyte +s
+Technical Advisory Board
+Technical Design Authority
+Technical Information Document
+Technical Reference Document
+template-based install
+template-based installation
+test draft entry
+testing update repository
+test QA workflow
 TFTP
 TiB
+TID
 tiering
+tilde
+timer
+timer file
+time slice
 timestamp +ing +s
+Tiny edge
 titlebar +s
 TLB
 TLS
 toolchain +s
+topological ordering
+topological sorting
 topology +y/ies
 touchpad +s
 traceback +s
 training +s
+translation lookaside buffer
+transparent copy
 transpile +d +e/ation +e/ations
+trap door
+TRD
+trento
 Trento
+Trivial File Transfer Protocol
 tunable
+tunables
 tuning +s
+tunneled migration
 UDP +U
 UEFI
 UI
@@ -402,14 +1331,22 @@ uncomment +ed +ing
 uncompiled
 undefine +d
 unencrypted
+unethical attacker
+unethical hacker
 unformatted
 unicast
+uniform code base
 uninstallation
 uninterruptible
+unit
+unit file
+universally unique identifier
+Universal Serial Bus
 unlink +ed +ing
 unmanaged
 unmap +ped +ping +s
 unmigrating
+unmount
 unmount +ed +ing +s
 unordered
 unparsable
@@ -424,31 +1361,79 @@ unsetting
 unshield +ed +ing
 unsynchronize +d
 untag +ged +ging
+untar
 untrusted
+update
+update applet
+update catalog
+update repository
+upgrade
 uplink
+upstream
 uptime
 URI +s
+USB
+user space
 UTF
+UUID
 UUID +s
+Uyuni
 vCPU +s
 VDI
+version
+view
 virtIO
+virtual appliance
 VirtualBox
+virtual console
+virtualization
+virtualization platform
 virtualize +d +ing
+Virtualized Local Area Network
+virtual machine
+Virtual Machine
+virtual terminal
+VLAN
 VLAN +s
+VM
 VM +s
 VMware
 VNC
 VPN
 VRAM
+warranty disclaimer
+web product owner
+Web UI
+whitespace
+wild card
+Wireless Local Area Network
+WLAN
+workers
+wormhole
+wrapper
 writeback
 writethrough
-x86
 XCF
 Xen
 Xend
 XFS
+x server
+X Window System
+x86
+x86-64
+x86_64
 YAML
+YAML Ain't Markup Language
 YaST
+YaST Control Center
+YaST Profile Manager
+Yet another Setup Tool
 zypper
 Zypper
+1-bit color
+1-bit preview
+132 column switching
+3D
+32bit
+4-bit color
+8-bit color
