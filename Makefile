@@ -47,7 +47,7 @@ $(HUNSPELL_PATH_BUILD): $(AFFIX_BUILD) | $(BUILD_DIR)
 	cat $< >> $@
 
 $(VIM_PATH_BUILD).utf-8.spl: $(AFFIX_BUILD) | $(BUILD_DIR)
-	LANG=en_US.UTF-8 vim -N -u NONE -n -c "set nomore" -c "mkspell! $(VIM_PATH_BUILD) $<" -c "q"
+	vim -N -u NONE -n -c "set nomore" -c "set encoding=utf-8" -c "mkspell! $(VIM_PATH_BUILD) $<" -c "q"
 
 
 # aspell can't handle things like L3 or Wi-fi (i.e. tokens with numbers or
