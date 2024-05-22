@@ -53,6 +53,7 @@ CIFS
 CIM
 CISO
 CLI
+CMOS
 CPU +s
 CRD +s
 CRL +s
@@ -85,6 +86,7 @@ Fibre
 Flatpak
 Fortran
 FreeRADIUS
+GDM
 GDPR
 GFS
 GID +s
@@ -97,6 +99,7 @@ GUID
 GbE
 Gbit
 Gbps
+Ghostscript
 GiB
 Grafana
 HANA
@@ -175,6 +178,7 @@ RPM +s
 RRP
 RSA
 Realtek
+Remmina
 SDK
 SES
 SLA +s
@@ -211,6 +215,7 @@ VMware
 VNC
 VPN
 VRAM
+VXLAN +s
 VirtualBox
 XCF
 XFS
@@ -284,6 +289,7 @@ ext4
 failback
 failover +s
 firewall +ing
+firewalld
 firstboot
 formatter +s
 gibibyte +s
@@ -324,6 +330,7 @@ multilayer
 multipath +ed +ing
 multisite
 multiuser
+multiversion +s
 namespace +s
 natively
 netmask +s
@@ -332,7 +339,7 @@ openSUSE
 orchestrator +s
 overcommit +ing +ted
 parallelizing
-paravirtual +ed +ization
+paravirtual +ized +ization
 partitioner
 passwordless
 patchable
@@ -414,6 +421,7 @@ training +s
 transpile +d +e/ation +e/ations
 tunable
 tuning +s
+udev
 unbootable
 unclustered
 uncomment +ed +ing
