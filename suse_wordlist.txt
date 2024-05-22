@@ -1,5 +1,3 @@
-32bit
-3D
 AArch64
 ABAP
 ABI
@@ -33,9 +31,9 @@ APIC
 API +s
 AppArmor
 AppStream
-Archiver
 Argobot +s
 Argon2
+Archiver
 Armv8
 ARP
 ASE
@@ -81,10 +79,6 @@ CaaS
 CAPP
 CCM
 Ceph
-ChangeHat
-changelog +s
-checksum +med +s
-chipset +s
 CIB +s
 CIFS
 CIM
@@ -92,6 +86,7 @@ CISO
 Citrix
 CLI
 cmirrord
+CMOS
 codec +s
 codestream +s
 coldplug +gable +ging
@@ -133,8 +128,8 @@ endian
 EPT
 ERB
 ESCON
-exchange +ability
 executable +s
+exchange +ability
 ext2
 ext3
 ext4
@@ -145,6 +140,7 @@ FCP
 FHS
 Fibre
 FIPS
+firewalld
 firewall +ing
 firstboot
 Flatpak
@@ -155,8 +151,10 @@ FreeRADIUS
 GbE
 Gbit
 Gbps
+GDM
 GDPR
 GFS
+Ghostscript
 GiB
 gibibyte +s
 GID +s
@@ -176,6 +174,10 @@ hotplug +ed +gable +ing
 hotspot +s
 HPC
 HTTP +S
+ChangeHat
+changelog +s
+checksum +med +s
+chipset +s
 ICP
 ICQ
 IMAP
@@ -188,7 +190,6 @@ iSCSI
 JeOS
 journaling
 JPG
-K8s
 KDE
 Kdump
 Kerberos
@@ -199,6 +200,7 @@ kISO
 Kprobes
 Kubernetes
 KVM
+K8s
 LACP
 laggy
 latency +y/ies
@@ -241,6 +243,7 @@ multipath +ed +ing
 multisite
 multiuser
 multi-version
+multiversion +s
 namespace +s
 natively
 NetInstall
@@ -265,7 +268,7 @@ OSI
 overcommit +ing +ted
 PAE
 parallelizing
-paravirtual +ed +ization
+paravirtual +ized +ization
 partitioner
 passwordless
 patchable
@@ -302,6 +305,7 @@ redirector +s
 reinitialize +d +e/ing
 reinstall +s +ing +ed
 reinvoke +d
+Remmina
 render +er
 repartition +ing
 repo +s
@@ -391,6 +395,7 @@ transpile +d +e/ation +e/ations
 Trento
 tunable
 tuning +s
+udev
 UDP +U
 UEFI
 UI
@@ -441,14 +446,17 @@ VMware
 VNC
 VPN
 VRAM
+VXLAN +s
 writeback
 writethrough
-x86
 XCF
 Xen
 Xend
 XFS
+x86
 YAML
 YaST
 zypper
 Zypper
+3D
+32bit
