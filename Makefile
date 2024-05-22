@@ -11,6 +11,7 @@ ifndef PREFIX
   PREFIX := /usr/share
 endif
 
+LANG					:= en_US.UTF-8
 SHELL         := /bin/bash
 PACKAGE       := suse-documentation-dicts-en
 VERSION       := 9
