@@ -1,219 +1,132 @@
+32bit
+3D
 AArch64
 ABAP
 ABI
-AccessX
-acknowledgement +s
 ACL +s +'s
 ACPI
 ADB
-addressability
-Adleman
 ADMA
-Adminer
-administer +s +ed
 AER
 AES
 AGP
 AHCI
 AIX
-alertmanager
-algorithmic +ally
 ALSA
 ALUA
-Amanda
 AMD64
-among +st
 AOS
 APAC
-Apache +2
 APAR +s
-APIC
 API +s
-AppArmor
-AppStream
-Argobot +s
-Argon2
-Archiver
-Armv8
+APIC
 ARP
 ASE
 ATA
-audit +able +ed +ing
-authenticator +s
-auto-completion +s
-auto-configuration
-automount +ed +er +ers +ing +s
-autoscale +d +e/ing +rs
-autostart +ed +s
-autotuning
+AVC
+AccessX
+Adleman
+Adminer
+Amanda
+Apache +2
+AppArmor
+AppStream
+Archiver
+Argobot +s
+Argon2
+Armv8
 AutoYaST +'s
 Avahi
-AVC
-awk
-backfill +s +ing
-backoff
-backplane +s
-backport +ed +ing +s
-backtick +s
-backtrace +s
-balancer +s
 BCI
-benchmark +ed +ing
 BFQ
-bitmask +s
 BLAS
-BlueStore
 BMC
 BMP
-bootable
-bottlenecked
+BlueStore
 Bourne
-breakpoint +s
-browseable
 Btrfs
-bugfix +es
-bugtracking
-bursty
 BusyBox
-CaaS
 CAPP
 CCM
-Ceph
 CIB +s
 CIFS
 CIM
 CISO
-Citrix
 CLI
-cmirrord
 CMOS
-codec +s
-codestream +s
-coldplug +gable +ging
-colocate +d
-colocation +al
-concretize +d
 CPU +s
 CRD +s
 CRL +s
-crm +sh
-cryptographic
-cryptoprocessor
 CUDA
-customizable
-decompile +d
-decrypt +ed +ing +s
-deduplicate +ing +s
+CaaS
+Ceph
+ChangeHat
+Citrix
 DER
-deregister +ed +ing
 DES
 DHCP
-dialog +s
-dialout
-directionally
-diskless
 DMA
 DNS
-Dockerfile +s
-dracut
 DSL
 DSS
+Dockerfile +s
 EAL
 EFI
-Ekiga
 EMEA
-enablement
-encrypt +able
-endian
 EPT
 ERB
 ESCON
-executable +s
-exchange +ability
-ext2
-ext3
-ext4
-failback
-failover +s
-FCoE
+Ekiga
 FCP
+FCoE
 FHS
-Fibre
 FIPS
-firewalld
-firewall +ing
-firstboot
-Flatpak
-formatter +s
-Fortran
 FQDN
+Fibre
+Flatpak
+Fortran
 FreeRADIUS
-GbE
-Gbit
-Gbps
 GDM
 GDPR
 GFS
-Ghostscript
-GiB
-gibibyte +s
 GID +s
 GPG
 GPT
 GPU +s
-Grafana
 GRUB2
-GUID
 GUI +s
+GUID
+GbE
+Gbit
+Gbps
+Ghostscript
+GiB
+Grafana
 HANA
 HAProxy
-hardening +s
-heartbeat +ing
 HMC
-hotplug +ed +gable +ing
-hotspot +s
 HPC
 HTTP +S
-ChangeHat
-changelog +s
-checksum +med +s
-chipset +s
 ICP
 ICQ
 IMAP
-infographic +s
-interoperate +s +d +e/ion +e/ions
 IPsec
 IPv4
 IPv6
-iSCSI
-JeOS
-journaling
 JPG
+JeOS
+K8s
 KDE
+KVM
 Kdump
 Kerberos
-keyring +s
 KiB
-kibibyte +s
-kISO
 Kprobes
 Kubernetes
-KVM
-K8s
 LACP
-laggy
-latency +y/ies
-LaTeX
 LDAP
 LED +s
-lifecycle +s
-liveness
 LLC
-locational
-lookaside
-lookup +s
-loopback +s
 LPAR
 LPAR +s
 LSB
@@ -223,80 +136,221 @@ LV
 LVM
 LVs
 LXC
-maildir
-mainboard +s
-mbit
-mbox
+LaTeX
 MBR
-mergeable
 MiB
-migratable +le/ility
-minikube
-minimalistic
-misconfigure +d +e/ation +e/ations
-mitigation +s
-multi-boot
-multicast +ing
-multifunction
-multilayer
-multipath +ed +ing
-multisite
-multiuser
-multi-version
-multiversion +s
-namespace +s
-natively
-NetInstall
-netmask +s
-NetWeaver
-NetworkManager
 NFS
 NIC
 NIS
 NTFS
 NTP
 NUMA
+NetInstall
+NetWeaver
+NetworkManager
 Nvidia
 OID
-onwards
-OpenStack
-openSUSE
-OpenVPN
-orchestrator +s
 OSD +s
 OSI
-overcommit +ing +ted
+OpenStack
+OpenVPN
 PAE
+PCI
+PEM
+PG +s
+PID
+PIDs
+PNG
+POSIX
+PXE
+Podman
+PostScript
+Postfix
+Preboot
+QEMU
+RADOS
+RAIDs
+README +s
+RGB
+RMT
+RPC
+RPM +s
+RRP
+RSA
+Realtek
+Remmina
+SDK
+SES
+SLA +s
+SLE
+SLES
+SMP
+SSD
+SSD +s
+SSID
+SSL
+SVG +s
+ShareAlike
+Slurm
+SoC
+StorageClass
+TCP
+TFTP
+TLB
+TLS
+TiB
+Trento
+UDP +U
+UEFI
+UI
+UID +s
+ULP
+URI +s
+UTF
+UUID +s
+VDI
+VLAN +s
+VM +s
+VMware
+VNC
+VPN
+VRAM
+VXLAN +s
+VirtualBox
+XCF
+XFS
+Xen
+Xend
+YAML
+YaST
+Zypper
+acknowledgement +s
+addressability
+administer +s +ed
+alertmanager
+algorithmic +ally
+among +st
+audit +able +ed +ing
+authenticator +s
+auto-completion +s
+auto-configuration
+automount +ed +er +ers +ing +s
+autoscale +d +e/ing +rs
+autostart +ed +s
+autotuning
+awk
+backfill +s +ing
+backoff
+backplane +s
+backport +ed +ing +s
+backtick +s
+backtrace +s
+balancer +s
+benchmark +ed +ing
+bitmask +s
+bootable
+bottlenecked
+breakpoint +s
+browseable
+bugfix +es
+bugtracking
+bursty
+changelog +s
+checksum +med +s
+chipset +s
+cmirrord
+codec +s
+codestream +s
+coldplug +gable +ging
+colocate +d
+colocation +al
+concretize +d
+crm +sh
+cryptographic
+cryptoprocessor
+customizable
+decompile +d
+decrypt +ed +ing +s
+deduplicate +ing +s
+deregister +ed +ing
+dialog +s
+dialout
+directionally
+diskless
+dracut
+enablement
+encrypt +able
+endian
+exchange +ability
+executable +s
+ext2
+ext3
+ext4
+failback
+failover +s
+firewall +ing
+firewalld
+firstboot
+formatter +s
+gibibyte +s
+hardening +s
+heartbeat +ing
+hotplug +ed +gable +ing
+hotspot +s
+iSCSI
+infographic +s
+interoperate +s +d +e/ion +e/ions
+journaling
+kISO
+keyring +s
+kibibyte +s
+laggy
+latency +y/ies
+lifecycle +s
+liveness
+locational
+lookaside
+lookup +s
+loopback +s
+maildir
+mainboard +s
+mbit
+mbox
+mergeable
+migratable +le/ility
+minikube
+minimalistic
+misconfigure +d +e/ation +e/ations
+mitigation +s
+multi-boot
+multi-version
+multicast +ing
+multifunction
+multilayer
+multipath +ed +ing
+multisite
+multiuser
+multiversion +s
+namespace +s
+natively
+netmask +s
+onwards
+openSUSE
+orchestrator +s
+overcommit +ing +ted
 parallelizing
 paravirtual +ized +ization
 partitioner
 passwordless
 patchable
-PCI
-PEM
 personalization
-PG +s
-PID
-PIDs
 pluggable
-PNG
-Podman
-POSIX
-Postfix
-PostScript
-Preboot
 preconfigure +d +e/ation +e/ations
 preinstall +ed +ation +ations
 prepend +ed
 preselect +ed
 provisioner +s
-PXE
-QEMU
-RADOS
-RAIDs
 readahead
-README +s
-Realtek
 rebalance +d +e/ing
 reconfigure +d +e/ing
 recordable
@@ -305,7 +359,6 @@ redirector +s
 reinitialize +d +e/ing
 reinstall +s +ing +ed
 reinvoke +d
-Remmina
 render +er
 repartition +ing
 repo +s
@@ -321,34 +374,14 @@ resync +hronization +hronize +hronizing
 retitle
 reweight +ed
 rewritable
-RGB
-RMT
-RPC
-RPM +s
-RRP
-RSA
 ruleset
 runnable
 runtime +s
 sandbox +ed +ing
 scalable +le/ility
-SDK
-SES
-ShareAlike
-SLA +s
-SLE
-SLES
-Slurm
-SMP
-SoC
-SSD
-SSD +s
-SSID
-SSL
 stateful
 statusbar
 step-by-step
-StorageClass
 storages
 subcommand +s
 subdirectory +y/ies
@@ -372,35 +405,23 @@ subunit +s
 subvolume +s
 sudo
 superblock +s
-SVG +s
 swappable
 switchover
 systemd
 systemwide
-TCP
 tebibyte +s
-TFTP
-TiB
 tiering
 timestamp +ing +s
 titlebar +s
-TLB
-TLS
 toolchain +s
 topology +y/ies
 touchpad +s
 traceback +s
 training +s
 transpile +d +e/ation +e/ations
-Trento
 tunable
 tuning +s
 udev
-UDP +U
-UEFI
-UI
-UID +s
-ULP
 unbootable
 unclustered
 uncomment +ed +ing
@@ -432,31 +453,10 @@ untag +ged +ging
 untrusted
 uplink
 uptime
-URI +s
-UTF
-UUID +s
 vCPU +s
-VDI
 virtIO
-VirtualBox
 virtualize +d +ing
-VLAN +s
-VM +s
-VMware
-VNC
-VPN
-VRAM
-VXLAN +s
 writeback
 writethrough
-XCF
-Xen
-Xend
-XFS
 x86
-YAML
-YaST
 zypper
-Zypper
-3D
-32bit
