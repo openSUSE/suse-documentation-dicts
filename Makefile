@@ -10,6 +10,7 @@
 ifndef PREFIX
   PREFIX := /usr/share
 endif
+
 LANG					:= en_US.UTF-8
 export LANG
 SHELL         := /bin/bash
