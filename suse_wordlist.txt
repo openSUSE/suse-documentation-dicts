@@ -76,6 +76,7 @@ EMEA
 EPT
 ERB
 ESCON
+ESPOS
 Ekiga
 FCP
 FCoE
@@ -130,6 +131,7 @@ LLC
 LPAR
 LPAR +s
 LSB
+LTSS
 LUN
 LUN +s
 LV
@@ -149,6 +151,7 @@ NetInstall
 NetWeaver
 NetworkManager
 Nvidia
+ODG
 OID
 OSD +s
 OSI
@@ -234,6 +237,8 @@ audit +able +ed +ing
 authenticator +s
 auto-completion +s
 auto-configuration
+auto-discovery +y/ies
+autodetect +ed +ing
 automount +ed +er +ers +ing +s
 autoscale +d +e/ing +rs
 autostart +ed +s
@@ -249,11 +254,14 @@ balancer +s
 benchmark +ed +ing
 bitmask +s
 bootable
+bootloader +s
 bottlenecked
 breakpoint +s
 browseable
 bugfix +es
 bugtracking
+buildable
+built-in
 bursty
 changelog +s
 checksum +med +s
@@ -269,6 +277,7 @@ crm +sh
 cryptographic
 cryptoprocessor
 customizable
+daemonless
 decompile +d
 decrypt +ed +ing +s
 deduplicate +ing +s
@@ -293,6 +302,8 @@ firewalld
 firstboot
 formatter +s
 gibibyte +s
+grayscale
+hard-code +d
 hardening +s
 heartbeat +ing
 hotplug +ed +gable +ing
@@ -323,8 +334,8 @@ minimalistic
 misconfigure +d +e/ation +e/ations
 mitigation +s
 multi-boot
-multi-version
 multicast +ing
+multicloud
 multifunction
 multilayer
 multipath +ed +ing
@@ -345,16 +356,22 @@ passwordless
 patchable
 personalization
 pluggable
+pre-built
+pre-deploy +ed +s/ing
 preconfigure +d +e/ation +e/ations
+predefine +d +e/ing +s
 preinstall +ed +ation +ations
 prepend +ed
+prerequisite +s
 preselect +ed
 provisioner +s
 readahead
+reassemble +d +e/ing
 rebalance +d +e/ing
 reconfigure +d +e/ing
 recordable
 recurse
+redetect +s +ing +ed
 redirector +s
 reinitialize +d +e/ing
 reinstall +s +ing +ed
@@ -372,6 +389,7 @@ restage
 restorable
 resync +hronization +hronize +hronizing
 retitle
+reuse +d +e/ing
 reweight +ed
 rewritable
 ruleset
@@ -379,6 +397,7 @@ runnable
 runtime +s
 sandbox +ed +ing
 scalable +le/ility
+snapshotting
 stateful
 statusbar
 step-by-step
@@ -396,7 +415,9 @@ suboptimal
 subpackage +s
 subpath +s
 subprocess +es
+subproduct +s
 subprofile +s
+subresource +s
 subset +s
 substring +s
 subsystem +s
@@ -405,6 +426,7 @@ subunit +s
 subvolume +s
 sudo
 superblock +s
+superuser +s
 swappable
 switchover
 systemd
@@ -443,6 +465,7 @@ unpartitioned
 unpatched
 unpause +d
 unported
+unprofiled
 unreclaimable
 unregister +s
 unsecure
