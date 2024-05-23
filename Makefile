@@ -12,7 +12,7 @@ ifndef PREFIX
 endif
 
 LANG          := en_US.UTF-8
-LC_COLLATE    := en_US.UTF-8
+LC_ALL        := en_US.UTF-8
 SHELL         := /bin/bash
 PACKAGE       := suse-documentation-dicts-en
 VERSION       := 9
