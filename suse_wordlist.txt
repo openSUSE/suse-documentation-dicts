@@ -185,7 +185,7 @@ hard-code +d
 hardening +s
 heartbeat +ing
 HMC
-hotplug +ed +gable +ing
+hotplug +ged +gable +ging
 hotspot +s
 HPC
 HTTP +S
