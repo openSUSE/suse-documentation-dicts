@@ -1,12 +1,12 @@
-## Spellcheck dictionaries for SUSE documentation
+## Spell-check dictionaries for SUSE documentation
 
-This dictionary improves the spellchecking experience for SUSE and openSUSE
-documentation by providing an extra word list that can be used in addition
-to the regular en_US dictionary.
+The dictionaries expand spell-checking capabilities for SUSE and openSUSE 
+documentation by incorporating extra word lists that can be used alongside
+the standard en_US dictionary.
 
 ## Installation
 
-You can either install the dictionaries from your distribution packages or build them manually.
+Install the dictionaries from your distribution packages or build them manually.
 
 ### Installing the package version of the dictionaries
 
@@ -14,16 +14,16 @@ You can either install the dictionaries from your distribution packages or build
   packaged version of the dictionaries from
   https://build.opensuse.org/package/show/Documentation:Tools/suse-documentation-dicts-en.
 * For Debian and Ubuntu users, find the package at
-  https://build.opensuse.org/package/show/home:tbazant/suse-documentation-dicts
+  https://build.opensuse.org/package/show/home:tbazant/suse-documentation-dicts.
 
 
-### Building the Dictionaries
+### Building the dictionaries
 
-This repository allows for building an aspell RWS file, a Hunspell DIC file,
+This repository allows for building an aspell RWS file, a Hunspell DIC file
 and a Vim SPL file.
 
 Make sure you have the following dependencies installed: `make`, `sed`, `iconv`,
-`aspell` and `vim`
+`aspell` and `vim`.
 
 To build the dictionaries for aspell and Hunspell, run:
 
@@ -44,7 +44,7 @@ make install
 ```
 
 
-## Using the Dictionaries
+## Using the dictionaries
 
 The following section assumes the dictionary files are located at the path that
 your distribution package installs to.
@@ -64,7 +64,7 @@ daps -d DC-DOCUMENT spellcheck \
 [MISSING]
 
 
-### aspell Command line
+### aspell command line
 
 ```
 aspell --mode=sgml --encoding=utf-8 --lang=en_US \
@@ -92,7 +92,7 @@ Add the following lines to your Emacs configuration file:
 hunspell -H -i utf-8 -d en_US,en_US-suse-doc FILE
 ```
 
-### Vim Word List & Vim
+### Vim word list & Vim
 
 After the dictionaries are installed, you can load the Vim version with:
 
@@ -103,7 +103,7 @@ After the dictionaries are installed, you can load the Vim version with:
 ### oXygen
 
 oXygen comes with its own spell checker and cannot use the aspell
-directory. However, a tool to build custom dictionaries from wordlists
+directory. However, a tool to build custom dictionaries from word lists
 is available from (http://www.xmlmind.com/xmleditor/dictbuilder.shtml).
 
 0. Download the ZIP archive from
@@ -141,19 +141,20 @@ is available from (http://www.xmlmind.com/xmleditor/dictbuilder.shtml).
 
 5. In 'Default Language' for spell checking, select the newly created dictionary: English (US + SUSE)
 
-### Adding Words
+### Adding words
 
-The doctionaries include a word list of correct words that are not part of the
-standard English dictionaries. The word list is being extended as the writers
-find new words that are not yet part of the word list but still are correct. If
-you want to contribute to improving the spell-checking experience, collect such words that the spell checker marks as incorrect but you consider them correct.
+The dictionaries include a word list of correct words that are not part of the
+standard English dictionaries. The list of acceptable words is updated as 
+writers discover words that are correct but not yet included. To improve 
+spell checking, please collect words that the spell checker flags as incorrect 
+but you believe are correct.
 
-TIP: If you are using VSCode, you probably have such file already. Check if the
+TIP: If you are using VSCode, you probably have such a file already. Check if the
 `SUSE-adWords-dict.dic` file exists. If yes, VSCode lets you add the suspect
 word to this dictionary by clicking the corresponding small yellow bulb next to
 the affected line.
 
-Once you collect a certain amount of such words, follow these steps:
+Once you collect a certain amount of new words, follow these steps:
 
 1. Clone the `https://github.com/openSUSE/suse-documentation-dicts` repository
    if you have not already done so.
@@ -188,7 +189,7 @@ Once you collect a certain amount of such words, follow these steps:
     ```
 
     * There must be exactly one space before each suffix definition.
-    * Suffix definition start with a `+` character.
+    * The suffix definition starts with a `+` character.
     * There are two forms of suffixes:
       * Without replacement, like `+suffix`: the characters `suffix` are appended
         to the entry.
@@ -200,7 +201,7 @@ Once you collect a certain amount of such words, follow these steps:
     make sortvalid
     ```
 
-  6. Commit the changes to your branch.
+  6. Commit the changes to your branch:
     ```
     git commit -m 'Added my custom word list'
     ```
